@@ -1,0 +1,21 @@
+[
+    {
+        "id": "1",
+        "name": "first_name",
+        "description": "first_description",
+        "image_url": "first/url.png"
+    },
+    {
+        "id": "2",
+        "name": "second_name",
+        "description": "second_description",
+        "image_url": "second/url.png"
+    },
+    {
+        "id": "3",
+        "name": "third_name",
+        "description": "third_description",
+        "image_url": "third/url.png"
+    }
+
+]

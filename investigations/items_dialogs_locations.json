@@ -1,0 +1,26 @@
+{
+  "1": {
+    "content": "first_dialog_text",
+    "characters": [3],
+    "clues": [7, 2, 18],
+    "enigmas": [],
+    "locations": [],
+    "id_switch": "3"
+  },
+  "2": {
+    "content": "second_dialog_text",
+    "characters": [1, 5],
+    "clues": [],
+    "enigmas": [12],
+    "locations": [2],
+    "id_switch": "8"
+  },
+  "3": {
+    "content": "third_dialog_text",
+    "characters": [],
+    "clues": [4],
+    "enigmas": [9, 15, 22],
+    "locations": [],
+    "id_switch": "7"
+  }
+}
