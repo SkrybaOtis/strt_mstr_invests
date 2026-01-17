@@ -6,7 +6,7 @@
     "version": "1.0.0",
     "author": "DataTools",
     "size_bytes": 245760,
-    "download_url": "https://example.com/downloads/asset-001.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/001.json",
     "created_at": "2024-01-10T10:15:30Z",
     "updated_at": "2024-02-01T09:12:00Z",
     "tags": ["analytics", "library", "core"]
@@ -18,7 +18,7 @@
     "version": "1.3.2",
     "author": "AuthSystems",
     "size_bytes": 389120,
-    "download_url": "https://example.com/downloads/asset-002.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/002.json",
     "created_at": "2023-11-05T08:00:00Z",
     "updated_at": "2024-01-12T14:20:10Z",
     "tags": ["auth", "users", "roles", "service"]
@@ -30,7 +30,7 @@
     "version": "2.0.0",
     "author": "PayConnect",
     "size_bytes": 512000,
-    "download_url": "https://example.com/downloads/asset-003.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/003.json",
     "created_at": "2024-02-20T12:30:45Z",
     "updated_at": "2024-03-01T10:00:00Z",
     "tags": ["payments", "integration", "gateway"]
@@ -42,7 +42,7 @@
     "version": "1.5.1",
     "author": "NotifyHub",
     "size_bytes": 610304,
-    "download_url": "https://example.com/downloads/asset-004.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/004.json",
     "created_at": "2023-09-15T09:45:00Z",
     "updated_at": "2024-01-03T16:10:05Z",
     "tags": ["notifications", "email", "sms", "push"]
@@ -54,7 +54,7 @@
     "version": "0.9.4",
     "author": "MediaLab",
     "size_bytes": 2097152,
-    "download_url": "https://example.com/downloads/asset-005.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/005.json",
     "created_at": "2023-12-01T11:22:33Z",
     "updated_at": "2024-01-18T07:55:20Z",
     "tags": ["image", "processing", "media"]
@@ -66,7 +66,7 @@
     "version": "1.1.0",
     "author": "OpsSuite",
     "size_bytes": 786432,
-    "download_url": "https://example.com/downloads/asset-006.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/006.json",
     "created_at": "2023-08-10T06:10:00Z",
     "updated_at": "2023-12-20T13:40:00Z",
     "tags": ["logging", "monitoring", "ops"]
@@ -78,7 +78,7 @@
     "version": "1.0.0",
     "author": "SafeStore",
     "size_bytes": 327680,
-    "download_url": "https://example.com/downloads/asset-007.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/007.json",
     "created_at": "2024-01-02T04:00:00Z",
     "updated_at": "2024-01-02T04:00:00Z",
     "tags": ["backup", "cli", "utility"]
@@ -90,7 +90,7 @@
     "version": "2.2.1",
     "author": "Reportify",
     "size_bytes": 1048576,
-    "download_url": "https://example.com/downloads/asset-008.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/008.json",
     "created_at": "2023-10-25T13:15:00Z",
     "updated_at": "2024-02-14T09:30:10Z",
     "tags": ["reports", "pdf", "html"]
@@ -102,7 +102,7 @@
     "version": "0.8.0",
     "author": "MLLab",
     "size_bytes": 5242880,
-    "download_url": "https://example.com/downloads/asset-009.bin",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/009.json",
     "created_at": "2024-03-05T15:00:00Z",
     "updated_at": null,
     "tags": ["ml", "recommendation", "model"]
@@ -114,7 +114,7 @@
     "version": "1.0.3",
     "author": "Conversio",
     "size_bytes": 262144,
-    "download_url": "https://example.com/downloads/asset-010.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/010.json",
     "created_at": "2023-07-19T19:30:30Z",
     "updated_at": "2023-11-11T08:08:08Z",
     "tags": ["chatbot", "template", "support"]
@@ -126,7 +126,7 @@
     "version": "3.1.0",
     "author": "MobileKit",
     "size_bytes": 3145728,
-    "download_url": "https://example.com/downloads/asset-011.aar",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/011.json",
     "created_at": "2024-01-28T09:05:00Z",
     "updated_at": "2024-02-15T11:45:30Z",
     "tags": ["android", "sdk", "mobile"]
@@ -138,7 +138,7 @@
     "version": "3.1.0",
     "author": "MobileKit",
     "size_bytes": 3670016,
-    "download_url": "https://example.com/downloads/asset-012.framework.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/012.json",
     "created_at": "2024-01-28T09:10:00Z",
     "updated_at": "2024-02-16T10:20:00Z",
     "tags": ["ios", "sdk", "mobile"]
@@ -150,7 +150,7 @@
     "version": "2.4.5",
     "author": "WebDesignCo",
     "size_bytes": 983040,
-    "download_url": "https://example.com/downloads/asset-013.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/013.json",
     "created_at": "2023-06-30T12:00:00Z",
     "updated_at": "2024-01-01T00:00:00Z",
     "tags": ["frontend", "ui", "components"]
@@ -162,7 +162,7 @@
     "version": "1.2.0",
     "author": "WebDesignCo",
     "size_bytes": 131072,
-    "download_url": "https://example.com/downloads/asset-014.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/014.json",
     "created_at": "2023-09-01T18:20:00Z",
     "updated_at": null,
     "tags": ["theme", "dark-mode", "css"]
@@ -174,7 +174,7 @@
     "version": "1.0.1",
     "author": "ConfigOps",
     "size_bytes": 450560,
-    "download_url": "https://example.com/downloads/asset-015.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/015.json",
     "created_at": "2024-02-01T07:30:00Z",
     "updated_at": "2024-02-10T09:00:00Z",
     "tags": ["config", "service", "devops"]
@@ -186,7 +186,7 @@
     "version": "0.7.3",
     "author": "SearchX",
     "size_bytes": 1572864,
-    "download_url": "https://example.com/downloads/asset-016.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/016.json",
     "created_at": "2023-08-22T10:10:10Z",
     "updated_at": "2023-12-05T15:45:00Z",
     "tags": ["search", "index", "tools"]
@@ -198,7 +198,7 @@
     "version": "1.4.0",
     "author": "MailStudio",
     "size_bytes": 204800,
-    "download_url": "https://example.com/downloads/asset-017.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/017.json",
     "created_at": "2023-05-10T09:00:00Z",
     "updated_at": "2024-01-20T12:34:56Z",
     "tags": ["email", "templates", "marketing"]
@@ -210,7 +210,7 @@
     "version": "2.0.5",
     "author": "SecTools",
     "size_bytes": 589824,
-    "download_url": "https://example.com/downloads/asset-018.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/018.json",
     "created_at": "2023-11-30T21:00:00Z",
     "updated_at": "2024-02-25T06:45:30Z",
     "tags": ["security", "scanner", "vulnerability"]
@@ -222,7 +222,7 @@
     "version": "1.1.2",
     "author": "PerfLab",
     "size_bytes": 180224,
-    "download_url": "https://example.com/downloads/asset-019.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/019.json",
     "created_at": "2023-10-02T14:14:14Z",
     "updated_at": null,
     "tags": ["performance", "testing", "load"]
@@ -234,7 +234,7 @@
     "version": "1.0.0",
     "author": "L10nTeam",
     "size_bytes": 65536,
-    "download_url": "https://example.com/downloads/asset-020.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/020.json",
     "created_at": "2024-01-05T08:08:08Z",
     "updated_at": "2024-01-15T10:10:10Z",
     "tags": ["localization", "pl", "translations"]
@@ -246,7 +246,7 @@
     "version": "1.0.0",
     "author": "L10nTeam",
     "size_bytes": 61440,
-    "download_url": "https://example.com/downloads/asset-021.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/021.json",
     "created_at": "2024-01-05T08:10:00Z",
     "updated_at": null,
     "tags": ["localization", "en", "translations"]
@@ -258,7 +258,7 @@
     "version": "2.3.0",
     "author": "DBOps",
     "size_bytes": 720896,
-    "download_url": "https://example.com/downloads/asset-022.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/022.json",
     "created_at": "2023-09-09T09:09:09Z",
     "updated_at": "2024-02-02T02:02:02Z",
     "tags": ["database", "migration", "schema"]
@@ -270,7 +270,7 @@
     "version": "1.0.2",
     "author": "PerfLab",
     "size_bytes": 147456,
-    "download_url": "https://example.com/downloads/asset-023.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/023.json",
     "created_at": "2023-12-12T12:12:12Z",
     "updated_at": "2023-12-20T10:00:00Z",
     "tags": ["cache", "performance", "job"]
@@ -282,7 +282,7 @@
     "version": "1.0.0",
     "author": "GatewayCorp",
     "size_bytes": 90112,
-    "download_url": "https://example.com/downloads/asset-024.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/024.json",
     "created_at": "2024-02-12T16:40:00Z",
     "updated_at": null,
     "tags": ["api", "gateway", "config"]
@@ -294,7 +294,7 @@
     "version": "0.3.1",
     "author": "MLLab",
     "size_bytes": 393216,
-    "download_url": "https://example.com/downloads/asset-025.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/025.json",
     "created_at": "2023-11-01T07:00:00Z",
     "updated_at": "2024-01-25T18:30:00Z",
     "tags": ["ml", "pipeline", "training"]
@@ -306,7 +306,7 @@
     "version": "1.2.4",
     "author": "ToggleIO",
     "size_bytes": 507904,
-    "download_url": "https://example.com/downloads/asset-026.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/026.json",
     "created_at": "2023-10-18T17:20:00Z",
     "updated_at": "2024-01-08T11:11:11Z",
     "tags": ["feature-flags", "config", "service"]
@@ -318,7 +318,7 @@
     "version": "1.0.0",
     "author": "StorageX",
     "size_bytes": 221184,
-    "download_url": "https://example.com/downloads/asset-027.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/027.json",
     "created_at": "2024-01-22T13:00:00Z",
     "updated_at": null,
     "tags": ["storage", "s3", "adapter"]
@@ -330,7 +330,7 @@
     "version": "1.0.0",
     "author": "StorageX",
     "size_bytes": 225280,
-    "download_url": "https://example.com/downloads/asset-028.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/028.json",
     "created_at": "2024-01-22T13:05:00Z",
     "updated_at": null,
     "tags": ["storage", "azure", "adapter"]
@@ -342,7 +342,7 @@
     "version": "0.9.0",
     "author": "OpsSuite",
     "size_bytes": 110592,
-    "download_url": "https://example.com/downloads/asset-029.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/029.json",
     "created_at": "2023-08-01T05:30:00Z",
     "updated_at": "2023-10-10T10:10:10Z",
     "tags": ["scheduler", "cron", "jobs"]
@@ -354,7 +354,7 @@
     "version": "1.0.0",
     "author": "ExampleCorp",
     "size_bytes": 4194304,
-    "download_url": "https://example.com/downloads/asset-030.zip",
+    "download_url": "https://github.com/SkrybaOtis/strt_mstr_invests/tree/main/investigations/030.json",
     "created_at": "2024-03-10T10:10:10Z",
     "updated_at": null,
     "tags": ["demo", "sample", "app"]
