@@ -1,6 +1,8 @@
 [
   {
     "id": "asset-001",
+    "localization": "Lódź",
+    "points": [[51.48, 19.24], [51.43, 19.27], [51.47, 19.27], [51.46, 19.33]],
     "name": "Analytics Core Library",
     "description": "Podstawowa biblioteka do analityki danych.",
     "version": "1.0.0",
@@ -13,6 +15,8 @@
   },
   {
     "id": "asset-002",
+    "localization": "Lódź",
+    "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "User Management Service",
     "description": "Moduł do zarządzania użytkownikami i rolami.",
     "version": "1.3.2",
@@ -25,6 +29,8 @@
   },
   {
     "id": "asset-003",
+    "localization": "Lódź",
+    "points": [[51.43, 19.24], [51.43, 19.37], [51.39, 19.25], [51.41, 19.33]],
     "name": "Payment Gateway Connector",
     "description": "Konektor do integracji z bramką płatności.",
     "version": "2.0.0",
@@ -37,6 +43,8 @@
   },
   {
     "id": "asset-004",
+    "localization": "Lódź",
+    "points": [[51.50, 19.24], [51.43, 19.22], [51.49, 19.27], [51.46, 19.38]],
     "name": "Notification Center",
     "description": "System powiadomień e-mail, SMS i push.",
     "version": "1.5.1",
@@ -49,6 +57,8 @@
   },
   {
     "id": "asset-005",
+    "localization": "Lódź",
+    "points": [[51.30, 19.24], [51.43, 19.40], [51.35, 19.27], [51.46, 19.34]],
     "name": "Image Processing Toolkit",
     "description": "Zestaw narzędzi do obróbki obrazów.",
     "version": "0.9.4",
@@ -61,6 +71,8 @@
   },
   {
     "id": "asset-006",
+    "localization": "Lódź",
+    "points": [[51.28, 19.24], [51.38, 19.27], [51.47, 19.24], [51.51, 19.33]],
     "name": "Logging & Monitoring Agent",
     "description": "Agent do logowania i monitoringu aplikacji.",
     "version": "1.1.0",
@@ -73,6 +85,8 @@
   },
   {
     "id": "asset-007",
+    "localization": "Lódź",
+    "points": [[51.48, 19.24], [51.43, 19.27], [51.47, 19.27], [51.46, 19.33]],
     "name": "Backup Utility CLI",
     "description": "Narzędzie wiersza poleceń do wykonywania kopii zapasowych.",
     "version": "1.0.0",
@@ -85,6 +99,8 @@
   },
   {
     "id": "asset-008",
+    "localization": "Lódź",
+    "points": [[51.48, 19.24], [51.43, 19.27], [51.47, 19.27], [51.46, 19.33]],
     "name": "Report Generator",
     "description": "Silnik generowania raportów PDF i HTML.",
     "version": "2.2.1",
@@ -97,6 +113,8 @@
   },
   {
     "id": "asset-009",
+    "localization": "Lódź",
+    "points": [[51.48, 19.24], [51.43, 19.27], [51.47, 19.27], [51.46, 19.33]],
     "name": "Recommendation Engine Model",
     "description": "Model rekomendacyjny oparty na collaborative filtering.",
     "version": "0.8.0",
@@ -109,6 +127,8 @@
   },
   {
     "id": "asset-010",
+    "localization": "Lódź",
+    "points": [[51.48, 19.24], [51.43, 19.27], [51.47, 19.27], [51.46, 19.33]],
     "name": "Chatbot Template",
     "description": "Szablon bota konwersacyjnego dla systemów pomocy.",
     "version": "1.0.3",
@@ -121,6 +141,8 @@
   },
   {
     "id": "asset-011",
+    "localization": "Warszawa",
+    "points": [[51.48, 19.24], [51.43, 19.27], [51.47, 19.27], [51.46, 19.33]],
     "name": "Mobile SDK Android",
     "description": "SDK mobilne dla Androida z podstawowymi komponentami.",
     "version": "3.1.0",
@@ -133,6 +155,8 @@
   },
   {
     "id": "asset-012",
+    "localization": "Warszawa",
+    "points": [[51.50, 19.24], [51.43, 19.22], [51.49, 19.27], [51.46, 19.38]],
     "name": "Mobile SDK iOS",
     "description": "SDK mobilne dla iOS z podstawowymi komponentami.",
     "version": "3.1.0",
@@ -145,6 +169,8 @@
   },
   {
     "id": "asset-013",
+    "localization": "Warszawa",
+    "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "Frontend UI Kit",
     "description": "Zestaw komponentów UI dla aplikacji webowych.",
     "version": "2.4.5",
@@ -157,6 +183,8 @@
   },
   {
     "id": "asset-014",
+    "localization": "Warszawa",
+    "points": [[51.43, 19.44], [51.33, 19.29], [51.40, 19.37], [51.26, 19.43]],
     "name": "Theme Dark Mode",
     "description": "Motyw ciemny dla aplikacji webowej.",
     "version": "1.2.0",
@@ -169,6 +197,8 @@
   },
   {
     "id": "asset-015",
+    "localization": "Warszawa",
+    "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "Configuration Manager",
     "description": "Serwis do zarządzania konfiguracją środowisk.",
     "version": "1.0.1",
@@ -181,6 +211,8 @@
   },
   {
     "id": "asset-016",
+    "localization": "Warszawa",
+    "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "Search Index Builder",
     "description": "Narzędzie do budowania i aktualizacji indeksów wyszukiwania.",
     "version": "0.7.3",
@@ -193,6 +225,8 @@
   },
   {
     "id": "asset-017",
+    "localization": "Warszawa",
+    "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "Email Template Pack",
     "description": "Pakiet responsywnych szablonów e-mail.",
     "version": "1.4.0",
@@ -205,6 +239,8 @@
   },
   {
     "id": "asset-018",
+    "localization": "Warszawa",
+    "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "Security Scanner",
     "description": "Skrypt do skanowania podatności w aplikacjach webowych.",
     "version": "2.0.5",
@@ -217,6 +253,8 @@
   },
   {
     "id": "asset-019",
+    "localization": "Lódź",
+    "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "Load Testing Scripts",
     "description": "Zestaw skryptów do testów wydajnościowych.",
     "version": "1.1.2",
@@ -229,6 +267,8 @@
   },
   {
     "id": "asset-020",
+    "localization": "Lódź",
+    "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "Localization Pack PL",
     "description": "Pakiet tłumaczeń interfejsu na język polski.",
     "version": "1.0.0",
@@ -241,6 +281,8 @@
   },
   {
     "id": "asset-021",
+    "localization": "Lódź",
+    "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "Localization Pack EN",
     "description": "Pakiet tłumaczeń interfejsu na język angielski.",
     "version": "1.0.0",
@@ -253,6 +295,8 @@
   },
   {
     "id": "asset-022",
+    "localization": "Lódź",
+    "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "Database Migration Tool",
     "description": "Narzędzie do migracji schematów i danych bazy.",
     "version": "2.3.0",
@@ -265,6 +309,8 @@
   },
   {
     "id": "asset-023",
+    "localization": "Lódź",
+    "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "Cache Warmup Job",
     "description": "Zadanie do wstępnego wypełniania pamięci podręcznej.",
     "version": "1.0.2",
@@ -277,6 +323,8 @@
   },
   {
     "id": "asset-024",
+    "localization": "Lódź",
+    "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "API Gateway Config",
     "description": "Przykładowa konfiguracja dla bramy API.",
     "version": "1.0.0",
@@ -289,6 +337,8 @@
   },
   {
     "id": "asset-025",
+    "localization": "Lódź",
+    "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "ML Training Pipeline",
     "description": "Pipeline do trenowania modeli uczenia maszynowego.",
     "version": "0.3.1",
@@ -301,6 +351,8 @@
   },
   {
     "id": "asset-026",
+    "localization": "Lódź",
+    "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "Feature Flag Service",
     "description": "Serwis do zarządzania flagami funkcjonalności.",
     "version": "1.2.4",
@@ -313,6 +365,8 @@
   },
   {
     "id": "asset-027",
+    "localization": "Warszawa",
+    "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "File Storage Adapter S3",
     "description": "Adapter do przechowywania plików w Amazon S3.",
     "version": "1.0.0",
@@ -325,6 +379,8 @@
   },
   {
     "id": "asset-028",
+    "localization": "Warszawa",
+    "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "File Storage Adapter Azure",
     "description": "Adapter do przechowywania plików w Azure Blob Storage.",
     "version": "1.0.0",
@@ -337,6 +393,8 @@
   },
   {
     "id": "asset-029",
+    "localization": "Warszawa",
+    "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "Scheduler Cron Jobs",
     "description": "Zestaw predefiniowanych zadań CRON dla systemu.",
     "version": "0.9.0",
