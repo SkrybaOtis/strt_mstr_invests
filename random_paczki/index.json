@@ -1,7 +1,7 @@
 [
   {
     "id": "asset-001",
-    "localization": "Lódź",
+    "localization": "Łódź",
     "points": [[51.48, 19.24], [51.43, 19.27], [51.47, 19.27], [51.46, 19.33]],
     "name": "Analytics Core Library",
     "description": "Podstawowa biblioteka do analityki danych.",
@@ -15,7 +15,7 @@
   },
   {
     "id": "asset-002",
-    "localization": "Lódź",
+    "localization": "Łódź",
     "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "User Management Service",
     "description": "Moduł do zarządzania użytkownikami i rolami.",
@@ -29,7 +29,7 @@
   },
   {
     "id": "asset-003",
-    "localization": "Lódź",
+    "localization": "Łódź",
     "points": [[51.43, 19.24], [51.43, 19.37], [51.39, 19.25], [51.41, 19.33]],
     "name": "Payment Gateway Connector",
     "description": "Konektor do integracji z bramką płatności.",
@@ -43,7 +43,7 @@
   },
   {
     "id": "asset-004",
-    "localization": "Lódź",
+    "localization": "Łódź",
     "points": [[51.50, 19.24], [51.43, 19.22], [51.49, 19.27], [51.46, 19.38]],
     "name": "Notification Center",
     "description": "System powiadomień e-mail, SMS i push.",
@@ -57,7 +57,7 @@
   },
   {
     "id": "asset-005",
-    "localization": "Lódź",
+    "localization": "Łódź",
     "points": [[51.30, 19.24], [51.43, 19.40], [51.35, 19.27], [51.46, 19.34]],
     "name": "Image Processing Toolkit",
     "description": "Zestaw narzędzi do obróbki obrazów.",
@@ -71,7 +71,7 @@
   },
   {
     "id": "asset-006",
-    "localization": "Lódź",
+    "localization": "Łódź",
     "points": [[51.28, 19.24], [51.38, 19.27], [51.47, 19.24], [51.51, 19.33]],
     "name": "Logging & Monitoring Agent",
     "description": "Agent do logowania i monitoringu aplikacji.",
@@ -85,7 +85,7 @@
   },
   {
     "id": "asset-007",
-    "localization": "Lódź",
+    "localization": "Łódź",
     "points": [[51.48, 19.24], [51.43, 19.27], [51.47, 19.27], [51.46, 19.33]],
     "name": "Backup Utility CLI",
     "description": "Narzędzie wiersza poleceń do wykonywania kopii zapasowych.",
@@ -99,7 +99,7 @@
   },
   {
     "id": "asset-008",
-    "localization": "Lódź",
+    "localization": "Łódź",
     "points": [[51.48, 19.24], [51.43, 19.27], [51.47, 19.27], [51.46, 19.33]],
     "name": "Report Generator",
     "description": "Silnik generowania raportów PDF i HTML.",
@@ -113,7 +113,7 @@
   },
   {
     "id": "asset-009",
-    "localization": "Lódź",
+    "localization": "Łódź",
     "points": [[51.48, 19.24], [51.43, 19.27], [51.47, 19.27], [51.46, 19.33]],
     "name": "Recommendation Engine Model",
     "description": "Model rekomendacyjny oparty na collaborative filtering.",
@@ -127,7 +127,7 @@
   },
   {
     "id": "asset-010",
-    "localization": "Lódź",
+    "localization": "Łódź",
     "points": [[51.48, 19.24], [51.43, 19.27], [51.47, 19.27], [51.46, 19.33]],
     "name": "Chatbot Template",
     "description": "Szablon bota konwersacyjnego dla systemów pomocy.",
@@ -253,7 +253,7 @@
   },
   {
     "id": "asset-019",
-    "localization": "Lódź",
+    "localization": "Łódź",
     "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "Load Testing Scripts",
     "description": "Zestaw skryptów do testów wydajnościowych.",
@@ -267,7 +267,7 @@
   },
   {
     "id": "asset-020",
-    "localization": "Lódź",
+    "localization": "Łódź",
     "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "Localization Pack PL",
     "description": "Pakiet tłumaczeń interfejsu na język polski.",
@@ -281,7 +281,7 @@
   },
   {
     "id": "asset-021",
-    "localization": "Lódź",
+    "localization": "Łódź",
     "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "Localization Pack EN",
     "description": "Pakiet tłumaczeń interfejsu na język angielski.",
@@ -295,7 +295,7 @@
   },
   {
     "id": "asset-022",
-    "localization": "Lódź",
+    "localization": "Łódź",
     "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "Database Migration Tool",
     "description": "Narzędzie do migracji schematów i danych bazy.",
@@ -309,7 +309,7 @@
   },
   {
     "id": "asset-023",
-    "localization": "Lódź",
+    "localization": "Łódź",
     "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "Cache Warmup Job",
     "description": "Zadanie do wstępnego wypełniania pamięci podręcznej.",
@@ -323,7 +323,7 @@
   },
   {
     "id": "asset-024",
-    "localization": "Lódź",
+    "localization": "Łódź",
     "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "API Gateway Config",
     "description": "Przykładowa konfiguracja dla bramy API.",
@@ -337,7 +337,7 @@
   },
   {
     "id": "asset-025",
-    "localization": "Lódź",
+    "localization": "Łódź",
     "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "ML Training Pipeline",
     "description": "Pipeline do trenowania modeli uczenia maszynowego.",
@@ -351,7 +351,7 @@
   },
   {
     "id": "asset-026",
-    "localization": "Lódź",
+    "localization": "Łódź",
     "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "Feature Flag Service",
     "description": "Serwis do zarządzania flagami funkcjonalności.",
@@ -407,6 +407,8 @@
   },
   {
     "id": "asset-030",
+    "localization": "Warszawa",
+    "points": [[51.43, 19.24], [51.43, 19.29], [51.40, 19.27], [51.46, 19.43]],
     "name": "Demo Sample App",
     "description": "Przykładowa aplikacja demonstracyjna integrująca większość modułów.",
     "version": "1.0.0",
