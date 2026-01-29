@@ -1,5 +1,5 @@
 {
-	"manifestVersion": 1,
+	"manifestVersion": 4,
 	"generatedAt": "2026-01-26T00:00:00Z",
 	"episodes": [
 		{
@@ -70,7 +70,7 @@
 			"updatedAt": "2026-01-26T00:00:00Z",
 			"tags": ["Zagadka", "Fabuła", "Wędrówka"],
 			"thumbnailUrl": "https://cdn.example.com/thumbnails/ep_sek_w_tym.webp",
-			"difficulty": "Średni",
+			"difficulty": "Medium",
 			"estimatedMinutes": 45
 		},
 		{
