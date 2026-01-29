@@ -1,0 +1,1724 @@
+{
+  "manifestVersion": 2,
+  "generatedAt": "2024-05-21T09:00:00Z",
+  "episodes": [
+    {
+      "id": "ep_london_murder",
+      "version": 4,
+      "localization": {
+        "city": "London",
+        "region": "Greater London",
+        "country": "United Kingdom",
+        "countryCode": "GB",
+        "centerLatitude": 51.5074,
+        "centerLongitude": -0.1278
+      },
+      "points": [
+        {
+          "id": "pt_london_1",
+          "name": "Crime Scene",
+          "description": "The body was found near the bridge.",
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_london_2",
+          "name": "Scotland Yard",
+          "description": "Analyze the evidence.",
+          "latitude": 51.5014,
+          "longitude": -0.1250,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_london_3",
+          "name": "221B Baker Street",
+          "description": "Consult the famous detective.",
+          "latitude": 51.5237,
+          "longitude": -0.1585,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_london_4",
+          "name": "Tower of London",
+          "description": "Confront the suspect in the dungeons.",
+          "latitude": 51.5081,
+          "longitude": -0.0759,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "The London Mystery",
+      "description": "Investigate a puzzling case in the heart of London.",
+      "author": "Detective Studios",
+      "sha256": "a1b2c3d4e5f6789012345678901234567890abcdef1234567890abcdef123456",
+      "sizeBytes": 15728640,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_london_murder.zip",
+      "createdAt": "2024-01-01T10:00:00Z",
+      "tags": ["murder", "historic", "crime"],
+      "difficulty": "Medium",
+      "estimatedMinutes": 60
+    },
+    {
+      "id": "ep_paris_phantom",
+      "version": 2,
+      "localization": {
+        "city": "Paris",
+        "region": "Île-de-France",
+        "country": "France",
+        "countryCode": "FR",
+        "centerLatitude": 48.8566,
+        "centerLongitude": 2.3522
+      },
+      "points": [
+        {
+          "id": "pt_paris_1",
+          "name": "Opera Garnier",
+          "description": "Listen for the music of the night.",
+          "latitude": 48.8719,
+          "longitude": 2.3316,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_paris_2",
+          "name": "Louvre Pyramid",
+          "description": "Find the hidden code in the glass.",
+          "latitude": 48.8606,
+          "longitude": 2.3376,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_paris_3",
+          "name": "Notre Dame",
+          "description": "Seek sanctuary from the shadows.",
+          "latitude": 48.8529,
+          "longitude": 2.3499,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_paris_4",
+          "name": "Catacombs Entrance",
+          "description": "Descend into the phantom's lair.",
+          "latitude": 48.8338,
+          "longitude": 2.3324,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "The Phantom of Paris",
+      "description": "Chase a ghost through the opera house and underground tunnels.",
+      "author": "Noir Adventures",
+      "sha256": "b2c3d4e5f6789012345678901234567890abcdef1234567890abcdef123456a1",
+      "sizeBytes": 22450100,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_paris_phantom.zip",
+      "createdAt": "2024-01-05T14:30:00Z",
+      "tags": ["mystery", "romance", "art"],
+      "difficulty": "Hard",
+      "estimatedMinutes": 90
+    },
+    {
+      "id": "ep_ny_heist",
+      "version": 3,
+      "localization": {
+        "city": "New York",
+        "region": "New York",
+        "country": "United States",
+        "countryCode": "US",
+        "centerLatitude": 40.7128,
+        "centerLongitude": -74.0060
+      },
+      "points": [
+        {
+          "id": "pt_ny_1",
+          "name": "Wall Street",
+          "description": "Where the money moves.",
+          "latitude": 40.7074,
+          "longitude": -74.0113,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_ny_2",
+          "name": "Times Square",
+          "description": "Lose the tail in the crowd.",
+          "latitude": 40.7580,
+          "longitude": -73.9855,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_ny_3",
+          "name": "Empire State Building",
+          "description": "Spot the getaway chopper.",
+          "latitude": 40.7484,
+          "longitude": -73.9857,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_ny_4",
+          "name": "Central Park Hideout",
+          "description": "Recover the diamonds.",
+          "latitude": 40.7851,
+          "longitude": -73.9683,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "Manhattan Heist",
+      "description": "Recover the stolen diamonds before the thieves escape the city.",
+      "author": "Urban Quest",
+      "sha256": "c3d4e5f6789012345678901234567890abcdef1234567890abcdef123456a1b2",
+      "sizeBytes": 18900500,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_ny_heist.zip",
+      "createdAt": "2024-01-10T09:15:00Z",
+      "tags": ["action", "police", "urban"],
+      "difficulty": "Easy",
+      "estimatedMinutes": 75
+    },
+    {
+      "id": "ep_tokyo_cyber",
+      "version": 6,
+      "localization": {
+        "city": "Tokyo",
+        "region": "Kanto",
+        "country": "Japan",
+        "countryCode": "JP",
+        "centerLatitude": 35.6762,
+        "centerLongitude": 139.6503
+      },
+      "points": [
+        {
+          "id": "pt_tokyo_1",
+          "name": "Shibuya Crossing",
+          "description": "Decode the message on the giant screens.",
+          "latitude": 35.6595,
+          "longitude": 139.7004,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_tokyo_2",
+          "name": "Shinjuku Robot Restaurant",
+          "description": "Meet the contact.",
+          "latitude": 35.6944,
+          "longitude": 139.7028,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_tokyo_3",
+          "name": "Odaiba Gundam Statue",
+          "description": "Upload the virus.",
+          "latitude": 35.6250,
+          "longitude": 139.7753,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_tokyo_4",
+          "name": "Akihabara Electronics",
+          "description": "Final showdown in Electric Town.",
+          "latitude": 35.6984,
+          "longitude": 139.7731,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "Neon Shadows",
+      "description": "A cyberpunk hacker adventure in the electric streets of Tokyo.",
+      "author": "Future Scapes",
+      "sha256": "d4e5f6789012345678901234567890abcdef1234567890abcdef123456a1b2c3",
+      "sizeBytes": 35600200,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_tokyo_cyber.zip",
+      "createdAt": "2024-02-01T11:00:00Z",
+      "updatedAt": "2024-02-15T11:00:00Z",
+      "tags": ["scifi", "tech", "night"],
+      "difficulty": "Hard",
+      "estimatedMinutes": 120
+    },
+    {
+      "id": "ep_rome_ancient",
+      "version": 2,
+      "localization": {
+        "city": "Rome",
+        "region": "Lazio",
+        "country": "Italy",
+        "countryCode": "IT",
+        "centerLatitude": 41.9028,
+        "centerLongitude": 12.4964
+      },
+      "points": [
+        {
+          "id": "pt_rome_1",
+          "name": "Colosseum",
+          "description": "Enter the gladiator's arena.",
+          "latitude": 41.8902,
+          "longitude": 12.4922,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_rome_2",
+          "name": "Roman Forum",
+          "description": "Search the ruins for a scroll.",
+          "latitude": 41.8925,
+          "longitude": 12.4853,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_rome_3",
+          "name": "Trevi Fountain",
+          "description": "Toss a coin to reveal the next clue.",
+          "latitude": 41.9009,
+          "longitude": 12.4833,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_rome_4",
+          "name": "Pantheon",
+          "description": "Look up through the oculus.",
+          "latitude": 41.8986,
+          "longitude": 12.4769,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "Secrets of the Empire",
+      "description": "Unearth a conspiracy from 2000 years ago.",
+      "author": "History Alive",
+      "sha256": "e5f6789012345678901234567890abcdef1234567890abcdef123456a1b2c3d4",
+      "sizeBytes": 12500000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_rome_ancient.zip",
+      "createdAt": "2024-02-05T08:00:00Z",
+      "tags": ["history", "educational", "walking"],
+      "difficulty": "Medium",
+      "estimatedMinutes": 60
+    },
+    {
+      "id": "ep_cairo_pharaoh",
+      "version": 2,
+      "localization": {
+        "city": "Cairo",
+        "country": "Egypt",
+        "countryCode": "EG",
+        "centerLatitude": 30.0444,
+        "centerLongitude": 31.2357
+      },
+      "points": [
+        {
+          "id": "pt_cairo_1",
+          "name": "Giza Plateau",
+          "latitude": 29.9792,
+          "longitude": 31.1342,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_cairo_2",
+          "name": "The Great Sphinx",
+          "latitude": 29.9753,
+          "longitude": 31.1376,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_cairo_3",
+          "name": "Khan el-Khalili Market",
+          "latitude": 30.0470,
+          "longitude": 31.2623,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_cairo_4",
+          "name": "Egyptian Museum",
+          "latitude": 30.0478,
+          "longitude": 31.2336,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "The Pharaoh's Curse",
+      "description": "Find the lost amulet before the sun sets.",
+      "author": "Desert Wanderers",
+      "sha256": "f6789012345678901234567890abcdef1234567890abcdef123456a1b2c3d4e5",
+      "sizeBytes": 28900100,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_cairo_pharaoh.zip",
+      "createdAt": "2024-02-10T16:20:00Z",
+      "tags": ["adventure", "mythology"],
+      "difficulty": "Medium",
+      "estimatedMinutes": 90
+    },
+    {
+      "id": "ep_sydney_harbour",
+      "version": 2,
+      "localization": {
+        "city": "Sydney",
+        "region": "New South Wales",
+        "country": "Australia",
+        "countryCode": "AU",
+        "centerLatitude": -33.8688,
+        "centerLongitude": 151.2093
+      },
+      "points": [
+        {
+          "id": "pt_syd_1",
+          "name": "The Rocks",
+          "description": "Start in the historic quarter.",
+          "latitude": -33.8596,
+          "longitude": 151.2078,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_syd_2",
+          "name": "Harbour Bridge Pylon",
+          "latitude": -33.8549,
+          "longitude": 151.2100,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_syd_3",
+          "name": "Circular Quay",
+          "latitude": -33.8617,
+          "longitude": 151.2111,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_syd_4",
+          "name": "Opera House Steps",
+          "latitude": -33.8568,
+          "longitude": 151.2153,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "Harbour Secrets",
+      "description": "A relaxing scavenger hunt by the water.",
+      "author": "Oz Adventures",
+      "sha256": "789012345678901234567890abcdef1234567890abcdef123456a1b2c3d4e5f6",
+      "sizeBytes": 14200000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_sydney_harbour.zip",
+      "createdAt": "2024-02-12T09:00:00Z",
+      "tags": ["family", "nature", "easy"],
+      "difficulty": "Easy",
+      "estimatedMinutes": 45
+    },
+    {
+      "id": "ep_rio_carnival",
+      "version": 3,
+      "localization": {
+        "city": "Rio de Janeiro",
+        "country": "Brazil",
+        "countryCode": "BR",
+        "centerLatitude": -22.9068,
+        "centerLongitude": -43.1729
+      },
+      "points": [
+        {
+          "id": "pt_rio_1",
+          "name": "Copacabana Beach",
+          "latitude": -22.9694,
+          "longitude": -43.1868,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_rio_2",
+          "name": "Sugarloaf Mountain",
+          "latitude": -22.9492,
+          "longitude": -43.1546,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_rio_3",
+          "name": "Sambadrome",
+          "description": "The center of the parade.",
+          "latitude": -22.9103,
+          "longitude": -43.1963,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_rio_4",
+          "name": "Christ the Redeemer",
+          "latitude": -22.9519,
+          "longitude": -43.2105,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "Carnival Mystery",
+      "description": "A famous dancer has gone missing during the parade.",
+      "author": "Samba Stories",
+      "sha256": "89012345678901234567890abcdef1234567890abcdef123456a1b2c3d4e5f67",
+      "sizeBytes": 19500000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_rio_carnival.zip",
+      "createdAt": "2024-02-14T13:00:00Z",
+      "tags": ["festive", "music", "detective"],
+      "difficulty": "Medium",
+      "estimatedMinutes": 90
+    },
+    {
+      "id": "ep_berlin_spy",
+      "version": 2,
+      "localization": {
+        "city": "Berlin",
+        "country": "Germany",
+        "countryCode": "DE",
+        "centerLatitude": 52.5200,
+        "centerLongitude": 13.4050
+      },
+      "points": [
+        {
+          "id": "pt_berlin_1",
+          "name": "Brandenburg Gate",
+          "latitude": 52.5163,
+          "longitude": 13.3777,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_berlin_2",
+          "name": "Reichstag Building",
+          "latitude": 52.5186,
+          "longitude": 13.3762,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_berlin_3",
+          "name": "Berlin Wall Memorial",
+          "latitude": 52.5352,
+          "longitude": 13.3900,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_berlin_4",
+          "name": "Checkpoint Charlie",
+          "description": "The final crossing point.",
+          "latitude": 52.5074,
+          "longitude": 13.3904,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "Cold War Drop",
+      "description": "Exchange the microfilm without getting caught.",
+      "author": "Spy Games Inc",
+      "sha256": "9012345678901234567890abcdef1234567890abcdef123456a1b2c3d4e5f678",
+      "sizeBytes": 16700000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_berlin_spy.zip",
+      "createdAt": "2024-02-18T10:00:00Z",
+      "tags": ["thriller", "history", "stealth"],
+      "difficulty": "Hard",
+      "estimatedMinutes": 60
+    },
+    {
+      "id": "ep_sf_alcatraz",
+      "version": 2,
+      "localization": {
+        "city": "San Francisco",
+        "region": "California",
+        "country": "United States",
+        "countryCode": "US",
+        "centerLatitude": 37.7749,
+        "centerLongitude": -122.4194
+      },
+      "points": [
+        {
+          "id": "pt_sf_1",
+          "name": "Fisherman's Wharf",
+          "latitude": 37.8080,
+          "longitude": -122.4177,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_sf_2",
+          "name": "Pier 39",
+          "description": "Watch the sea lions for clues.",
+          "latitude": 37.8087,
+          "longitude": -122.4098,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_sf_3",
+          "name": "Lombard Street",
+          "description": "The crookedest street.",
+          "latitude": 37.8021,
+          "longitude": -122.4187,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_sf_4",
+          "name": "Golden Gate Bridge View",
+          "latitude": 37.8199,
+          "longitude": -122.4783,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "Alcatraz Escape",
+      "description": "Follow the trail of the only successful escapees.",
+      "author": "Bay Area Mysteries",
+      "sha256": "012345678901234567890abcdef1234567890abcdef123456a1b2c3d4e5f6789",
+      "sizeBytes": 21000000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_sf_alcatraz.zip",
+      "createdAt": "2024-02-20T15:00:00Z",
+      "tags": ["prison", "water", "history"],
+      "difficulty": "Medium",
+      "estimatedMinutes": 80
+    },
+    {
+      "id": "ep_kyoto_samurai",
+      "version": 2,
+      "localization": {
+        "city": "Kyoto",
+        "region": "Kansai",
+        "country": "Japan",
+        "countryCode": "JP",
+        "centerLatitude": 35.0116,
+        "centerLongitude": 135.7681
+      },
+      "points": [
+        {
+          "id": "pt_kyoto_1",
+          "name": "Fushimi Inari",
+          "description": "The thousand gates.",
+          "latitude": 34.9671,
+          "longitude": 135.7727,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_kyoto_2",
+          "name": "Kinkaku-ji",
+          "description": "The Golden Pavilion.",
+          "latitude": 35.0394,
+          "longitude": 135.7292,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_kyoto_3",
+          "name": "Arashiyama Bamboo Grove",
+          "description": "Find the sword in the bamboo.",
+          "latitude": 35.0094,
+          "longitude": 135.6668,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_kyoto_4",
+          "name": "Gion District",
+          "description": "The geisha district.",
+          "latitude": 35.0037,
+          "longitude": 135.7778,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "The Last Ronin",
+      "description": "A journey through ancient temples to find a lost sword.",
+      "author": "Shogun Tales",
+      "sha256": "12345678901234567890abcdef1234567890abcdef123456a1b2c3d4e5f67890",
+      "sizeBytes": 23000000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_kyoto_samurai.zip",
+      "createdAt": "2024-02-22T08:00:00Z",
+      "tags": ["culture", "traditional", "nature"],
+      "difficulty": "Medium",
+      "estimatedMinutes": 120
+    },
+    {
+      "id": "ep_barcelona_gaudi",
+      "version": 2,
+      "localization": {
+        "city": "Barcelona",
+        "region": "Catalonia",
+        "country": "Spain",
+        "countryCode": "ES",
+        "centerLatitude": 41.3851,
+        "centerLongitude": 2.1734
+      },
+      "points": [
+        {
+          "id": "pt_bcn_1",
+          "name": "Casa Batlló",
+          "latitude": 41.3916,
+          "longitude": 2.1649,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_bcn_2",
+          "name": "La Rambla",
+          "latitude": 41.3814,
+          "longitude": 2.1734,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_bcn_3",
+          "name": "Sagrada Familia",
+          "description": "The unfinished masterpiece.",
+          "latitude": 41.4036,
+          "longitude": 2.1744,
+          "isMainPoint": true,
+          "order": 3
+        },
+        {
+          "id": "pt_bcn_4",
+          "name": "Park Güell",
+          "latitude": 41.4145,
+          "longitude": 2.1527,
+          "isMainPoint": false,
+          "order": 4
+        }
+      ],
+      "name": "Gaudi's Blueprint",
+      "description": "A hidden architectural design has been lost in the mosaics.",
+      "author": "Artistic Journeys",
+      "sha256": "2345678901234567890abcdef1234567890abcdef123456a1b2c3d4e5f678901",
+      "sizeBytes": 17800000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_barcelona_gaudi.zip",
+      "createdAt": "2024-02-25T11:00:00Z",
+      "tags": ["art", "architecture", "colorful"],
+      "difficulty": "Easy",
+      "estimatedMinutes": 60
+    },
+    {
+      "id": "ep_amsterdam_canal",
+      "version": 2,
+      "localization": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "countryCode": "NL",
+        "centerLatitude": 52.3676,
+        "centerLongitude": 4.9041
+      },
+      "points": [
+        {
+          "id": "pt_ams_1",
+          "name": "Central Station",
+          "latitude": 52.3791,
+          "longitude": 4.9003,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_ams_2",
+          "name": "Anne Frank House",
+          "latitude": 52.3752,
+          "longitude": 4.8840,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_ams_3",
+          "name": "Rijksmuseum",
+          "latitude": 52.3600,
+          "longitude": 4.8852,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_ams_4",
+          "name": "Vondelpark",
+          "latitude": 52.3580,
+          "longitude": 4.8686,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "The Canal Code",
+      "description": "Messages in bottles are appearing in the canals.",
+      "author": "Dutch Detectives",
+      "sha256": "345678901234567890abcdef1234567890abcdef123456a1b2c3d4e5f6789012",
+      "sizeBytes": 15500000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_amsterdam_canal.zip",
+      "createdAt": "2024-02-28T10:00:00Z",
+      "tags": ["water", "puzzle"],
+      "difficulty": "Hard",
+      "estimatedMinutes": 60
+    },
+    {
+      "id": "ep_prague_golem",
+      "version": 2,
+      "localization": {
+        "city": "Prague",
+        "country": "Czech Republic",
+        "countryCode": "CZ",
+        "centerLatitude": 50.0755,
+        "centerLongitude": 14.4378
+      },
+      "points": [
+        {
+          "id": "pt_prg_1",
+          "name": "Old Town Square",
+          "latitude": 50.0873,
+          "longitude": 14.4211,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_prg_2",
+          "name": "Prague Astronomical Clock",
+          "latitude": 50.0870,
+          "longitude": 14.4207,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_prg_3",
+          "name": "Charles Bridge",
+          "latitude": 50.0865,
+          "longitude": 14.4114,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_prg_4",
+          "name": "Old Jewish Cemetery",
+          "description": "Where the Golem rests.",
+          "latitude": 50.0895,
+          "longitude": 14.4170,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "Rise of the Golem",
+      "description": "A mystical clay giant has been spotted in the Old Town.",
+      "author": "Gothic Tales",
+      "sha256": "45678901234567890abcdef1234567890abcdef123456a1b2c3d4e5f67890123",
+      "sizeBytes": 20100000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_prague_golem.zip",
+      "createdAt": "2024-03-01T17:00:00Z",
+      "tags": ["horror", "legend", "night"],
+      "difficulty": "Medium",
+      "estimatedMinutes": 80
+    },
+    {
+      "id": "ep_athens_hercules",
+      "version": 4,
+      "localization": {
+        "city": "Athens",
+        "region": "Attica",
+        "country": "Greece",
+        "countryCode": "GR",
+        "centerLatitude": 37.9838,
+        "centerLongitude": 23.7275
+      },
+      "points": [
+        {
+          "id": "pt_ath_1",
+          "name": "Ancient Agora",
+          "latitude": 37.9755,
+          "longitude": 23.7230,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_ath_2",
+          "name": "Temple of Olympian Zeus",
+          "latitude": 37.9693,
+          "longitude": 23.7331,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_ath_3",
+          "name": "Panathenaic Stadium",
+          "latitude": 37.9684,
+          "longitude": 23.7411,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_ath_4",
+          "name": "Acropolis",
+          "description": "The final labor on the hill.",
+          "latitude": 37.9715,
+          "longitude": 23.7257,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "Trials of Hercules",
+      "description": "Complete the modern 12 labors.",
+      "author": "Mythos Inc",
+      "sha256": "5678901234567890abcdef1234567890abcdef123456a1b2c3d4e5f678901234",
+      "sizeBytes": 26500000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_athens_hercules.zip",
+      "createdAt": "2024-03-03T09:30:00Z",
+      "tags": ["mythology", "physical", "history"],
+      "difficulty": "Hard",
+      "estimatedMinutes": 120
+    },
+    {
+      "id": "ep_dubai_sky",
+      "version": 2,
+      "localization": {
+        "city": "Dubai",
+        "country": "United Arab Emirates",
+        "countryCode": "AE",
+        "centerLatitude": 25.2048,
+        "centerLongitude": 55.2708
+      },
+      "points": [
+        {
+          "id": "pt_dxb_1",
+          "name": "Dubai Mall",
+          "latitude": 25.1974,
+          "longitude": 55.2796,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_dxb_2",
+          "name": "Dubai Frame",
+          "latitude": 25.2355,
+          "longitude": 55.3004,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_dxb_3",
+          "name": "Palm Jumeirah Boardwalk",
+          "latitude": 25.1204,
+          "longitude": 55.1293,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_dxb_4",
+          "name": "Burj Khalifa",
+          "description": "The top of the world.",
+          "latitude": 25.1972,
+          "longitude": 55.2744,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "Skyscraper Sabotage",
+      "description": "Defuse the situation at the top of the world.",
+      "author": "Desert Tech",
+      "sha256": "678901234567890abcdef1234567890abcdef123456a1b2c3d4e5f6789012345",
+      "sizeBytes": 19900000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_dubai_sky.zip",
+      "createdAt": "2024-03-05T12:00:00Z",
+      "tags": ["action", "modern", "heights"],
+      "difficulty": "Medium",
+      "estimatedMinutes": 60
+    },
+    {
+      "id": "ep_reykjavik_lights",
+      "version": 2,
+      "localization": {
+        "city": "Reykjavík",
+        "country": "Iceland",
+        "countryCode": "IS",
+        "centerLatitude": 64.1466,
+        "centerLongitude": -21.9426
+      },
+      "points": [
+        {
+          "id": "pt_rey_1",
+          "name": "Harpa Concert Hall",
+          "latitude": 64.1503,
+          "longitude": -21.9327,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_rey_2",
+          "name": "Sun Voyager",
+          "latitude": 64.1476,
+          "longitude": -21.9223,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_rey_3",
+          "name": "Perlan",
+          "description": "The glass dome view.",
+          "latitude": 64.1292,
+          "longitude": -21.9183,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_rey_4",
+          "name": "Hallgrímskirkja",
+          "description": "Look for the signal in the tower.",
+          "latitude": 64.1420,
+          "longitude": -21.9266,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "Northern Lights Message",
+      "description": "Aliens are communicating through the aurora.",
+      "author": "Ice Mystery",
+      "sha256": "78901234567890abcdef1234567890abcdef123456a1b2c3d4e5f67890123456",
+      "sizeBytes": 13400000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_reykjavik_lights.zip",
+      "createdAt": "2024-03-08T16:00:00Z",
+      "tags": ["nature", "scifi", "cold"],
+      "difficulty": "Easy",
+      "estimatedMinutes": 50
+    },
+    {
+      "id": "ep_machu_gold",
+      "version": 2,
+      "localization": {
+        "city": "Machu Picchu",
+        "region": "Cusco",
+        "country": "Peru",
+        "countryCode": "PE",
+        "centerLatitude": -13.1631,
+        "centerLongitude": -72.5450
+      },
+      "points": [
+        {
+          "id": "pt_mac_1",
+          "name": "Sun Gate",
+          "latitude": -13.1643,
+          "longitude": -72.5350,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_mac_2",
+          "name": "Temple of the Three Windows",
+          "latitude": -13.1638,
+          "longitude": -72.5445,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_mac_3",
+          "name": "Intihuatana Stone",
+          "latitude": -13.1633,
+          "longitude": -72.5458,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_mac_4",
+          "name": "Sacred Rock",
+          "latitude": -13.1614,
+          "longitude": -72.5447,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "Inca Gold",
+      "description": "Find the treasure hidden by the last emperor.",
+      "author": "Andes Expeditions",
+      "sha256": "8901234567890abcdef1234567890abcdef123456a1b2c3d4e5f678901234567",
+      "sizeBytes": 31000000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_machu_gold.zip",
+      "createdAt": "2024-03-10T08:00:00Z",
+      "tags": ["adventure", "treasure", "hiking"],
+      "difficulty": "Hard",
+      "estimatedMinutes": 120
+    },
+    {
+      "id": "ep_nola_voodoo",
+      "version": 2,
+      "localization": {
+        "city": "New Orleans",
+        "region": "Louisiana",
+        "country": "United States",
+        "countryCode": "US",
+        "centerLatitude": 29.9511,
+        "centerLongitude": -90.0715
+      },
+      "points": [
+        {
+          "id": "pt_nola_1",
+          "name": "French Quarter",
+          "latitude": 29.9584,
+          "longitude": -90.0644,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_nola_2",
+          "name": "Jackson Square",
+          "latitude": 29.9575,
+          "longitude": -90.0629,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_nola_3",
+          "name": "Cafe Du Monde",
+          "description": "Beignets and clues.",
+          "latitude": 29.9575,
+          "longitude": -90.0617,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_nola_4",
+          "name": "St. Louis Cemetery No. 1",
+          "latitude": 29.9591,
+          "longitude": -90.0716,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "Bourbon Street Blues",
+      "description": "A jazz musician's soul has been stolen.",
+      "author": "Bayou Magic",
+      "sha256": "901234567890abcdef1234567890abcdef123456a1b2c3d4e5f6789012345678",
+      "sizeBytes": 18200000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_nola_voodoo.zip",
+      "createdAt": "2024-03-12T20:00:00Z",
+      "tags": ["music", "magic", "party"],
+      "difficulty": "Medium",
+      "estimatedMinutes": 60
+    },
+    {
+      "id": "ep_venice_mask",
+      "version": 2,
+      "localization": {
+        "city": "Venice",
+        "region": "Veneto",
+        "country": "Italy",
+        "countryCode": "IT",
+        "centerLatitude": 45.4408,
+        "centerLongitude": 12.3155
+      },
+      "points": [
+        {
+          "id": "pt_ven_1",
+          "name": "Rialto Bridge",
+          "latitude": 45.4380,
+          "longitude": 12.3359,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_ven_2",
+          "name": "Bridge of Sighs",
+          "latitude": 45.4340,
+          "longitude": 12.3409,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_ven_3",
+          "name": "Doge's Palace",
+          "latitude": 45.4338,
+          "longitude": 12.3400,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_ven_4",
+          "name": "St Mark's Square",
+          "description": "The midnight rendezvous.",
+          "latitude": 45.4342,
+          "longitude": 12.3385,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "The Masked Ball",
+      "description": "Identify the assassin before midnight strikes.",
+      "author": "Gondola Games",
+      "sha256": "01234567890abcdef1234567890abcdef123456a1b2c3d4e5f67890123456789",
+      "sizeBytes": 20500000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_venice_mask.zip",
+      "createdAt": "2024-03-15T14:00:00Z",
+      "tags": ["mystery", "romantic", "boat"],
+      "difficulty": "Hard",
+      "estimatedMinutes": 85
+    },
+    {
+      "id": "ep_capetown_trek",
+      "version": 2,
+      "localization": {
+        "city": "Cape Town",
+        "region": "Western Cape",
+        "country": "South Africa",
+        "countryCode": "ZA",
+        "centerLatitude": -33.9249,
+        "centerLongitude": 18.4241
+      },
+      "points": [
+        {
+          "id": "pt_cpt_1",
+          "name": "V&A Waterfront",
+          "latitude": -33.9036,
+          "longitude": 18.4205,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_cpt_2",
+          "name": "Bo-Kaap Museum",
+          "latitude": -33.9222,
+          "longitude": 18.4144,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_cpt_3",
+          "name": "Lion's Head",
+          "latitude": -33.9360,
+          "longitude": 18.3950,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_cpt_4",
+          "name": "Table Mountain",
+          "description": "The summit.",
+          "latitude": -33.9628,
+          "longitude": 18.4098,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "Mountain Trek",
+      "description": "Survival challenge on the flat-topped mountain.",
+      "author": "Safari Scouts",
+      "sha256": "a1b2c3d4e5f67890abcdef1234567890abcdef123456a1b2c3d4e5f67890123",
+      "sizeBytes": 16000000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_capetown_trek.zip",
+      "createdAt": "2024-03-18T09:00:00Z",
+      "tags": ["nature", "hiking", "views"],
+      "difficulty": "Medium",
+      "estimatedMinutes": 90
+    },
+    {
+      "id": "ep_mumbai_star",
+      "version": 2,
+      "localization": {
+        "city": "Mumbai",
+        "region": "Maharashtra",
+        "country": "India",
+        "countryCode": "IN",
+        "centerLatitude": 19.0760,
+        "centerLongitude": 72.8777
+      },
+      "points": [
+        {
+          "id": "pt_mum_1",
+          "name": "Gateway of India",
+          "latitude": 18.9220,
+          "longitude": 72.8347,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_mum_2",
+          "name": "Chhatrapati Shivaji Terminus",
+          "latitude": 18.9401,
+          "longitude": 72.8355,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_mum_3",
+          "name": "Marine Drive",
+          "description": "The Queen's Necklace.",
+          "latitude": 18.9440,
+          "longitude": 72.8231,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_mum_4",
+          "name": "Elephanta Ferry Point",
+          "latitude": 18.9213,
+          "longitude": 72.8330,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "Bollywood Star Hunt",
+      "description": "Audition for the biggest movie of the year.",
+      "author": "Cinema City",
+      "sha256": "b2c3d4e5f67890abcdef1234567890abcdef123456a1b2c3d4e5f6789012345",
+      "sizeBytes": 25000000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_mumbai_star.zip",
+      "createdAt": "2024-03-20T11:00:00Z",
+      "tags": ["movies", "dance", "crowds"],
+      "difficulty": "Easy",
+      "estimatedMinutes": 60
+    },
+    {
+      "id": "ep_singapore_garden",
+      "version": 3,
+      "localization": {
+        "city": "Singapore",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "centerLatitude": 1.3521,
+        "centerLongitude": 103.8198
+      },
+      "points": [
+        {
+          "id": "pt_sg_1",
+          "name": "Merlion Park",
+          "latitude": 1.2868,
+          "longitude": 103.8545,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_sg_2",
+          "name": "Marina Bay Sands Skypark",
+          "latitude": 1.2825,
+          "longitude": 103.8587,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_sg_3",
+          "name": "Cloud Forest",
+          "latitude": 1.2842,
+          "longitude": 103.8659,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_sg_4",
+          "name": "Gardens by the Bay",
+          "description": "The central mainframe.",
+          "latitude": 1.2816,
+          "longitude": 103.8636,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "Botanic A.I.",
+      "description": "The Supertrees have gained consciousness.",
+      "author": "Lion City Labs",
+      "sha256": "c3d4e5f67890abcdef1234567890abcdef123456a1b2c3d4e5f678901234567",
+      "sizeBytes": 22200000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_singapore_garden.zip",
+      "createdAt": "2024-03-22T15:00:00Z",
+      "tags": ["scifi", "nature", "family"],
+      "difficulty": "Medium",
+      "estimatedMinutes": 55
+    },
+    {
+      "id": "ep_edinburgh_ghost",
+      "version": 2,
+      "localization": {
+        "city": "Edinburgh",
+        "region": "Scotland",
+        "country": "United Kingdom",
+        "countryCode": "GB",
+        "centerLatitude": 55.9533,
+        "centerLongitude": -3.1883
+      },
+      "points": [
+        {
+          "id": "pt_edi_1",
+          "name": "Royal Mile",
+          "latitude": 55.9501,
+          "longitude": -3.1883,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_edi_2",
+          "name": "Mary King's Close",
+          "description": "Underground streets.",
+          "latitude": 55.9503,
+          "longitude": -3.1904,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_edi_3",
+          "name": "Arthur's Seat",
+          "latitude": 55.9441,
+          "longitude": -3.1618,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_edi_4",
+          "name": "Edinburgh Castle",
+          "description": "The haunted halls.",
+          "latitude": 55.9486,
+          "longitude": -3.1999,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "Castle Hauntings",
+      "description": "The piper's ghost is playing again.",
+      "author": "Highland Horrors",
+      "sha256": "d4e5f67890abcdef1234567890abcdef123456a1b2c3d4e5f6789012345678",
+      "sizeBytes": 17500000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_edinburgh_ghost.zip",
+      "createdAt": "2024-03-25T19:00:00Z",
+      "tags": ["ghost", "history", "scary"],
+      "difficulty": "Hard",
+      "estimatedMinutes": 80
+    },
+    {
+      "id": "ep_krakow_dragon",
+      "version": 2,
+      "localization": {
+        "city": "Krakow",
+        "region": "Lesser Poland",
+        "country": "Poland",
+        "countryCode": "PL",
+        "centerLatitude": 50.0647,
+        "centerLongitude": 19.9450
+      },
+      "points": [
+        {
+          "id": "pt_krk_1",
+          "name": "Main Market Square",
+          "latitude": 50.0617,
+          "longitude": 19.9373,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_krk_2",
+          "name": "Cloth Hall",
+          "latitude": 50.0616,
+          "longitude": 19.9373,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_krk_3",
+          "name": "Wawel Castle",
+          "latitude": 50.0540,
+          "longitude": 19.9354,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_krk_4",
+          "name": "Dragon's Den",
+          "description": "The cave by the river.",
+          "latitude": 50.0536,
+          "longitude": 19.9340,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "The Wawel Dragon",
+      "description": "Feed the dragon before it wakes up.",
+      "author": "Slavic Myths",
+      "sha256": "e5f67890abcdef1234567890abcdef123456a1b2c3d4e5f678901234567890",
+      "sizeBytes": 14900000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_krakow_dragon.zip",
+      "createdAt": "2024-03-28T10:00:00Z",
+      "tags": ["legend", "kids", "fun"],
+      "difficulty": "Easy",
+      "estimatedMinutes": 50
+    },
+    {
+      "id": "ep_toronto_climb",
+      "version": 2,
+      "localization": {
+        "city": "Toronto",
+        "region": "Ontario",
+        "country": "Canada",
+        "countryCode": "CA",
+        "centerLatitude": 43.6532,
+        "centerLongitude": -79.3832
+      },
+      "points": [
+        {
+          "id": "pt_to_1",
+          "name": "Harbourfront Centre",
+          "latitude": 43.6391,
+          "longitude": -79.3813,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_to_2",
+          "name": "Rogers Centre",
+          "latitude": 43.6414,
+          "longitude": -79.3894,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_to_3",
+          "name": "Ripley's Aquarium",
+          "latitude": 43.6424,
+          "longitude": -79.3859,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_to_4",
+          "name": "CN Tower",
+          "description": "The final ascent.",
+          "latitude": 43.6426,
+          "longitude": -79.3871,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "CN Tower Climb",
+      "description": "Race to the top of the tower.",
+      "author": "Maple Movers",
+      "sha256": "f67890abcdef1234567890abcdef123456a1b2c3d4e5f67890123456789012",
+      "sizeBytes": 19800000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_toronto_climb.zip",
+      "createdAt": "2024-03-30T13:00:00Z",
+      "tags": ["sport", "views", "city"],
+      "difficulty": "Hard",
+      "estimatedMinutes": 60
+    },
+    {
+      "id": "ep_seoul_idol",
+      "version": 5,
+      "localization": {
+        "city": "Seoul",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "centerLatitude": 37.5665,
+        "centerLongitude": 126.9780
+      },
+      "points": [
+        {
+          "id": "pt_seo_1",
+          "name": "Myeongdong Shopping Street",
+          "latitude": 37.5609,
+          "longitude": 126.9859,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_seo_2",
+          "name": "N Seoul Tower",
+          "latitude": 37.5512,
+          "longitude": 126.9882,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_seo_3",
+          "name": "Gyeongbokgung Palace",
+          "latitude": 37.5796,
+          "longitude": 126.9770,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_seo_4",
+          "name": "Gangnam District",
+          "description": "The concert venue.",
+          "latitude": 37.4979,
+          "longitude": 127.0276,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "Idol Disappearance",
+      "description": "Find the K-Pop star before the concert starts.",
+      "author": "Hallyu Heroes",
+      "sha256": "7890abcdef1234567890abcdef123456a1b2c3d4e5f6789012345678901234",
+      "sizeBytes": 27000000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_seoul_idol.zip",
+      "createdAt": "2024-04-02T09:00:00Z",
+      "tags": ["pop", "music", "youth"],
+      "difficulty": "Medium",
+      "estimatedMinutes": 75
+    },
+    {
+      "id": "ep_lisbon_map",
+      "version": 2,
+      "localization": {
+        "city": "Lisbon",
+        "country": "Portugal",
+        "countryCode": "PT",
+        "centerLatitude": 38.7223,
+        "centerLongitude": -9.1393
+      },
+      "points": [
+        {
+          "id": "pt_lis_1",
+          "name": "Praça do Comércio",
+          "latitude": 38.7075,
+          "longitude": -9.1364,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_lis_2",
+          "name": "Tram 28 Stop (Alfama)",
+          "latitude": 38.7121,
+          "longitude": -9.1299,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_lis_3",
+          "name": "Jerónimos Monastery",
+          "latitude": 38.6970,
+          "longitude": -9.2064,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_lis_4",
+          "name": "Belém Tower",
+          "description": "X marks the spot.",
+          "latitude": 38.6916,
+          "longitude": -9.2160,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "Navigator's Map",
+      "description": "Retrace the steps of the great explorers.",
+      "author": "Atlantic Quests",
+      "sha256": "890abcdef1234567890abcdef123456a1b2c3d4e5f67890123456789012345",
+      "sizeBytes": 16400000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_lisbon_map.zip",
+      "createdAt": "2024-04-05T14:00:00Z",
+      "tags": ["history", "ocean", "puzzle"],
+      "difficulty": "Medium",
+      "estimatedMinutes": 70
+    },
+    {
+      "id": "ep_vienna_mozart",
+      "version": 2,
+      "localization": {
+        "city": "Vienna",
+        "country": "Austria",
+        "countryCode": "AT",
+        "centerLatitude": 48.2082,
+        "centerLongitude": 16.3738
+      },
+      "points": [
+        {
+          "id": "pt_vie_1",
+          "name": "Vienna State Opera",
+          "latitude": 48.2030,
+          "longitude": 16.3691,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_vie_2",
+          "name": "Hofburg Palace",
+          "latitude": 48.2065,
+          "longitude": 16.3634,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_vie_3",
+          "name": "Prater Park",
+          "latitude": 48.2173,
+          "longitude": 16.3976,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_vie_4",
+          "name": "St. Stephen's Cathedral",
+          "description": "The musical finale.",
+          "latitude": 48.2085,
+          "longitude": 16.3731,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "Lost Symphony",
+      "description": "Find the missing pages of Mozart's final work.",
+      "author": "Classical Mysteries",
+      "sha256": "90abcdef1234567890abcdef123456a1b2c3d4e5f678901234567890123456",
+      "sizeBytes": 18800000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_vienna_mozart.zip",
+      "createdAt": "2024-04-08T10:00:00Z",
+      "tags": ["music", "history", "culture"],
+      "difficulty": "Hard",
+      "estimatedMinutes": 80
+    },
+    {
+      "id": "ep_mexico_aztec",
+      "version": 3,
+      "localization": {
+        "city": "Mexico City",
+        "country": "Mexico",
+        "countryCode": "MX",
+        "centerLatitude": 19.4326,
+        "centerLongitude": -99.1332
+      },
+      "points": [
+        {
+          "id": "pt_mex_1",
+          "name": "Palace of Fine Arts",
+          "latitude": 19.4352,
+          "longitude": -99.1412,
+          "isMainPoint": true,
+          "order": 1
+        },
+        {
+          "id": "pt_mex_2",
+          "name": "Zócalo",
+          "latitude": 19.4326,
+          "longitude": -99.1332,
+          "isMainPoint": false,
+          "order": 2
+        },
+        {
+          "id": "pt_mex_3",
+          "name": "Templo Mayor",
+          "description": "Digsite entrance.",
+          "latitude": 19.4349,
+          "longitude": -99.1313,
+          "isMainPoint": false,
+          "order": 3
+        },
+        {
+          "id": "pt_mex_4",
+          "name": "Chapultepec Castle",
+          "description": "The final altar.",
+          "latitude": 19.4204,
+          "longitude": -99.1822,
+          "isMainPoint": true,
+          "order": 4
+        }
+      ],
+      "name": "The Sun Stone",
+      "description": "Prevent the eternal eclipse.",
+      "author": "Aztec Adventures",
+      "sha256": "0abcdef1234567890abcdef123456a1b2c3d4e5f6789012345678901234567",
+      "sizeBytes": 21500000,
+      "downloadUrl": "https://cdn.example.com/episodes/ep_mexico_aztec.zip",
+      "createdAt": "2024-04-10T12:00:00Z",
+      "tags": ["history", "mythology", "puzzle"],
+      "difficulty": "Hard",
+      "estimatedMinutes": 90
+    }
+  ]
+}
