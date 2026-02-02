@@ -4,7 +4,7 @@
 	"episodes": [
 		{
 			"id": "ep_sek_w_tym",
-			"version": 1,
+			"version": 2,
 			"localization": {
 				"city": "Warsaw",
 				"region": "Aleksandrow",
