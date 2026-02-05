@@ -1,0 +1,582 @@
+{
+	"id": "ep_sek_w_tym",
+	"version": 3,
+	"localization": {
+		"city": "Warsaw",
+		"region": "Aleksandrow",
+		"country": "Poland",
+		"countryCode": "PL",
+		"centerLatitude": 52.1650, 
+		"centerLongitude": 21.2430
+	},
+	"points": [
+		{
+			"id": "ep_sek_w_tym_p1",
+			"name": "Dom gdzie cicho dzwoni",
+			"description": "Historia zaczyna się, w sercu Aleksandrowa.",
+			"latitude": 52.1650,
+			"longitude": 21.2430,
+			"isMainPoint": true,
+			"order": 1
+		},
+		{
+			"id": "ep_sek_w_tym_p2",
+			"name": "Zbytkowa leśniczówka",
+			"description": "Gdzie leśnik nie narąbie, tam zmarły nie poleży",
+			"latitude": 52.1645, 
+			"longitude": 21.2475,
+			"isMainPoint": false,
+			"order": 2
+		},
+		{
+			"id": "ep_sek_w_tym_p3",
+			"name": "Bar przy stajni",
+			"description": "Teraz wszystko w rękach konia",
+			"latitude": 52.1615,
+			"longitude": 21.2455,
+			"isMainPoint": false,
+			"order": 3
+		},
+		{
+			"id": "ep_sek_w_tym_p4",
+			"name": "Borowe górsko",
+			"description": "Bunkrów nie ma",
+			"latitude": 52.1600, 
+			"longitude": 21.2400,
+			"isMainPoint": false,
+			"order": 4
+		},
+		{
+			"id": "ep_sek_w_tym_p5",
+			"name": "Dom w stylu świder bajer",
+			"description": "Ciche miejsce z głośną przeszłością",
+			"latitude": 52.1537, 
+			"longitude": 21.2317,
+			"isMainPoint": false,
+			"order": 5
+		}
+	],
+	
+	"name": "Sęk w tym",
+	"description": "W oczekiwaniu na wyrwanie z rutyny codzienności słychać nagle dzwonek do drzwi. Jednakże po zaoferowanym otworzeniu drzwi nie widać żadnych gości, nie widać nawet spodziewanego kuriera, widać tylko wielką drewnianą kłodę. Ogólnie rzecz biorąc - porąbana sprawa.",
+	"author": "SkuVany",
+	"sha256": "c745eac6e6ddda293ef85b972c491e4e11b68e73929af1ca9beb95ac47027f5c",
+	"sizeBytes": 16803432,
+	"downloadUrl": "https://cdn.example.com/episodes/ep_sek_w_tym/v1/ep_sek_w_tym_v1.zip",
+	"createdAt": "2026-01-26T00:00:00Z",
+	"updatedAt": "2026-01-26T00:00:00Z",
+	"tags": ["Zagadka", "Fabuła", "Wędrówka"],
+	"thumbnailUrl": "https://cdn.example.com/thumbnails/ep_sek_w_tym.webp",
+	"difficulty": "Średni",
+	"estimatedMinutes": 45,
+	
+	"bases": {
+		"base_characters": [
+			{
+				"id": 1,
+				"name": "Babcia Grażynka",
+				"description": "Wynajmuje Ci piętro bo nie stać Ciebie na własne biuro, a poza tym Babcia żyje w tym mieście całkiem długo i wie to i owo.",
+				"image_url": "first/url.png",
+				"qr_decoded": "first_qr"
+			},
+			{
+				"id": 2,
+				"name": "Wspólnik Szewczyk",
+				"description": "Twój wspólnik i najlepsza mordzia - praca w terenie to nie jego brocha, ale ma kontakty i jest w stanie pozyskać prawie każdą informację",
+				"image_url": "second/url.png",
+				"qr_decoded": "second_qr"
+			}, 
+			{
+				"id": 3,
+				"name": "Leśniczy Zbyszek",
+				"description": "description",
+				"image_url": "image/url.png",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 4,
+				"name": "Leśniczy Leszek",
+				"description": "description",
+				"image_url": "image/url.png",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 5,
+				"name": "Barmanka Barbara",
+				"description": "description",
+				"image_url": "image/url.png",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 6,
+				"name": "Turystka Tereska",
+				"description": "description",
+				"image_url": "image/url.png",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 7,
+				"name": "Grzybiarz Grzegorz",
+				"description": "description",
+				"image_url": "image/url.png",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 8,
+				"name": "Harcerz Hugo",
+				"description": "description",
+				"image_url": "image/url.png",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 9,
+				"name": "Ekolożka Emilia",
+				"description": "description",
+				"image_url": "image/url.png",
+				"qr_decoded": "code_qr_after_decoded"
+			}
+			
+			
+		],
+		"base_clues": [
+			{
+				"id": 1,
+				"name": "Wielki Pień",
+				"description": "Lepiej mieć z kimś tylko na pieńku niż niezakopany wojenny topór",
+				"image_url": "image/url.png",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 2,
+				"name": "Czerwone korale",
+				"description": "Niczym wino korale z owoców jarzębiny",
+				"image_url": "image/url.png",
+				"qr_decoded": "code_qr_after_decoded"
+			}, 
+			{
+				"id": 3,
+				"name": "Uzda bez wędzidła",
+				"description": "No bez nich to można już puścić wodze fantazji",
+				"image_url": "image/url.png",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 4,
+				"name": "Baranie rogi",
+				"description": "Sytuacja robi się zakręcona jak nie powiem co ",
+				"image_url": "image/url.png",
+				"qr_decoded": "code_qr_after_decoded"
+			}
+		],
+		"base_enigmas": [
+			{
+				"id": 1,
+				"name": "Na Pieńku",
+				"description": "Kto zostawił pod drzwiami Wielki Pień?",
+				"image_url": "image/url.png",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 2,
+				"name": "Klucze do lasu",
+				"description": "Kto zabrał klucze do lasu?",
+				"image_url": "image/url.png",
+				"qr_decoded": "code_qr_after_decoded"
+			}, 
+			{
+				"id": 3,
+				"name": "Porzucone korale",
+				"description": "Do kogo należały Czerwone korale?",
+				"image_url": "image/url.png",
+				"qr_decoded": "code_qr_after_decoded"
+			}, 
+			{
+				"id": 4,
+				"name": "Wy-uzdana sytuacja",
+				"description": "Kto ukradł wędzidełko z końskiej uzdy?",
+				"image_url": "image/url.png",
+				"qr_decoded": "code_qr_after_decoded"
+			}, 
+			{
+				"id": 5,
+				"name": "Ajajaj",
+				"description": "Na co mu było tyle jaj?",
+				"image_url": "image/url.png",
+				"qr_decoded": "code_qr_after_decoded"
+			}
+		],
+		"base_locations": [
+			{
+				"id": "ep_sek_w_tym_p1",
+				"name": "Dom gdzie cicho dzwoni",
+				"description": "Historia zaczyna się, w sercu Aleksandrowa.",
+				"latitude": 52.1650,
+				"longitude": 21.2430,
+				"characters": [1, 2],
+				"image_url": "first/url.png",
+				"qr_decoded": "first_qr"
+			},
+			{
+				"id": "ep_sek_w_tym_p2",
+				"name": "Zbytkowa leśniczówka",
+				"description": "Gdzie leśnik nie narąbie, tam zmarły nie poleży",
+				"latitude": 52.1645, 
+				"longitude": 21.2475,
+				"characters": [3],
+				"image_url": "second/url.png",
+				"qr_decoded": "second_qr"
+			}, 
+			{
+				"id": "ep_sek_w_tym_p3",
+				"name": "Bar przy stajni",
+				"description": "Teraz wszystko w rękach konia",
+				"latitude": 52.1615,
+				"longitude": 21.2455,
+				"characters": [4, 5, 6],
+				"image_url": "third/url.png",
+				"qr_decoded": "third_qr"
+			},
+			{
+				"id": "ep_sek_w_tym_p4",
+				"name": "Borowe górsko",
+				"description": "Bunkrów nie ma",
+				"latitude": 52.1600, 
+				"longitude": 21.2400,
+				"characters": [7],
+				"image_url": "fourth/url.png",
+				"qr_decoded": "fourth_qr"
+			},
+			{
+				"id": "ep_sek_w_tym_p5",
+				"name": "Dom w stylu świder bajer",
+				"description": "Ciche miejsce z głośną przeszłością",
+				"latitude": 52.1537, 
+				"longitude": 21.2317,
+				"characters": [8, 9],
+				"image_url": "fifth/url.png",
+				"qr_decoded": "fifth_qr"
+			}
+		]
+	},
+
+	"dialogsMatrices": {
+		"dialogs_matrix_characters": 
+			[[0, 45, 0, 0, 2, 0, 0, 19, 0 ],
+			 [0, 0, 30, 0, 0, 4, 0, 0, 12 ],
+			 [1, 0, 0, 18, 0, 0, 22, 0, 0 ],
+			 [0, 33, 0, 0, 44, 0, 0, 15, 0],
+			 [27, 0, 3, 49, 0, 0, 5, 0, 0 ],
+			 [0, 16, 0, 0, 10, 0, 0, 25, 0],
+			 [0, 0, 38, 0, 0, 41, 0, 8, 0 ],
+			 [0, 0, 33, 0, 7, 0, 13, 0, 0 ],
+			 [29, 0, 0, 14, 0, 0, 9, 0, 11]],
+		"dialogs_matrix_clues":
+			[[3, 0, 5, 16],
+			[0, 18, 0, 1],
+			[10, 0, 7, 0],
+			[0, 11, 0, 0],
+			[0, 4, 15, 0],
+			[13, 6, 0, 9],
+			[0, 0, 12, 0],
+			[2, 14, 0, 0],
+			[0, 0, 8, 17]],
+		"dialogs_matrix_enigmas":
+			[[4, 0, 0, 13, 5],
+			[0, 12, 0, 0, 14],
+			[0, 0, 16, 0, 0],
+			[6, 0, 9, 17, 0],
+			[0, 10, 0, 5, 19],
+			[0, 0, 18, 0, 0],
+			[11, 0, 0, 0, 2],
+			[7, 0, 1, 14, 0],
+			[0, 15, 0, 3, 8]],
+		"dialogs_matrix_locations":
+			[[0, 14, 0, 0, 5],
+			[19, 0, 0, 3, 0],
+			[6, 13, 0, 0, 7],
+			[0, 1, 16, 0, 0],
+			[17, 0, 0, 10, 0],
+			[0, 12, 0, 0, 8],
+			[0, 0, 0, 4, 18],
+			[0, 0, 0, 15, 0],
+			[2, 0, 11, 0, 9]]
+	},
+
+	"itemsDialogs":{
+		"items_dialogs_characters": [
+			{
+				"id": 1,
+				"content": "first_dialog_text",
+				"characters": [3],
+				"clues": [7, 2, 18],
+				"enigmas": [],
+				"locations": [],
+				"switch": 3
+			},
+			{
+				"id": 2,
+				"content": "second_dialog_text",
+				"characters": [1, 5],
+				"clues": [],
+				"enigmas": [12],
+				"locations": [2],
+				"switch": 8
+			},
+			{
+				"id": 3,
+				"content": "third_dialog_text",
+				"characters": [],
+				"clues": [4],
+				"enigmas": [9, 15, 22],
+				"locations": [],
+				"switch": 7
+			}
+		],
+		"items_dialogs_clues": [
+			{
+				"id": 1,
+				"content": "first_dialog_text",
+				"characters": [3],
+				"clues": [7, 2, 18],
+				"enigmas": [],
+				"locations": [],
+				"switch": 2
+			},
+			{
+				"id": 2,
+				"content": "second_dialog_text",
+				"characters": [1, 5],
+				"clues": [],
+				"enigmas": [12],
+				"locations": [2],
+				"switch": 10
+			},
+			{
+				"id": 3,
+				"content": "third_dialog_text",
+				"characters": [],
+				"clues": [4],
+				"enigmas": [9, 15, 22],
+				"locations": [],
+				"switch": 4
+			}
+		],
+		"items_dialogs_enigmas": [
+			{
+				"id": 1,
+				"content": "first_dialog_text",
+				"characters": [3],
+				"clues": [7, 2, 18],
+				"enigmas": [],
+				"locations": [],
+				"switch": 9
+			},
+			{
+				"id": 2,
+				"content": "second_dialog_text",
+				"characters": [1, 5],
+				"clues": [],
+				"enigmas": [12],
+				"locations": [2],
+				"switch": 1
+			},
+			{
+				"id": 3,
+				"content": "third_dialog_text",
+				"characters": [],
+				"clues": [4],
+				"enigmas": [9, 15, 22],
+				"locations": [],
+				"switch": 5
+			}
+		],
+		"items_dialogs_loactions": [
+			{
+				"id": 1,
+				"content": "first_dialog_text",
+				"characters": [3],
+				"clues": [7, 2, 18],
+				"enigmas": [],
+				"locations": [],
+				"switch": 12
+			},
+			{
+				"id": 2,
+				"content": "second_dialog_text",
+				"characters": [1, 5],
+				"clues": [],
+				"enigmas": [12],
+				"locations": [2],
+				"switch": 6
+			},
+			{
+				"id": 3,
+				"content": "third_dialog_text",
+				"characters": [],
+				"clues": [4],
+				"enigmas": [9, 15, 22],
+				"locations": [],
+				"switch": 11
+			}
+		]
+	},
+
+	"switches" : {
+		"switches_characters": [
+			{
+				"id": 1,
+				"group_name": "clues",
+				"id_character": 3,
+				"id_group_item": 12,
+				"id_new_dialog": 101
+			},
+			{
+				"id": 2,
+				"group_name": "characters",
+				"id_character": 7,
+				"id_group_item": 8,
+				"id_new_dialog": 102
+			},
+			{
+				"id": 3,
+				"group_name": "clues",
+				"id_character": 13,
+				"id_group_item": 2,
+				"id_new_dialog": 103
+			},
+			{
+				"id": 4,
+				"group_name": "enigmas",
+				"id_character": 15,
+				"id_group_item": 4,
+				"id_new_dialog": 104
+			},
+			{
+				"id": 5,
+				"group_name": "locations",
+				"id_character": 11,
+				"id_group_item": 10,
+				"id_new_dialog": 105
+			}
+		],
+		"switches_clues": [
+			{
+				"id": 1,
+				"group_name": "clues",
+				"id_character": 3,
+				"id_group_item": 12,
+				"id_new_dialog": 101
+			},
+			{
+				"id": 2,
+				"group_name": "characters",
+				"id_character": 7,
+				"id_group_item": 8,
+				"id_new_dialog": 102
+			},
+			{
+				"id": 3,
+				"group_name": "clues",
+				"id_character": 13,
+				"id_group_item": 2,
+				"id_new_dialog": 103
+			},
+			{
+				"id": 4,
+				"group_name": "enigmas",
+				"id_character": 15,
+				"id_group_item": 4,
+				"id_new_dialog": 104
+			},
+			{
+				"id": 5,
+				"group_name": "locations",
+				"id_character": 11,
+				"id_group_item": 10,
+				"id_new_dialog": 105
+			}
+		],
+		"switches_enigmas": [
+			{
+				"id": 1,
+				"group_name": "clues",
+				"id_character": 3,
+				"id_group_item": 12,
+				"id_new_dialog": 101
+			},
+			{
+				"id": 2,
+				"group_name": "characters",
+				"id_character": 7,
+				"id_group_item": 8,
+				"id_new_dialog": 102
+			},
+			{
+				"id": 3,
+				"group_name": "clues",
+				"id_character": 13,
+				"id_group_item": 2,
+				"id_new_dialog": 103
+			},
+			{
+				"id": 4,
+				"group_name": "enigmas",
+				"id_character": 15,
+				"id_group_item": 4,
+				"id_new_dialog": 104
+			},
+			{
+				"id": 5,
+				"group_name": "locations",
+				"id_character": 11,
+				"id_group_item": 10,
+				"id_new_dialog": 105
+			}
+		],
+		"switches_locations": [
+			{
+				"id": 1,
+				"group_name": "clues",
+				"id_character": 3,
+				"id_group_item": 12,
+				"id_new_dialog": 101
+			},
+			{
+				"id": 2,
+				"group_name": "characters",
+				"id_character": 7,
+				"id_group_item": 8,
+				"id_new_dialog": 102
+			},
+			{
+				"id": 3,
+				"group_name": "clues",
+				"id_character": 13,
+				"id_group_item": 2,
+				"id_new_dialog": 103
+			},
+			{
+				"id": 4,
+				"group_name": "enigmas",
+				"id_character": 15,
+				"id_group_item": 4,
+				"id_new_dialog": 104
+			},
+			{
+				"id": 5,
+				"group_name": "locations",
+				"id_character": 11,
+				"id_group_item": 10,
+				"id_new_dialog": 105
+			}
+		]
+	},
+	
+	"unlocked": {
+		"unlocked_characters": [1, 2],
+		"unlocked_clues": [1],
+		"unlocked_enigmas": [1],
+		"unlocked_locations": [1]
+	}
+
+}

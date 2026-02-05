@@ -4,7 +4,7 @@
 	"episodes": [
 		{
 			"id": "ep_sek_w_tym",
-			"version": 3,
+			"version": 4,
 			"localization": {
 				"city": "Warsaw",
 				"region": "Aleksandrow",
@@ -63,13 +63,13 @@
 			"name": "Oczekiwana niespodziewajka",
 			"description": "W oczekiwaniu na wyrwanie z rutyny codzienności słychać nagle dzwonek do drzwi. Jednakże po zaoferowanym otworzeniu drzwi nie widać żadnych gości, nie widać nawet spodziewanego kuriera, widać tylko wielką drewnianą kłodę. Ogólnie rzecz biorąc - porąbana sprawa.",
 			"author": "Czermosz",
-			"sha256": "2cef58e8505ace9318b88fc832b5d09a61de024c5e115d5f78d1b2ed32c0d3f8",
+			"sha256": "16f01a86ca7dd0e95ec92f4f5969f44b03b2c5d08c4f70ce6a067ecbf6d8deaa",
 			"sizeBytes": 2925,
-			"downloadUrl": "https://cdn.jsdelivr.net/gh/SkrybaOtis/strt_mstr_invests@latest/episodes/ep_sek_w_tym/v3/ep_sek_w_tym_v3.zip",
+			"downloadUrl": "https://cdn.jsdelivr.net/gh/SkrybaOtis/strt_mstr_invests@latest/episodes/ep_sek_w_tym/v4/ep_sek_w_tym_v4.zip",
 			"createdAt": "2026-01-26T00:00:00Z",
 			"updatedAt": "2026-01-26T00:00:00Z",
 			"tags": ["Zagadka", "Fabuła", "Wędrówka"],
-			"thumbnailUrl": "https://cdn.jsdelivr.net/gh/SkrybaOtis/strt_mstr_invests@latest/episodes/ep_sek_w_tym/v3/ep_sek_w_tym_image.webp",
+			"thumbnailUrl": "https://cdn.jsdelivr.net/gh/SkrybaOtis/strt_mstr_invests@latest/episodes/ep_sek_w_tym/ep_sek_w_tym_image.webp",
 			"difficulty": "Medium",
 			"estimatedMinutes": 45
 		},
