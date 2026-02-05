@@ -65,11 +65,11 @@
 			"author": "Czermosz",
 			"sha256": "c745eac6e6ddda293ef85b972c491e4e11b68e73929af1ca9beb95ac47027f5c",
 			"sizeBytes": 2925,
-			"downloadUrl": "https://cdn.jsdelivr.net/gh/SkrybaOtis/strt_mstr_invests@latest/episodes/ep_sek_w_tym/v2/ep_sek_w_tym_v2.zip",
+			"downloadUrl": "https://cdn.jsdelivr.net/gh/SkrybaOtis/strt_mstr_invests@latest/episodes/ep_sek_w_tym/v3/ep_sek_w_tym_v3.zip",
 			"createdAt": "2026-01-26T00:00:00Z",
 			"updatedAt": "2026-01-26T00:00:00Z",
 			"tags": ["Zagadka", "Fabuła", "Wędrówka"],
-			"thumbnailUrl": "https://cdn.example.com/thumbnails/ep_sek_w_tym.webp",
+			"thumbnailUrl": "https://cdn.jsdelivr.net/gh/SkrybaOtis/strt_mstr_invests@latest/episodes/ep_sek_w_tym/v3/ep_sek_w_tym.webp",
 			"difficulty": "Medium",
 			"estimatedMinutes": 45
 		},
