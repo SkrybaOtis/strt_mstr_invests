@@ -130,7 +130,6 @@
 				"qr_decoded": "code_qr_after_decoded"
 			}
 			
-			
 		],
 		"base_clues": [
 			{
@@ -333,7 +332,7 @@
 				"enigmas": [],
 				"locations": [],
 				"switch": 0
-			},
+			}
 		],
 		"items_dialogs_clues": [
 			{
@@ -375,8 +374,8 @@
 		],
 		"items_dialogs_enigmas": [
 			{
-				"id": "Skąd się wzięła kłoda przed domem? A skąd ja miałabym to wiedzieć. Wiem, że to słabe alibi, ale z racji wieku to chyba mało prawdopodobne, bym to ja to tutaj przytargała. Skoro to drewno z lasu, to pewnie w leśniczówce będą więcej mogli coś na jego temat powiedzieć",
-				"content": "first_dialog_text",
+				"id": 1,
+				"content": "Skąd się wzięła kłoda przed domem? A skąd ja miałabym to wiedzieć. Wiem, że to słabe alibi, ale z racji wieku to chyba mało prawdopodobne, bym to ja to tutaj przytargała. Skoro to drewno z lasu, to pewnie w leśniczówce będą więcej mogli coś na jego temat powiedzieć",
 				"characters": [],
 				"clues": [],
 				"enigmas": [],
@@ -601,3 +600,5 @@
 	}
 
 }
+
+
