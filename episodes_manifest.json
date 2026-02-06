@@ -65,11 +65,11 @@
 			"author": "SkuVany",
 			"sha256": "21ba4cb03eb8651e8bf3d7df0e0e917dbec4ae00f8378c1e3c43e82f167d2d2e",
 			"sizeBytes": 4341,
-			"downloadUrl": "episodes/ep_sek_w_tym/v1/ep_sek_w_tym_v1.zip",
+			"downloadUrl": "/episodes/ep_sek_w_tym/v1/ep_sek_w_tym_v1.zip",
 			"createdAt": "2026-01-26T00:00:00Z",
 			"updatedAt": "2026-01-26T00:00:00Z",
 			"tags": ["Zagadka", "Fabuła", "Wędrówka"],
-			"thumbnailUrl": "episodes/ep_sek_w_tym/ep_sek_w_tym_image.webp",
+			"thumbnailUrl": "/episodes/ep_sek_w_tym/ep_sek_w_tym_image.webp",
 			"difficulty": "Medium",
 			"estimatedMinutes": 45
 		},
