@@ -136,28 +136,28 @@
 				"id": 1,
 				"name": "Wielki Pień",
 				"description": "Lepiej mieć z kimś tylko na pieńku niż niezakopany wojenny topór",
-				"image_url": "images/url.png",
+				"image_url": "images/wielki_pien.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			},
 			{
 				"id": 2,
 				"name": "Czerwone korale",
 				"description": "Niczym wino korale z owoców jarzębiny",
-				"image_url": "images/url.png",
+				"image_url": "images/czerwone_korale.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			}, 
 			{
 				"id": 3,
 				"name": "Uzda bez wędzidła",
 				"description": "No bez nich to można już puścić wodze fantazji",
-				"image_url": "images/url.png",
+				"image_url": "images/uzda_bez_wedzidla.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			},
 			{
 				"id": 4,
 				"name": "Baranie rogi",
 				"description": "Sytuacja robi się zakręcona jak nie powiem co ",
-				"image_url": "images/url.png",
+				"image_url": "images/baranie_rogi.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			}
 		],
@@ -166,41 +166,41 @@
 				"id": 1,
 				"name": "Na Pieńku",
 				"description": "Kto zostawił pod drzwiami Wielki Pień?",
-				"image_url": "images/url.png",
+				"image_url": "images/na_pienku.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			},
 			{
 				"id": 2,
 				"name": "Klucze do lasu",
 				"description": "Kto zabrał klucze do lasu?",
-				"image_url": "images/url.png",
+				"image_url": "images/klucze_do_lasu.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			}, 
 			{
 				"id": 3,
 				"name": "Porzucone korale",
 				"description": "Do kogo należały Czerwone korale?",
-				"image_url": "images/url.png",
+				"image_url": "images/porzucone_korale.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			}, 
 			{
 				"id": 4,
 				"name": "Wy-uzdana sytuacja",
 				"description": "Kto ukradł wędzidełko z końskiej uzdy?",
-				"image_url": "images/url.png",
+				"image_url": "images/wyuzdana_sytuacja.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			}, 
 			{
 				"id": 5,
 				"name": "Ajajaj",
 				"description": "Na co mu było tyle jaj?",
-				"image_url": "images/url.png",
+				"image_url": "images/ajajaj.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			}
 		],
 		"base_locations": [
 			{
-				"id": "ep_sek_w_tym_p1",
+				"id": "1",
 				"name": "Dom gdzie cicho dzwoni",
 				"description": "Historia zaczyna się, w sercu Aleksandrowa.",
 				"latitude": 52.1650,
@@ -210,7 +210,7 @@
 				"qr_decoded": "Dom gdzie cicho dzwoni"
 			},
 			{
-				"id": "ep_sek_w_tym_p2",
+				"id": "2",
 				"name": "Zbytkowa leśniczówka",
 				"description": "Gdzie leśnik nie narąbie, tam zmarły nie poleży",
 				"latitude": 52.1645, 
@@ -220,7 +220,7 @@
 				"qr_decoded": "Zbytkowa leśniczówka"
 			}, 
 			{
-				"id": "ep_sek_w_tym_p3",
+				"id": "3",
 				"name": "Bar przy stajni",
 				"description": "Teraz wszystko w rękach konia",
 				"latitude": 52.1615,
@@ -230,7 +230,7 @@
 				"qr_decoded": "Bar przy stajni"
 			},
 			{
-				"id": "ep_sek_w_tym_p4",
+				"id": "4",
 				"name": "Borowe górsko",
 				"description": "Bunkrów nie ma",
 				"latitude": 52.1600, 
@@ -240,7 +240,7 @@
 				"qr_decoded": "Borowe górsko"
 			},
 			{
-				"id": "ep_sek_w_tym_p5",
+				"id": "5",
 				"name": "Dom w stylu świder bajer",
 				"description": "Ciche miejsce z głośną przeszłością",
 				"latitude": 52.1537, 
@@ -284,15 +284,15 @@
 			[7, 0, 1, 14, 0],
 			[0, 15, 0, 3, 8]],
 		"dialogs_matrix_locations":
-			[[0, 14, 0, 0, 5],
-			[19, 0, 0, 3, 0],
-			[6, 13, 0, 0, 7],
-			[0, 1, 16, 0, 0],
-			[17, 0, 0, 10, 0],
-			[0, 12, 0, 0, 8],
-			[0, 0, 0, 4, 18],
-			[0, 0, 0, 15, 0],
-			[2, 0, 11, 0, 9]]
+			[[1, 0, 0, 0, 0],
+			[0, 2, 0, 0, 0],
+			[0, 0, 3, 0, 0],
+			[0, 0, 0, 4, 0],
+			[0, 0, 0, 0, 5],
+			[0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0]]
 	},
 
 	"itemsDialogs":{
@@ -376,7 +376,7 @@
 			{
 				"id": 1,
 				"content": "Skąd się wzięła kłoda przed domem? A skąd ja miałabym to wiedzieć. Wiem, że to słabe alibi, ale z racji wieku to chyba mało prawdopodobne, bym to ja to tutaj przytargała. Skoro to drewno z lasu, to pewnie w leśniczówce będą więcej mogli coś na jego temat powiedzieć",
-				"characters": [3, 4],
+				"characters": [],
 				"clues": [],
 				"enigmas": [],
 				"locations": [2],
