@@ -1,9 +1,9 @@
 {
-	"manifestVersion": 7,
+	"manifestVersion": 8,
 	"generatedAt": "2026-01-26T00:00:00Z",
 	"episodes": [
 		{
-			"id": "ep_krew_w_bawelnie",
+			"id": "ep_krew_na_bawelnie",
 			"version": 1,
 			"localization": {
 				"city": "Łódź",
@@ -73,11 +73,11 @@
 			"author": "Detektyw Przeszłości",
 			"sha256": "d82c09e4d57045b66b7bfadff9f7f394317caf2e5ccb7a2e10fa3409dc22e7ca",
 			"sizeBytes": 5523677,
-			"downloadUrl": "/episodes/ep_krew_w_bawelnie/v1/ep_krew_w_bawelnie_v1.zip",
+			"downloadUrl": "/episodes/ep_krew_na_bawelnie/v1/ep_krew_na_bawelnie_v1.zip",
 			"createdAt": "2026-01-26T00:00:00Z",
 			"updatedAt": "2026-01-26T00:00:00Z",
 			"tags": ["Zagadka", "Fabuła", "Wędrówka"],
-			"thumbnailUrl": "/episodes/ep_krew_w_bawelnie/ep_krew_w_bawelnie_image.webp",
+			"thumbnailUrl": "/episodes/ep_krew_na_bawelnie/ep_krew_na_bawelnie_image.webp",
 			"difficulty": "Medium",
 			"estimatedMinutes": 90
 		},
