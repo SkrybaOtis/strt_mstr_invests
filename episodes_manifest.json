@@ -1,7 +1,86 @@
 {
-	"manifestVersion": 4,
+	"manifestVersion": 7,
 	"generatedAt": "2026-01-26T00:00:00Z",
 	"episodes": [
+		{
+			"id": "ep_krew_w_bawelnie",
+			"version": 1,
+			"localization": {
+				"city": "Łódź",
+				"region": "Łódzkie",
+				"country": "Poland",
+				"countryCode": "PL",
+				"centerLatitude": 51.7500,
+				"centerLongitude": 19.4500
+			},
+			"points": [
+				{ 
+					"id": "ep_krew_na_bawelnie_p1", 
+					"name": "Pałac Herbsta", 
+					"description": "Rezydencja na Księżym Młynie, gdzie skradziono symbol potęgi Scheiblerów.", 
+					"latitude": 51.7483, 
+					"longitude": 19.4752, 
+					"isMainPoint": true, 
+					"order": 1 
+				},
+				{ 
+					"id": "ep_krew_na_bawelnie_p2", 
+					"name": "Biała Fabryka", 
+					"description": "Gmach Ludwika Geyera, w którym pod maszyną parową znaleziono zwłoki.", 
+					"latitude": 51.7444, 
+					"longitude": 19.4611, 
+					"isMainPoint": false, 
+					"order": 2 },
+				{ 
+					"id": "ep_krew_na_bawelnie_p3", 
+					"name": "Willa Grohmana", 
+					"description": "Siedziba komendanta straży ogniowej przy ul. Tylnej.", 
+					"latitude": 51.7490, 
+					"longitude": 19.4700, 
+					"isMainPoint": false, 
+					"order": 3 
+				},
+				{ 
+					"id": "ep_krew_na_bawelnie_p4", 
+					"name": "Widzewska Manufaktura", 
+					"description": "Dzielnica Kunitzera, gdzie robotniczy gniew miesza się z dymem kominów.", 
+					"latitude": 51.7600, 
+					"longitude": 19.5000, 
+					"isMainPoint": false, 
+					"order": 4 
+				},
+				{ 
+					"id": "ep_krew_na_bawelnie_p5", 
+					"name": "Fabryka Biedermanna", 
+					"description": "Farbiarnia nad rzeką Łódką, skąd pochodzi tajemniczy barwnik.", 
+					"latitude": 51.7800, 
+					"longitude": 19.4550, 
+					"isMainPoint": false, 
+					"order": 5 
+				},
+				{ 
+					"id": "ep_krew_na_bawelnie_p6", 
+					"name": "Stary Cmentarz", 
+					"description": "Miejsce wiecznego spoczynku, gdzie neogotyckie mauzolea skrywają prawdę.", 
+					"latitude": 51.7690, 
+					"longitude": 19.4350, 
+					"isMainPoint": false, 
+					"order": 6 
+				}
+			],
+			"name": "Krew na Bawełnie",
+			"description": "Z gabinetu Edwarda Herbsta znika Złoty Medal z Paryża. Gdy w Białej Fabryce zostaje znalezione ciało majstra umazane niebieską farbą, świat wielkiego kapitału drży w posadach. Czy to bankructwo, zazdrość, czy zemsta? W Łodzi roku 1893 pieniądze i krew mają ten sam kolor.",
+			"author": "Detektyw Przeszłości",
+			"sha256": "1dc9b0e72f966b553178d9dd7fc7eaffcc258ac695681e0b11958088d80d7c26",
+			"sizeBytes": 4341,
+			"downloadUrl": "/episodes/ep_krew_w_bawelnie/v1/ep_krew_w_bawelnie_v1.zip",
+			"createdAt": "2026-01-26T00:00:00Z",
+			"updatedAt": "2026-01-26T00:00:00Z",
+			"tags": ["Zagadka", "Fabuła", "Wędrówka"],
+			"thumbnailUrl": "/episodes/ep_krew_w_bawelnie/ep_krew_w_bawelnie_image.webp",
+			"difficulty": "Medium",
+			"estimatedMinutes": 90,
+		},
 		{
 			"id": "ep_sek_w_tym",
 			"version": 1,

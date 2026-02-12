@@ -1,0 +1,40 @@
+pomysły na rozwiązania:
+			{
+				"id": 1,
+				"name": "Na Pieńku",
+				"description": "Kto zostawił pod drzwiami Wielki Pień?",
+				"answer": "Ekolożka Emilia"
+				"comment": "Ma za złe, że leśnictwo wycina niewłaściwe drzewa. Żeby udowodnić, że leśniczy mylą się, co do tego, które drzewa są do wycięcia, postanowiła wyciąć jedno z chorych drzew jako przykład, ale zależało jej na tym by sprawa miała świadków. Stąd nie postawiła kłody bezpośrednio pod drzwiami leśnictwa, ale rozmieściła część kłod pod domami ludzi."
+				
+			},
+			{
+				"id": 2,
+				"name": "Klucze do lasu",
+				"description": "Kto zabrał klucze do lasu?",
+				"image_url": "klucze_do_lasu.webp",
+				"answer": "Babcia Grażynka"
+				"comment": "Babcia Grażyna i Leśniczy Zbyszek, uprawiają potajemną rywalizację polegającą na tym, że w nocy wykradają sobie nawzajem dość prywatne rzeczy udawadniając bycie bardziej chytrym niż przeciwnik."
+			}, 
+			{
+				"id": 3,
+				"name": "Porzucone korale",
+				"description": "Do kogo należały Czerwone korale?",
+				"image_url": "porzucone_korale.webp",
+				"answer": "Babcia Grażynka"
+				"comment": "Babcia Grażyna i Leśniczy Zbyszek, uprawiają potajemną rywalizację polegającą na tym, że w nocy wykradają sobie nawzajem dość prywatne rzeczy udawadniając bycie bardziej chytrym niż przeciwnik."
+			}, 
+			{
+				"id": 4,
+				"name": "Wy-uzdana sytuacja",
+				"description": "Kto ukradł wędzidełko z końskiej uzdy?",
+				"image_url": "wyuzdana_sytuacja.webp",
+				"answer": "Harcerz Hugo"
+				"comment": "Barmanka Barbara i Turystka Teresa widząc, że Grzybiarz Grzegorz smutnieje coraz bardziej i wywiadując się, że to przez poczucie braku przydatności, stwierdziły, że muszą zaangażować go do jakiejś sprawy, która będzie dla niego wyzwaniem, a będzie dawała poczucie bohaterstwa, więc namówiły Harcerza Hugo, aby ten wykorzystał swoje umiejętności, pokazał na co go stać i wykradł uzdę koniu tak, by nawet Barmanka Barbara, która jest córką właściciela baru i zajmuje się stajnią nie zdołała tego spostrzec, a potem ukrył uzdę w okolicy, ale tak, by spostrzegawczy Grzegorz Grzybiarz nie zdołał jej zbyt szybko odnaleźć."
+			}, 
+			{
+				"id": 5,
+				"name": "Ajajaj",
+				"description": "Na co mu było tyle jaj?",
+				"image_url": "ajajaj.webp",
+				"answer": ""
+			}

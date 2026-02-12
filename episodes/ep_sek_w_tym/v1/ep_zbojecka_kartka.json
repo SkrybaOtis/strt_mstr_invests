@@ -1,0 +1,856 @@
+{
+	"id": "ep_zbojecka_kartka",
+	"version": 1,
+	"localization": {
+		"city": "Zakopane",
+		"region": "Podhale",
+		"country": "Poland",
+		"countryCode": "PL",
+		"centerLatitude": 49.2992,
+		"centerLongitude": 19.9496
+	},
+	"points": [
+		{
+			"id": "ep_zbojecka_kartka_p1",
+			"name": "Pensjonat Pod Świerkiem",
+			"description": "Tu wszystko się zaczęło i tu pewnie się skończy.",
+			"latitude": 49.2992,
+			"longitude": 19.9496,
+			"isMainPoint": true,
+			"order": 1
+		},
+		{
+			"id": "ep_zbojecka_kartka_p2",
+			"name": "Stara Karczma Zbójnicka",
+			"description": "Gdzie piją, tam mówią. A gdzie mówią, tam słuchaj.",
+			"latitude": 49.2971,
+			"longitude": 19.9531,
+			"isMainPoint": false,
+			"order": 2
+		},
+		{
+			"id": "ep_zbojecka_kartka_p3",
+			"name": "Góralska Kuźnia",
+			"description": "Żelazo kuje się póki gorące, ale sekrety – póki jeszcze ciepłe.",
+			"latitude": 49.2955,
+			"longitude": 19.9468,
+			"isMainPoint": false,
+			"order": 3
+		},
+		{
+			"id": "ep_zbojecka_kartka_p4",
+			"name": "Kapliczka na Rozstajach",
+			"description": "Święte miejsce, ale nie wszystkie tajemnice tu odpoczywają w spokoju.",
+			"latitude": 49.2938,
+			"longitude": 19.9510,
+			"isMainPoint": false,
+			"order": 4
+		},
+		{
+			"id": "ep_zbojecka_kartka_p5",
+			"name": "Strych Willi Orlica",
+			"description": "Na strychu leży to, o czym na dole wszyscy zapomnieli.",
+			"latitude": 49.2920,
+			"longitude": 19.9445,
+			"isMainPoint": false,
+			"order": 5
+		}
+	],
+
+	"name": "Zbójecka Kartka",
+	"description": "Przybywasz do pensjonatu Pod Świerkiem na zasłużony wypoczynek. Zamiast ciszy i spokoju, właścicielka wita Cię ze łzami w oczach – zaginął testament jej ojca, a następnego dnia ma przyjść notariusz. Ktoś wydarł kluczową kartkę z rodzinnego pamiętnika, a każdy z gości ma coś do ukrycia. Góralski wiatr wieje zimno, a prawda gdzieś tu czeka na odkrycie.",
+	"author": "GóralskaEkipa",
+	"difficulty": "Średni",
+	"estimatedMinutes": 60,
+
+	"bases": {
+		"base_characters": [
+			{
+				"id": 1,
+				"name": "Halinka Wróblewska",
+				"description": "Właścicielka pensjonatu Pod Świerkiem. Przejęła go po śmierci ojca. Serdeczna, ale wyraźnie zdenerwowana i zapłakana. To ona poprosiła Cię o pomoc.",
+				"image_url": "halinka_wroblewska.webp",
+				"qr_decoded": "first_qr"
+			},
+			{
+				"id": 2,
+				"name": "Stryj Tadeusz",
+				"description": "Brat ojca Halinki. Przyjechał rzekomo na pogrzeb, ale jakoś długo nie wyjeżdża. Uśmiecha się za dużo jak na kogoś w żałobie.",
+				"image_url": "stryj_tadeusz.webp",
+				"qr_decoded": "second_qr"
+			},
+			{
+				"id": 3,
+				"name": "Pensjonariusz Henryk",
+				"description": "Emeryowany nauczyciel historii. Twierdzi, że przyjechał na spacery. Kolekcjonuje stare mapy i dokumenty – z pasją.",
+				"image_url": "pensjonariusz_henryk.webp",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 4,
+				"name": "Zosia Górska",
+				"description": "Młoda pokojówka. Pracuje tu od roku. Widziała więcej niż mówi, ale boi się stracić pracę.",
+				"image_url": "zosia_gorska.webp",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 5,
+				"name": "Karczmarz Wojtek",
+				"description": "Prowadzi Starą Karczmę Zbójnicką od trzydziestu lat. Pamięta ojca Halinki jak własną kieszeń. I cudzą też.",
+				"image_url": "karczmarz_wojtek.webp",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 6,
+				"name": "Turystka Renata",
+				"description": "Przyjechała sama, płaci gotówką, nie rozmawia z innymi gośćmi. Jednak jej oczy zbyt często wędrują w stronę regałów z książkami.",
+				"image_url": "turystka_renata.webp",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 7,
+				"name": "Kowal Bronek",
+				"description": "Prowadzi kuźnię od pokoleń. Małomówny, pracowity. Ojciec Halinki był jego przyjacielem od dziecka.",
+				"image_url": "kowal_bronek.webp",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 8,
+				"name": "Ksiądz Józef",
+				"description": "Opiekuje się kapliczką na rozstajach. Wie dużo, ale mówi mało i ostrożnie. Sekrety jego parafian są bezpieczne – własnych już niekoniecznie.",
+				"image_url": "ksiadz_jozef.webp",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 9,
+				"name": "Notariusz Władek",
+				"description": "Przyjechał dzień wcześniej niż zapowiadał. Twierdzi, że chciał uniknąć korków. Coś w tym jest, tylko nie wiadomo co dokładnie.",
+				"image_url": "notariusz_wladek.webp",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 10,
+				"name": "Córka Stryjka – Iwona",
+				"description": "Dwudziestokilkulatka, córka Tadeusza. Nudziarz z niej nie ma, ale zdecydowanie woli rozmawiać o pieniądzach niż o rodzinie.",
+				"image_url": "corka_stryjka_iwona.webp",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 11,
+				"name": "Dziadek Maciej",
+				"description": "Najstarszy mieszkaniec okolicy. Siedzi pod kapliczką i opowiada bajki. Albo prawdziwą historię – trudno odróżnić.",
+				"image_url": "dziadek_maciej.webp",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 12,
+				"name": "Kelnerka Basia",
+				"description": "Pracuje w karczmie i słyszy wszystko, podając kwas chlebowy. Ma doskonałą pamięć do twarzy i do kłótni przy stole.",
+				"image_url": "kelnerka_basia.webp",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 13,
+				"name": "Wędrowiec Stanisław",
+				"description": "Pojawia się i znika. Mówi, że zbiera zioła. Zna każdy zakątek tych gór i każde okno pensjonatu – od zewnątrz.",
+				"image_url": "wedrowiec_stanislaw.webp",
+				"qr_decoded": "code_qr_after_decoded"
+			}
+		],
+		"base_clues": [
+			{
+				"id": 1,
+				"name": "Wydarty Pamiętnik",
+				"description": "Stary pamiętnik ojca Halinki. Pomiędzy stronami 47 i 50 wyraźnie brakuje dwóch kartek – wyrwanych, nie wyciętych.",
+				"image_url": "wydarty_pamietnik.webp",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 2,
+				"name": "Klucz do Strychu",
+				"description": "Stary żelazny klucz znaleziony w doniczce z geranium pod oknem. Ktoś schował go tam niedawno – ziemia jeszcze nieustabilizowana.",
+				"image_url": "klucz_do_strychu.webp",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 3,
+				"name": "Spalona Zapałka",
+				"description": "Przy kominku w salonie leży niedopałek zapałki i szara smuga popiołu. Coś niedawno tu palono, choć kominek był rzekomo nieczynny od tygodnia.",
+				"image_url": "spalona_zapalka.webp",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 4,
+				"name": "Pieczęć Lakowa",
+				"description": "Czerwony okruszek wosku z odciskiem pieczęci – inicjały T.W. Kowal mógłby coś powiedzieć o takim wyrobie żelaznym.",
+				"image_url": "pieczec_lakowa.webp",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 5,
+				"name": "Walizka z Podwójnym Dnem",
+				"description": "Walizka znaleziona na strychu willi. Dno jest grubsze niż powinno. Coś tu czeka na odkrycie od lat.",
+				"image_url": "walizka_podwojne_dno.webp",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 6,
+				"name": "Różaniec przy Kapliczce",
+				"description": "Zostawiony na kamieniu przy kapliczce. Należał do ojca Halinki – Halinka rozpoznałaby go wszędzie. Ale kto go tu położył?",
+				"image_url": "rozaniec_przy_kapliczce.webp",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 7,
+				"name": "Rachunek z Karczmy",
+				"description": "Paragon z zeszłego tygodnia. Dwie osoby, obiad dla dwóch, podpis kelnera i jedna znajoma twarz z pensjonatu.",
+				"image_url": "rachunek_z_karczmy.webp",
+				"qr_decoded": "code_qr_after_decoded"
+			}
+		],
+		"base_enigmas": [
+			{
+				"id": 1,
+				"name": "Kto wydarł kartki z pamiętnika?",
+				"description": "Ktoś wyrwał kluczowe strony z pamiętnika ojca Halinki. Kto to zrobił i dlaczego?",
+				"image_url": "kto_wydarl_kartki.webp",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 2,
+				"name": "Co kryje strych Willi Orlica?",
+				"description": "Strych był zamknięty od lat. Teraz klucz znaleziono w doniczce. Kto i co tam ukrył?",
+				"image_url": "co_kryje_strych.webp",
+				"qr_decoded": "code_qr_after_decoded"
+			},
+			{
+				"id": 3,
+				"name": "Kto spalił dokument przy kominku?",
+				"description": "Coś zostało spalone w salonie. Czy był to oryginalny testament? A może fałszywa kopia?",
+				"image_url": "kto_spalil_dokument.webp",
+				"qr_decoded": "code_qr_after_decoded"
+			}
+		],
+		"base_locations": [
+			{
+				"id": "1",
+				"name": "Pensjonat Pod Świerkiem",
+				"description": "Tu wszystko się zaczęło i tu pewnie się skończy.",
+				"latitude": 49.2992,
+				"longitude": 19.9496,
+				"characters": [1, 2, 3, 4, 6, 9, 10],
+				"image_url": "pensjonat_pod_swierkiem.webp",
+				"qr_decoded": "Pensjonat Pod Świerkiem"
+			},
+			{
+				"id": "2",
+				"name": "Stara Karczma Zbójnicka",
+				"description": "Gdzie piją, tam mówią. A gdzie mówią, tam słuchaj.",
+				"latitude": 49.2971,
+				"longitude": 19.9531,
+				"characters": [5, 12],
+				"image_url": "stara_karczma_zbojnicka.webp",
+				"qr_decoded": "Stara Karczma Zbójnicka"
+			},
+			{
+				"id": "3",
+				"name": "Góralska Kuźnia",
+				"description": "Żelazo kuje się póki gorące, ale sekrety – póki jeszcze ciepłe.",
+				"latitude": 49.2955,
+				"longitude": 19.9468,
+				"characters": [7],
+				"image_url": "goralska_kuznia.webp",
+				"qr_decoded": "Góralska Kuźnia"
+			},
+			{
+				"id": "4",
+				"name": "Kapliczka na Rozstajach",
+				"description": "Święte miejsce, ale nie wszystkie tajemnice tu odpoczywają w spokoju.",
+				"latitude": 49.2938,
+				"longitude": 19.9510,
+				"characters": [8, 11],
+				"image_url": "kapliczka_na_rozstajach.webp",
+				"qr_decoded": "Kapliczka na Rozstajach"
+			},
+			{
+				"id": "5",
+				"name": "Strych Willi Orlica",
+				"description": "Na strychu leży to, o czym na dole wszyscy zapomnieli.",
+				"latitude": 49.2920,
+				"longitude": 19.9445,
+				"characters": [13],
+				"image_url": "strych_willi_orlica.webp",
+				"qr_decoded": "Strych Willi Orlica"
+			}
+		]
+	},
+
+	"dialogsMatrices": {
+		"dialogs_matrix_characters":
+			[[0, 1, 2, 3, 0, 0, 0, 0, 4, 5, 0, 0, 0],
+			 [6, 0, 0, 0, 0, 0, 0, 0, 7, 8, 0, 0, 0],
+			 [9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			 [10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			 [0, 0, 0, 0, 0, 11, 0, 0, 0, 0, 0, 12, 0],
+			 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			 [13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 0, 0],
+			 [0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			 [0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			 [0, 0, 0, 0, 0, 0, 0, 17, 0, 0, 0, 0, 0],
+			 [0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 0],
+			 [19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]],
+		"dialogs_matrix_clues":
+			[[1, 2, 3, 4, 5, 0, 7],
+			 [0, 0, 8, 0, 0, 0, 9],
+			 [0, 0, 0, 0, 0, 0, 0],
+			 [0, 0, 10, 0, 0, 0, 0],
+			 [0, 0, 0, 11, 0, 0, 12],
+			 [0, 0, 0, 0, 0, 0, 0],
+			 [0, 0, 0, 13, 0, 0, 0],
+			 [0, 0, 0, 0, 0, 14, 0],
+			 [0, 0, 0, 0, 0, 0, 0],
+			 [0, 0, 0, 0, 0, 0, 0],
+			 [0, 0, 0, 0, 0, 15, 0],
+			 [0, 0, 0, 0, 16, 0, 0],
+			 [0, 17, 0, 0, 18, 0, 0]],
+		"dialogs_matrix_enigmas":
+			[[1, 0, 0],
+			 [0, 0, 2],
+			 [0, 0, 0],
+			 [0, 0, 0],
+			 [0, 0, 0],
+			 [0, 0, 0],
+			 [0, 0, 0],
+			 [0, 3, 0],
+			 [0, 0, 0],
+			 [0, 0, 0],
+			 [0, 0, 0],
+			 [0, 0, 0],
+			 [0, 0, 0]],
+		"dialogs_matrix_locations":
+			[[1, 2, 3, 4, 5]]
+	},
+
+	"itemsDialogs": {
+		"items_dialogs_characters": [
+			{
+				"id": 1,
+				"content": "Stryjek Tadeusz? Zawsze był trochę zazdrosny o pensjonat. Tatusiowi nigdy nie mógł darować, że to jemu przypadł w udziale. Proszę na niego uważać.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 2,
+				"content": "Ten pan Henryk jest bardzo ciekawy pamiętnika taty. Pytał mnie o niego dwa razy. Niby z historycznego zainteresowania, ale... coś w tym jest nie tak.",
+				"characters": [],
+				"clues": [3],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 3,
+				"content": "Zosia jest dobra, tylko za bardzo lubi się kręcić przy pokojach gości. Parę razy słyszałam jak wchodzi do zamkniętych pomieszczeń.",
+				"characters": [],
+				"clues": [2],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 4,
+				"content": "Notariusz Władek to stary znajomy rodziny. Ale po co przyjechał dzień wcześniej? To mnie niepokoi bardziej niż wszystko inne.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 5,
+				"content": "Iwona... ona zawsze lubiła pieniądze. Od dziecka. Nic złego w tym, ale przy testamentach to bywa niepraktyczne.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 6,
+				"content": "Halinka jest porządną kobietą. Jej ojciec był porządnym człowiekiem. Co mnie tu trzyma? Powiem szczerze – chciałem być przy czytaniu testamentu. Moje prawo.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 7,
+				"content": "Władek? Dawno go nie widziałem. Choć... zaraz, był tu tydzień temu. Siedział z jakimś starszym panem przy kominku. Nie wyglądało to na oficjalną wizytę.",
+				"characters": [],
+				"clues": [3],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 8,
+				"content": "Iwona to ładna dziewczyna, ale jak otwiera usta to mówi o kasie. Całą kolację gadała o tym ile kosztuje metr kwadratowy w Zakopanem.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 9,
+				"content": "A, przyszedłem wcześniej bo korki na Zakopiance były podobno straszne w prognozie. Prewencyjnie. To wszystko.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 10,
+				"content": "Halinka? Sympatyczna. Choć trochę naiwna jak na właścicielkę nieruchomości. Pensjonat wart jest sporo, a ona tego chyba nie rozumie.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 11,
+				"content": "Karczma to stare miejsce. Kto tu przychodzi, ten zostawia kawałek prawdy przy stoliku. A ja zawsze zbierałem te kawałki.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 12,
+				"content": "Basia jest dobra w tym co robi. Pamięta każdą twarz. Jak chcesz wiedzieć kto z kim jadał, to ona jest właściwą osobą.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 13,
+				"content": "Kowal Bronek? Stary przyjaciel rodziny. Zrobił klucze do każdego zamka w okolicy. Dosłownie każdego.",
+				"characters": [],
+				"clues": [4],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 14,
+				"content": "Ksiądz Józef słucha i milczy. Raz widziałem jak rozmawiał z kimś z pensjonatu przy kapliczce. Wieczorem. Nie powiem kto to był, ale ktoś ważny.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [4],
+				"switch": 0
+			},
+			{
+				"id": 15,
+				"content": "Stryj Tadeusz? Bywał tu już wcześniej. I to nie tylko na pogrzebie. Widziałem go pod oknem Willi Orlica jakieś dwa tygodnie temu.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [5],
+				"switch": 1
+			},
+			{
+				"id": 16,
+				"content": "Iwona była tu razem z ojcem. Oboje chodzili szybko i mówili cicho. To nie wróży dobrze.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 17,
+				"content": "Przysięgam na Boga, nic nie wiem. Ale jak znajdziesz różaniec ojca Halinki to daj mi znać, bo... bo go tu ostatnio widziałem.",
+				"characters": [],
+				"clues": [6],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 18,
+				"content": "Znam tu wszystkich. Ten pan co chodzi po strychu, to już tu bywa od dawna. Tylko że wtedy przedstawiał się inaczej.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 19,
+				"content": "Góry dużo widzą i nic nie mówią. Ja też. Ale Tobie powiem jedno – sprawdź walizkę na strychu. Nie wszystko stare jest bezużyteczne.",
+				"characters": [],
+				"clues": [5],
+				"enigmas": [],
+				"locations": [],
+				"switch": 1
+			}
+		],
+		"items_dialogs_clues": [
+			{
+				"id": 1,
+				"content": "Pamiętnik taty... Brakuje stron 47 i 48. Właśnie tam opisał swoje ostatnie życzenie co do pensjonatu. To nie przypadek.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [1],
+				"locations": [],
+				"switch": 1
+			},
+			{
+				"id": 2,
+				"content": "Ten klucz? Taki klucz robi tylko Bronek kowal. Charakterystyczny ząbek na końcu – jego znak rozpoznawczy. Ktoś niedawno go stąd zabrał, bo nie był tu wcześniej.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [3],
+				"switch": 0
+			},
+			{
+				"id": 3,
+				"content": "Spalona zapałka... przy kominku który rzekomo nie działał. Pan Henryk siedział tu jeszcze poprzedniej nocy. Sam, późno. Widziałam przez szparę.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [3],
+				"locations": [],
+				"switch": 1
+			},
+			{
+				"id": 4,
+				"content": "T.W.? Tadeusz Wróblewski to inicjały stryjka. Taką pieczęcią lakową posługują się starzy prawnicy albo... rodziny pretendujące do majątku.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 5,
+				"content": "Walizka z podwójnym dnem! Jak za starych lat. Ojciec Halinki miał taki zwyczaj – chował ważne dokumenty pod spodem. Jeśli coś zostało, to tam właśnie.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [2],
+				"locations": [],
+				"switch": 1
+			},
+			{
+				"id": 6,
+				"content": "O przenajświętszy... Różaniec starszego Wróblewskiego przy kapliczce. Ktoś go tu celowo położył. Albo zostawił w pośpiechu.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 7,
+				"content": "Rachunek z karczmy... dwie osoby, tydzień temu. I podpis. O, to interesujące. Notariusz Władek jadał tu z kimś w tajemnicy, zanim oficjalnie przyjechał.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 8,
+				"content": "Spalona zapałka w nieczynnym kominku? To pachnie kłopotami. I papierem. Ktoś tu palił dokumenty.",
+				"characters": [],
+				"clues": [3],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 9,
+				"content": "Rachunek z karczmy? Basia na pewno pamięta kto płacił. Ona zawsze pamięta.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [2],
+				"switch": 0
+			},
+			{
+				"id": 10,
+				"content": "Spalona zapałka przy kominku... Słyszałem, że nieczynny kominek to tylko pretekst. Można go otworzyć od środka. Byłem kiedyś w tym salonie.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 11,
+				"content": "Pieczęć lakowa z inicjałami T.W.? Na mszę nikt z inicjałami T.W. nie przychodził. Ale na cmentarzu ostatnio widywałem Tadeusza. I nie modlił się.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 12,
+				"content": "Rachunek z karczmy? To właśnie Wojtek mógłby coś powiedzieć. Chyba że Basia była wtedy przy stoliku – a ona zawsze jest przy stoliku.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 13,
+				"content": "Pieczęć T.W.? Znajoma. Robiłem takie żelazne formy na zamówienie. Raz zrobiłem właśnie taką – ale to było ze trzy lata temu. I nie dla Halinki.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 14,
+				"content": "Różaniec przy kapliczce... ktoś go tu zostawił specjalnie. To wezwanie. Albo ostrzeżenie. Msze za spokój duszy zamawiał tu ostatnio ktoś nieznajomy.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 15,
+				"content": "Różaniec? Znam go. Należał do starego Wróblewskiego. Widziałem go kiedyś przy kapliczce – ale wtedy miał go przy sobie żywy właściciel.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 16,
+				"content": "Walizka z podwójnym dnem? Przynieśli ją tu goście z pokoju numer trzy. Dźwigałam ją sama i była ciężka jak cholera. Coś w środku stukało.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 17,
+				"content": "Klucz do strychu? Bronkowi kowalu trzeba by to pokazać – on wie co zrobił, a czego nie.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [3],
+				"switch": 0
+			},
+			{
+				"id": 18,
+				"content": "Walizka? Nie moja sprawa. Choć widziałem ją jak ktoś wnosił ją na strych Orlicy. Nocą. Warto tam zajrzeć.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [5],
+				"switch": 1
+			}
+		],
+		"items_dialogs_enigmas": [
+			{
+				"id": 1,
+				"content": "Kto wydarł kartki? Myślę, że ktoś kto zna treść pamiętnika. Musiał tu być wcześniej i znał układ stron. To nie był przypadkowy złodziej.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 2,
+				"content": "Ha, strych Orlicy! Nigdy tam nie byłam, ale słyszałam, że stary Wróblewski chodził tam regularnie. Może coś tam zostawił dla córki na czarną godzinę?",
+				"characters": [],
+				"clues": [5],
+				"enigmas": [],
+				"locations": [5],
+				"switch": 1
+			},
+			{
+				"id": 3,
+				"content": "Spalony dokument... Jeżeli to był testament lub jego kopia, to teraz nic nie można zrobić bez oryginału. Ktoś bardzo dobrze wiedział co robi. To nie amator.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 4,
+				"content": "Co kryje strych Orlicy? Wie Pan, te stare wille mają swoje tajemnice. Ale klucz to klucz – kto go miał, ten wchodził. A kto wchodził nocą, ten chował.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 5,
+				"content": "Kto spalił dokument? Niech Pan nie patrzy na mnie. Ja od lat nie używam zapałek – od kiedy spaliłem sobie palce przy kuciu. Zapalniczka.",
+				"characters": [],
+				"clues": [],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			}
+		],
+		"items_dialogs_loactions": [
+			{
+				"id": 1,
+				"content": "Pensjonat Pod Świerkiem wygląda jak z górskiej bajki. Drewniany, z rzeźbionymi balustradami i pelargoniami w oknach. Ale coś wisi w powietrzu – zapach strachu albo winy. A może obu naraz. W środku widać Halinkę roztrzęsioną przy ladzie i kilkoro gości udających, że nic nie widzą.",
+				"characters": [1, 2, 3, 4, 6, 9, 10],
+				"clues": [1],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 2,
+				"content": "Karczma pachnie barszczem i przeszłością. Na ścianach ciupagi i stare zdjęcia. Kelnerka Basia krąży między stolikami z wprawą godną cyrkowego żonglera. Przy barze Wojtek ściera szklanki i słucha wszystkiego.",
+				"characters": [5, 12],
+				"clues": [7],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 3,
+				"content": "Kuźnia dyszy żarem. Bronek stoi przy kowadle i nie podnosi wzroku, ale słyszał jak wchodzisz. Tu pachnie węglem i metalem. Na ścianie wisi zestaw kluczy – każdy inny, każdy z historią.",
+				"characters": [7],
+				"clues": [4],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 4,
+				"content": "Kapliczka stoi spokojnie przy rozstaju dróg. Świeże kwiaty, zapalona świeczka. Na kamieniu obok leży coś niepasującego do tego miejsca – albo może bardzo pasującego. Dziadek Maciej siedzi na ławeczce i wygląda na kogoś, kto widział już wszystko.",
+				"characters": [8, 11],
+				"clues": [6],
+				"enigmas": [],
+				"locations": [],
+				"switch": 0
+			},
+			{
+				"id": 5,
+				"content": "Strych Willi Orlica skrzypi pod każdym krokiem. Kurz świadczy o tym, że nikt tu nie był od lat – albo o tym, że ktoś bardzo starannie chciał takie wrażenie stworzyć. Przy oknie stoi stara walizka. Przy belce śpi lub czuwa Stanisław Wędrowiec.",
+				"characters": [13],
+				"clues": [5],
+				"enigmas": [2],
+				"locations": [],
+				"switch": 0
+			}
+		]
+	},
+
+	"switches": {
+		"switches_characters": [
+			{
+				"id": 1,
+				"group_name": "locations",
+				"id_character": 9,
+				"id_group_item": 5,
+				"id_new_dialog": 15
+			},
+			{
+				"id": 2,
+				"group_name": "enigmas",
+				"id_character": 12,
+				"id_group_item": 1,
+				"id_new_dialog": 19
+			}
+		],
+		"switches_clues": [
+			{
+				"id": 1,
+				"group_name": "enigmas",
+				"id_character": 1,
+				"id_group_item": 1,
+				"id_new_dialog": 1
+			},
+			{
+				"id": 2,
+				"group_name": "enigmas",
+				"id_character": 3,
+				"id_group_item": 3,
+				"id_new_dialog": 3
+			},
+			{
+				"id": 3,
+				"group_name": "enigmas",
+				"id_character": 5,
+				"id_group_item": 2,
+				"id_new_dialog": 5
+			},
+			{
+				"id": 4,
+				"group_name": "locations",
+				"id_character": 13,
+				"id_group_item": 5,
+				"id_new_dialog": 18
+			}
+		],
+		"switches_enigmas": [
+			{
+				"id": 1,
+				"group_name": "clues",
+				"id_character": 9,
+				"id_group_item": 5,
+				"id_new_dialog": 2
+			},
+			{
+				"id": 2,
+				"group_name": "locations",
+				"id_character": 9,
+				"id_group_item": 5,
+				"id_new_dialog": 2
+			}
+		],
+		"switches_locations": [
+			{
+				"id": 1,
+				"group_name": "characters",
+				"id_character": 13,
+				"id_group_item": 13,
+				"id_new_dialog": 19
+			},
+			{
+				"id": 2,
+				"group_name": "clues",
+				"id_character": 13,
+				"id_group_item": 5,
+				"id_new_dialog": 19
+			}
+		]
+	},
+
+	"unlocked": {
+		"unlocked_characters": [1, 2],
+		"unlocked_clues": [1],
+		"unlocked_enigmas": [1],
+		"unlocked_locations": [1]
+	}
+}

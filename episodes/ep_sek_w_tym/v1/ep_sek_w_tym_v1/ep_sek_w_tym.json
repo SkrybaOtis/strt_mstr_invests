@@ -1,6 +1,6 @@
 {
 	"id": "ep_sek_w_tym",
-	"version": 5,
+	"version": 1,
 	"localization": {
 		"city": "Warsaw",
 		"region": "Aleksandrow",
@@ -60,7 +60,6 @@
 	"name": "Sęk w tym",
 	"description": "W oczekiwaniu na wyrwanie z rutyny codzienności słychać nagle dzwonek do drzwi. Jednakże po zaoferowanym otworzeniu drzwi nie widać żadnych gości, nie widać nawet spodziewanego kuriera, widać tylko wielką drewnianą kłodę. Ogólnie rzecz biorąc - porąbana sprawa.",
 	"author": "SkuVany",
-	"thumbnailUrl": "https://cdn.jsdelivr.net/gh/SkrybaOtis/strt_mstr_invests@latest/episodes/ep_sek_w_tym/ep_sek_w_tym_image.webp",
 	"difficulty": "Średni",
 	"estimatedMinutes": 45,
 	
@@ -70,63 +69,63 @@
 				"id": 1,
 				"name": "Babcia Grażynka",
 				"description": "Wynajmuje Ci piętro bo nie stać Ciebie na własne biuro, a poza tym Babcia żyje w tym mieście całkiem długo i wie to i owo.",
-				"image_url": "images/babcia_grazynka.webp",
+				"image_url": "babcia_grazynka.webp",
 				"qr_decoded": "first_qr"
 			},
 			{
 				"id": 2,
 				"name": "Wspólnik Szewczyk",
 				"description": "Twój wspólnik i najlepsza mordzia - praca w terenie to nie jego brocha, ale ma kontakty i jest w stanie pozyskać prawie każdą informację",
-				"image_url": "images/wspolnik_szewczyk.webp",
+				"image_url": "wspolnik_szewczyk.webp",
 				"qr_decoded": "second_qr"
 			}, 
 			{
 				"id": 3,
 				"name": "Leśniczy Zbyszek",
 				"description": "Głównodowodzący okolicznymi lasami. Widać, że choć ma już trochę lat na karku, to nie zgorzkniał na starość. Wprost przeciwnie - chętnie pogada i rzuci dwocipem.",
-				"image_url": "images/lesniczy_zbyszek.webp",
+				"image_url": "lesniczy_zbyszek.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			},
 			{
 				"id": 4,
 				"name": "Podleśniczy Leszek",
 				"description": "description",
-				"image_url": "images/podlesniczy_leszek.webp",
+				"image_url": "podlesniczy_leszek.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			},
 			{
 				"id": 5,
 				"name": "Barmanka Barbara",
 				"description": "description",
-				"image_url": "images/barmanka_barbara.webp",
+				"image_url": "barmanka_barbara.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			},
 			{
 				"id": 6,
 				"name": "Turystka Tereska",
 				"description": "description",
-				"image_url": "images/turystka_teresa.webp",
+				"image_url": "turystka_teresa.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			},
 			{
 				"id": 7,
 				"name": "Grzybiarz Grzegorz",
 				"description": "description",
-				"image_url": "images/grzybiarz_grzegorz.webp",
+				"image_url": "grzybiarz_grzegorz.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			},
 			{
 				"id": 8,
 				"name": "Harcerz Hugo",
 				"description": "description",
-				"image_url": "images/harcerz_hugo.webp",
+				"image_url": "harcerz_hugo.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			},
 			{
 				"id": 9,
 				"name": "Ekolożka Emilia",
 				"description": "description",
-				"image_url": "images/ekolozka_emilia.webp",
+				"image_url": "ekolozka_emilia.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			}
 			
@@ -136,28 +135,28 @@
 				"id": 1,
 				"name": "Wielki Pień",
 				"description": "Lepiej mieć z kimś tylko na pieńku niż niezakopany wojenny topór",
-				"image_url": "images/wielki_pien.webp",
+				"image_url": "wielki_pien.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			},
 			{
 				"id": 2,
 				"name": "Czerwone korale",
 				"description": "Niczym wino korale z owoców jarzębiny",
-				"image_url": "images/czerwone_korale.webp",
+				"image_url": "czerwone_korale.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			}, 
 			{
 				"id": 3,
 				"name": "Uzda bez wędzidła",
 				"description": "No bez nich to można już puścić wodze fantazji",
-				"image_url": "images/uzda_bez_wedzidla.webp",
+				"image_url": "uzda_bez_wedzidla.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			},
 			{
 				"id": 4,
 				"name": "Baranie rogi",
 				"description": "Sytuacja robi się zakręcona jak nie powiem co ",
-				"image_url": "images/baranie_rogi.webp",
+				"image_url": "baranie_rogi.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			}
 		],
@@ -166,35 +165,28 @@
 				"id": 1,
 				"name": "Na Pieńku",
 				"description": "Kto zostawił pod drzwiami Wielki Pień?",
-				"image_url": "images/na_pienku.webp",
+				"image_url": "na_pienku.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			},
 			{
 				"id": 2,
 				"name": "Klucze do lasu",
 				"description": "Kto zabrał klucze do lasu?",
-				"image_url": "images/klucze_do_lasu.webp",
+				"image_url": "klucze_do_lasu.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			}, 
 			{
 				"id": 3,
 				"name": "Porzucone korale",
 				"description": "Do kogo należały Czerwone korale?",
-				"image_url": "images/porzucone_korale.webp",
+				"image_url": "porzucone_korale.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			}, 
 			{
 				"id": 4,
 				"name": "Wy-uzdana sytuacja",
 				"description": "Kto ukradł wędzidełko z końskiej uzdy?",
-				"image_url": "images/wyuzdana_sytuacja.webp",
-				"qr_decoded": "code_qr_after_decoded"
-			}, 
-			{
-				"id": 5,
-				"name": "Ajajaj",
-				"description": "Na co mu było tyle jaj?",
-				"image_url": "images/ajajaj.webp",
+				"image_url": "wyuzdana_sytuacja.webp",
 				"qr_decoded": "code_qr_after_decoded"
 			}
 		],
@@ -206,7 +198,7 @@
 				"latitude": 52.1650,
 				"longitude": 21.2430,
 				"characters": [1, 2],
-				"image_url": "images/dom_gdzie_cicho_dzwoni.webp",
+				"image_url": "dom_gdzie_cicho_dzwoni.webp",
 				"qr_decoded": "Dom gdzie cicho dzwoni"
 			},
 			{
@@ -216,7 +208,7 @@
 				"latitude": 52.1645, 
 				"longitude": 21.2475,
 				"characters": [3, 4],
-				"image_url": "images/zabytkowa_lesniczowka.webp",
+				"image_url": "zabytkowa_lesniczowka.webp",
 				"qr_decoded": "Zbytkowa leśniczówka"
 			}, 
 			{
@@ -226,7 +218,7 @@
 				"latitude": 52.1615,
 				"longitude": 21.2455,
 				"characters": [5, 6, 7],
-				"image_url": "images/bar_przy_stajni.webp",
+				"image_url": "bar_przy_stajni.webp",
 				"qr_decoded": "Bar przy stajni"
 			},
 			{
@@ -236,7 +228,7 @@
 				"latitude": 52.1600, 
 				"longitude": 21.2400,
 				"characters": [8],
-				"image_url": "images/borowe_gorsko.webp",
+				"image_url": "borowe_gorsko.webp",
 				"qr_decoded": "Borowe górsko"
 			},
 			{
@@ -246,7 +238,7 @@
 				"latitude": 52.1537, 
 				"longitude": 21.2317,
 				"characters": [9],
-				"image_url": "images/dom_w_stylu_swider_bajer.webp",
+				"image_url": "dom_w_stylu_swider_bajer.webp",
 				"qr_decoded": "Dom w stylu świder bajer"
 			}
 		]
@@ -254,45 +246,37 @@
 
 	"dialogsMatrices": {
 		"dialogs_matrix_characters": 
-			[[0, 1, 3, 0, 0, 21, 0, 19, 0 ],
-			 [2, 0, 4, 0, 0, 11, 0, 0, 12 ],
-			 [1, 0, 0, 18, 0, 0, 22, 0, 0 ],
-			 [0, 33, 0, 0, 44, 0, 0, 15, 0],
-			 [27, 0, 0, 49, 0, 0, 5, 0, 0 ],
-			 [0, 16, 0, 0, 10, 0, 0, 25, 0],
-			 [0, 0, 38, 0, 0, 41, 0, 8, 0 ],
-			 [0, 0, 33, 0, 7, 0, 13, 0, 0 ],
-			 [29, 0, 0, 14, 0, 0, 9, 0, 0]],
+			[[0, 1, 3, 0, 0, 0, 0, 0, 0 ],
+			 [2, 0, 4, 0, 0, 0, 0, 0, 0 ],
+			 [0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+			 [0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+			 [0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+			 [0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+			 [0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+			 [0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+			 [0, 0, 0, 0, 0, 0, 0, 0, 0]],
 		"dialogs_matrix_clues":
-			[[1, 0, 5, 16],
-			[2, 18, 0, 3],
-			[10, 0, 7, 0],
-			[0, 11, 0, 0],
-			[0, 4, 15, 0],
-			[13, 6, 0, 9],
-			[0, 0, 12, 0],
-			[0, 14, 0, 0],
-			[0, 0, 8, 17]],
+			[[1, 0, 5, 0],
+			[2, 0, 0, 3],
+			[0, 0, 0, 0],
+			[0, 0, 0, 0],
+			[0, 0, 0, 0],
+			[0, 0, 0, 0],
+			[0, 0, 0, 0],
+			[0, 0, 0, 0],
+			[0, 0, 0, 0]],
 		"dialogs_matrix_enigmas":
-			[[1, 0, 0, 13, 5],
-			[0, 12, 0, 0, 14],
-			[0, 0, 16, 0, 0],
-			[6, 0, 9, 17, 0],
-			[0, 10, 0, 5, 19],
-			[0, 0, 18, 0, 0],
-			[11, 0, 0, 0, 2],
-			[7, 0, 1, 14, 0],
-			[0, 15, 0, 3, 8]],
-		"dialogs_matrix_locations":
 			[[1, 0, 0, 0, 0],
-			[0, 2, 0, 0, 0],
-			[0, 0, 3, 0, 0],
-			[0, 0, 0, 4, 0],
-			[0, 0, 0, 0, 5],
 			[0, 0, 0, 0, 0],
 			[0, 0, 0, 0, 0],
 			[0, 0, 0, 0, 0],
-			[0, 0, 0, 0, 0]]
+			[0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0]],
+		"dialogs_matrix_locations":
+			[[1, 2, 3, 4, 5]]
 	},
 
 	"itemsDialogs":{
@@ -434,9 +418,9 @@
 				"content": "third_dialog_text",
 				"characters": [],
 				"clues": [4],
-				"enigmas": [9, 15, 22],
+				"enigmas": [],
 				"locations": [],
-				"switch": 11
+				"switch": 0
 			}
 		]
 	},
@@ -519,7 +503,7 @@
 		"switches_enigmas": [
 			{
 				"id": 1,
-				"group_name": "clues",
+				"group_name": "characters",
 				"id_character": 3,
 				"id_group_item": 12,
 				"id_new_dialog": 101
