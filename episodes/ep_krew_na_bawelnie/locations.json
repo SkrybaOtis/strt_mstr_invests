@@ -1,0 +1,64 @@
+{
+"base_locations": [
+	{
+		"id": "1",
+		"name": "Pałac Herbsta",
+		"description": "Tu zaczęła się historia kradzieży.",
+		"latitude": 51.7483,
+		"longitude": 19.4752,
+		"characters": [1, 2], 
+		"image_url": "l1.webp",
+		"qr_decoded": "Pałac Herbsta" 
+	},
+	{
+		"id": "2",
+		"name": "Biała Fabryka",
+		"description": "Miejsce znalezienia ciała majstra.",
+		"latitude": 51.7444,
+		"longitude": 19.4611,
+		"characters": [3, 4, 5], 
+		"image_url": "l2.webp",
+		"qr_decoded": "Biała Fabryka" 
+	},
+	{
+		"id": "3",
+		"name": "Willa Grohmana", 
+		"description": "Ośrodek dyscypliny, dymu i ognia.",
+		"latitude": 51.7490,
+		"longitude": 19.4700,
+		"characters": [6, 7],
+		"image_url": "l3.webp",
+		"qr_decoded": "Willa Grohmana" 
+	},
+	{
+		"id": "4",
+		"name": "Widzewska Manufaktura",
+		"description": "Królestwo postępu i robotniczego szeptu.",
+		"latitude": 51.7600,
+		"longitude": 19.5000,
+		"characters": [8, 9],
+		"image_url": "l4.webp",
+		"qr_decoded": "Widzewska Manufaktura" 
+	},
+	{
+		"id": "5",
+		"name": "Fabryka Biedermanna",
+		"description": "Laboratorium barw. Czyżby ktoś w nim dał plamę?",
+		"latitude": 51.7800,
+		"longitude": 19.4550,
+		"characters": [10, 11, 12],
+		"image_url": "l5.webp",
+		"qr_decoded": "Fabryka Biedermanna" 
+	},
+	{
+		"id": "6",
+		"name": "Stary Cmentarz", 
+		"description": "Finał pośród neogotyckich mauzoléów.",
+		"latitude": 51.7690,
+		"longitude": 19.4350,
+		"characters": [13, 14], 
+		"image_url": "l6.webp",
+		"qr_decoded": "Stary Cmentarz" 
+	}
+]
+}

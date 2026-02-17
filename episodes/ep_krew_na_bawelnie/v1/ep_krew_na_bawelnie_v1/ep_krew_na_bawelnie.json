@@ -1,546 +1,3838 @@
 {
-  "id": "ep_krew_na_bawelnie",
-  "version": 2,
-  "localization": {
-    "city": "Łódź",
-    "region": "Łódzkie",
-    "country": "Poland",
-    "countryCode": "PL",
-    "centerLatitude": 51.7500,
-    "centerLongitude": 19.4500
-  },
-  "points": [
-    { "id": "ep_krew_na_bawelnie_p1", "name": "Pałac Herbsta", "description": "Rezydencja na Księżym Młynie, gdzie skradziono symbol potęgi Scheiblerów.", "latitude": 51.7483, "longitude": 19.4752, "isMainPoint": true, "order": 1 },
-    { "id": "ep_krew_na_bawelnie_p2", "name": "Biała Fabryka", "description": "Gmach Ludwika Geyera, w którym pod maszyną parową znaleziono zwłoki.", "latitude": 51.7444, "longitude": 19.4611, "isMainPoint": false, "order": 2 },
-    { "id": "ep_krew_na_bawelnie_p3", "name": "Willa Grohmana", "description": "Siedziba komendanta straży ogniowej przy ul. Tylnej.", "latitude": 51.7490, "longitude": 19.4700, "isMainPoint": false, "order": 3 },
-    { "id": "ep_krew_na_bawelnie_p4", "name": "Widzewska Manufaktura", "description": "Dzielnica Kunitzera, gdzie robotniczy gniew miesza się z dymem kominów.", "latitude": 51.7600, "longitude": 19.5000, "isMainPoint": false, "order": 4 },
-    { "id": "ep_krew_na_bawelnie_p5", "name": "Fabryka Biedermanna", "description": "Farbiarnia nad rzeką Łódką, skąd pochodzi tajemniczy barwnik.", "latitude": 51.7800, "longitude": 19.4550, "isMainPoint": false, "order": 5 },
-    { "id": "ep_krew_na_bawelnie_p6", "name": "Stary Cmentarz", "description": "Miejsce wiecznego spoczynku, gdzie neogotyckie mauzolea skrywają prawdę.", "latitude": 51.7690, "longitude": 19.4350, "isMainPoint": false, "order": 6 }
-  ],
-  "name": "Krew na Bawełnie",
-  "description": "Z gabinetu Edwarda Herbsta znika Złoty Medal z Paryża. Gdy w Białej Fabryce zostaje znalezione ciało majstra umazane niebieską farbą, świat wielkiego kapitału drży w posadach. Czy to bankructwo, zazdrość, czy zemsta? W Łodzi roku 1893 pieniądze i krew mają ten sam kolor.",
-  "author": "Detektyw Przeszłości",
-  "difficulty": "Trudny",
-  "estimatedMinutes": 90,
-  "bases": {
-    "base_characters": [
-      { "id": 1,  "name": "Edward Herbst",      "description": "Dyrektor zakładów Scheiblera. Człowiek sukcesu, który ukrywa listy od wierzycieli żony.", "image_url": "herbst.webp",      "qr_decoded": "first_qr" },
-      { "id": 2,  "name": "Matylda Herbst",      "description": "Córka Scheiblera. Cicha filantropka, która opłakuje zmarłą córkę Annę Marię.", "image_url": "matylda.webp",      "qr_decoded": "second_qr" },
-      { "id": 3,  "name": "Karol Scheibler jr",  "description": "Inżynier i dziedzic. Wierzy tylko w turbogeneratory i twarde dane. Gardzi sentymentami.", "image_url": "scheibler_jr.webp", "qr_decoded": "code_qr_after_decoded" },
-      { "id": 4,  "name": "Anna Scheibler",      "description": "Wdowa po Królu Bawełny. Strażniczka honoru rodu Wernerów i Scheiblerów.", "image_url": "anna_s.webp",       "qr_decoded": "code_qr_after_decoded" },
-      { "id": 5,  "name": "Ludwik Grohman",      "description": "Fabrykant i komendant straży. Jego ludzie jako pierwsi byli na miejscu zbrodni.", "image_url": "grohman.webp",      "qr_decoded": "code_qr_after_decoded" },
-      { "id": 6,  "name": "Gustaw Geyer",        "description": "Właściciel Białej Fabryki. Kolekcjoner obrazów, borykający się z coraz większymi długami.", "image_url": "geyer.webp",        "qr_decoded": "code_qr_after_decoded" },
-      { "id": 7,  "name": "Juliusz Kunitzer",    "description": "Twórca Widzewa. Nie cofnie się przed niczym, by doprowadzić tramwaj przez centrum.", "image_url": "kunitzer.webp",    "qr_decoded": "code_qr_after_decoded" },
-      { "id": 8,  "name": "Robert Biedermann",   "description": "Nestor rodu farbiarzy. Zaczynał od dwóch wanien, dziś ma trzynaścioro dzieci i imperium nad Łódką.", "image_url": "robert_b.webp",    "qr_decoded": "code_qr_after_decoded" },
-      { "id": 9,  "name": "Adelma Biedermann",   "description": "Żona Roberta. Jej posag zbudował to imperium, jej milczenie je chroni.", "image_url": "adelma.webp",       "qr_decoded": "code_qr_after_decoded" },
-      { "id": 10, "name": "Alfred Biedermann",   "description": "Syn Roberta. Nowoczesny zarządca laboratorium chemicznego. Zna każdy barwnik z katalogu.", "image_url": "alfred.webp",        "qr_decoded": "code_qr_after_decoded" },
-      { "id": 11, "name": "Helena Geyer",        "description": "Żona Gustawa. Oddana dobroczynności, ale wie o mężu więcej, niż kiedykolwiek powie.", "image_url": "helena.webp",        "qr_decoded": "code_qr_after_decoded" },
-      { "id": 12, "name": "Strażak Ochotnik",    "description": "Młody chłopak ze straży Grohmana. Widział kogoś uciekającego z fabryki tamtej nocy.", "image_url": "strazak.webp",      "qr_decoded": "code_qr_after_decoded" },
-      { "id": 13, "name": "Portier",             "description": "Pracownik u Geyera. Ma słabość do mocnych trunków i cudzych tajemnic.", "image_url": "portier.webp",      "qr_decoded": "code_qr_after_decoded" },
-      { "id": 14, "name": "Robotnik Widzewski",  "description": "Pracownik Kunitzera. Słyszał rozmowę o tajemniczej 'transakcji' w noc morderstwa.", "image_url": "robotnik.webp",     "qr_decoded": "code_qr_after_decoded" }
-    ],
-    "base_clues": [
-      { "id": 1, "name": "Puste Etui",       "description": "Po Złotym Medalu z Paryża. Na czarnym aksamicie widać wyraźny niebieski pył.", "image_url": "etui.webp",     "qr_decoded": "code_qr_after_decoded" },
-      { "id": 2, "name": "Fiolka z Aniliną", "description": "Niebieski barwnik nr 1863. Specjalność zakładów Biedermanna — nie do kupienia nigdzie indziej.", "image_url": "anilina.webp",  "qr_decoded": "code_qr_after_decoded" },
-      { "id": 3, "name": "Bilet do Teatru",  "description": "Miejscówka w loży Geyerów z wczorajszą datą. Ktoś go zgubił, uciekając przez foyer.", "image_url": "bilet.webp",    "qr_decoded": "code_qr_after_decoded" },
-      { "id": 4, "name": "Plan Kolei",       "description": "Szkice tramwajowe Kunitzera. Jedna trasa dziwnie omija grunty Geyera, choć inżynieryjnie to absurd.", "image_url": "plan.webp",     "qr_decoded": "code_qr_after_decoded" },
-      { "id": 5, "name": "Srebrna Spinka",   "description": "Z inicjałem 'E.H.'. Znaleziona w zastygłej kałuży krwi obok ciała w Białej Fabryce.", "image_url": "spinka.webp",   "qr_decoded": "code_qr_after_decoded" },
-      { "id": 6, "name": "List od Wernerów", "description": "Poufne żądanie spłaty długu pod groźbą ujawnienia bankructwa Herbsta.", "image_url": "list.webp",     "qr_decoded": "code_qr_after_decoded" },
-      { "id": 7, "name": "Zaszyfrowany Telegram", "description": "Treść: 'Towar zabezpieczony. Czekam na cmentarzu'. Nadawca nieznany.", "image_url": "telegram.webp", "qr_decoded": "code_qr_after_decoded" },
-      { "id": 8, "name": "Klucz do Mauzoleum",    "description": "Ciężki żelazny klucz do grobowca Scheiblera. Skąd wziął się w farbiarni Biedermanna?", "image_url": "klucz.webp",    "qr_decoded": "code_qr_after_decoded" },
-      { "id": 9, "name": "Fragment Koronki",       "description": "Drogocenny wyrób z nowej fabryki koronek Geyera. Znaleziony przy ciele, choć majster miał go dostarczyć do pałacu.", "image_url": "koronka.webp",  "qr_decoded": "code_qr_after_decoded" }
-    ],
-    "base_enigmas": [
-      { "id": 1, "name": "Złodziej Medalu",  "description": "Kto wyniósł Złoty Medal z Paryża z gabinetu Herbsta pod osłoną nocy?", "image_url": "e1.webp", "qr_decoded": "code_qr_after_decoded" },
-      { "id": 2, "name": "Morderca Majstra", "description": "Kto zabił majstra Antoniego w Białej Fabryce i umazał go niebieską farbą?", "image_url": "e2.webp", "qr_decoded": "code_qr_after_decoded" },
-      { "id": 3, "name": "Prawdziwy Motyw",  "description": "Jaki sekret miał zatuszować cały ten ciąg kradzieży i zbrodni?", "image_url": "e3.webp", "qr_decoded": "code_qr_after_decoded" }
-    ],
-    "base_locations": [
-      { "id": "1", "name": "Pałac Herbsta",        "description": "Tu zaczęła się historia kradzieży.",            "latitude": 51.7483, "longitude": 19.4752, "characters": [1, 2],         "image_url": "l1.webp", "qr_decoded": "Pałac Herbsta" },
-      { "id": "2", "name": "Biała Fabryka",        "description": "Miejsce znalezienia ciała majstra.",            "latitude": 51.7444, "longitude": 19.4611, "characters": [3, 4, 5],       "image_url": "l2.webp", "qr_decoded": "Biała Fabryka" },
-      { "id": "3", "name": "Willa Grohmana",       "description": "Ośrodek dyscypliny, dymu i ognia.",            "latitude": 51.7490, "longitude": 19.4700, "characters": [6, 7],         "image_url": "l3.webp", "qr_decoded": "Willa Grohmana" },
-      { "id": "4", "name": "Widzewska Manufaktura","description": "Królestwo postępu i robotniczego szepty.",     "latitude": 51.7600, "longitude": 19.5000, "characters": [8, 9],         "image_url": "l4.webp", "qr_decoded": "Widzewska Manufaktura" },
-      { "id": "5", "name": "Fabryka Biedermanna",  "description": "Laboratorium barw ukrywające mroczny sekret.", "latitude": 51.7800, "longitude": 19.4550, "characters": [10, 11, 12],    "image_url": "l5.webp", "qr_decoded": "Fabryka Biedermanna" },
-      { "id": "6", "name": "Stary Cmentarz",       "description": "Finał pośród neogotyckich mauzoléów.",         "latitude": 51.7690, "longitude": 19.4350, "characters": [13, 14],       "image_url": "l6.webp", "qr_decoded": "Stary Cmentarz" }
-    ]
-  },
-  "dialogsMatrices": {
-    "dialogs_matrix_characters": [
-      [ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13],
-      [14,  0, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26],
-      [27, 28,  0, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39],
-      [40, 41, 42,  0, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52],
-      [53, 54, 55, 56,  0, 57, 58, 59, 60, 61, 62, 63, 64, 65],
-      [66, 67, 68, 69, 70,  0, 71, 72, 73, 74, 75, 76, 77, 78],
-      [79, 80, 81, 82, 83, 84,  0, 85, 86, 87, 88, 89, 90, 91],
-      [92, 93, 94, 95, 96, 97, 98,  0, 99,100,101,102,103,104],
-      [105,106,107,108,109,110,111,112,  0,113,114,115,116,117],
-      [118,119,120,121,122,123,124,125,126,  0,127,128,129,130],
-      [131,132,133,134,135,136,137,138,139,140,  0,141,142,143],
-      [144,145,146,147,148,149,150,151,152,153,154,  0,155,156],
-      [157,158,159,160,161,162,163,164,165,166,167,168,  0,169],
-      [170,171,172,173,174,175,176,177,178,179,180,181,182,  0]
-    ],
-    "dialogs_matrix_clues": [
-      [183,184,185,186,187,188,189,190,191],
-      [192,193,194,195,196,197,198,199,200],
-      [201,202,203,204,205,206,207,208,209],
-      [210,211,212,213,214,215,216,217,218],
-      [219,220,221,222,223,224,225,226,227],
-      [228,229,230,231,232,233,234,235,236],
-      [237,238,239,240,241,242,243,244,245],
-      [246,247,248,249,250,251,252,253,254],
-      [255,256,257,258,259,260,261,262,263],
-      [264,265,266,267,268,269,270,271,272],
-      [273,274,275,276,277,278,279,280,281],
-      [282,283,284,285,286,287,288,289,290],
-      [291,292,293,294,295,296,297,298,299],
-      [300,301,302,303,304,305,306,307,308]
-    ],
-    "dialogs_matrix_enigmas": [
-      [309,310,311],
-      [312,313,314],
-      [315,316,317],
-      [318,319,320],
-      [321,322,323],
-      [324,325,326],
-      [327,328,329],
-      [330,331,332],
-      [333,334,335],
-      [336,337,338],
-      [339,340,341],
-      [342,343,344],
-      [345,346,347],
-      [348,349,350]
-    ],
-    "dialogs_matrix_locations": [
-      [351,352,353,354,355,356]
-    ]
-  },
-  "itemsDialogs": {
-    "items_dialogs_characters": [
-      { "id": 1,   "content": "Edward ostatnio kłębkiem nerwów. Od kiedy przychodzą te listy z Ozorkowa, nie sypia. Słyszałam, jak rozmawiał w nocy sam ze sobą.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 2,   "content": "Matylda to anioł, ale w tym mieście anioły szybko tracą skrzydła. Widziałem puste pokoje w pałacu. Ona sprzedaje porcelanę.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 3,   "content": "Karol junior patrzy na wszystko przez pryzmat elektryfikacji. Nie zrozumiałby sentymentu, gdyby go ktoś opisał w prospekcie technicznym.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 4,   "content": "Anna Scheibler to ostoja rodu. Ale ostatnio widziałem, jak płakała przy rodzinnych portretach. Coś ją gnębi od tygodni.", "characters": [], "clues": [6], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 5,   "content": "Grohman? Solidny człowiek, ale jego straż pożarna za szybko dotarła na miejsce. Za bardzo szybko, jak na przypadek.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 6,   "content": "Gustaw Geyer ma długi jak Piotrkowska jest długa. A jednak kupuje obrazy. Ktoś mu musiał niedawno pomóc finansowo.", "characters": [], "clues": [], "enigmas": [], "locations": [3], "switch": 0 },
-      { "id": 7,   "content": "Kunitzer to wizjoner. Ale wizjonerzy chodzą po cudzych gruntach, nie pytając o pozwolenie. Pyta się tylko urzędników.", "characters": [], "clues": [4], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 8,   "content": "Robert Biedermann? Zacny człowiek. Tylko że jego syn Alfred zamknął laboratorium na trzy dni bez słowa wyjaśnienia.", "characters": [], "clues": [2], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 9,   "content": "Adelma pilnuje pieniędzy jak te swoje kawałki. Słyszałam, że odmówiła mężowi nowych kadzi. Mówi, że nie stać.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 10,  "content": "Alfred jest zdolny, ale arogancki. Wie, że ma najlepsze barwniki w mieście, i wykorzystuje to bezwstydnie.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 11,  "content": "Helena Geyer to kobieta z klasą. Szkoda, że musi ukrywać długi Gustawa przed resztą towarzystwa.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 12,  "content": "Ten chłopak ze straży widział coś, czego nie powinien widzieć. I widać to na jego twarzy za każdym razem, gdy pyta się go o tamtą noc.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 13,  "content": "Portier u Geyera pije za dużo. Ale pijani ludzie mówią prawdę. Zapytaj go, kiedy jest trzeźwy na tyle, żeby pamiętać.", "characters": [], "clues": [3], "enigmas": [], "locations": [], "switch": 0 },
+	"id": "ep_krew_na_bawelnie",
+	"version": 2,
+	"localization": {
+		"city": "Łódź",
+		"region": "Łódzkie",
+		"country": "Poland",
+		"countryCode": "PL",
+		"centerLatitude": 51.7500,
+		"centerLongitude": 19.4500
+	},
+	"points": [
+		{
+			"id": "ep_krew_na_bawelnie_p1",
+			"name": "Pałac Herbsta",
+			"description": "Rezydencja na Księżym Młynie, gdzie skradziono symbol potęgi Scheiblerów.",
+			"latitude": 51.7483,
+			"longitude": 19.4752,
+			"isMainPoint": true,
+			"order": 1
+		},
+		{
+			"id": "ep_krew_na_bawelnie_p2",
+			"name": "Biała Fabryka",
+			"description": "Gmach Ludwika Geyera, w którym pod maszyną parową znaleziono zwłoki.",
+			"latitude": 51.7444,
+			"longitude": 19.4611,
+			"isMainPoint": false,
+			"order": 2 
+		},
+		{
+			"id": "ep_krew_na_bawelnie_p3",
+			"name": "Willa Grohmana",
+			"description": "Siedziba komendanta straży ogniowej przy ul. Tylnej.",
+			"latitude": 51.7490,
+			"longitude": 19.4700,
+			"isMainPoint": false,
+			"order": 3 
+		},
+		{
+			"id": "ep_krew_na_bawelnie_p4",
+			"name": "Widzewska Manufaktura",
+			"description": "Dzielnica Kunitzera, gdzie robotniczy gniew miesza się z dymem kominów.",
+			"latitude": 51.7600,
+			"longitude": 19.5000,
+			"isMainPoint": false,
+			"order": 4 
+		},
+		{
+			"id": "ep_krew_na_bawelnie_p5",
+			"name": "Fabryka Biedermanna",
+			"description": "Farbiarnia nad rzeką Łódką, skąd pochodzi tajemniczy barwnik.",
+			"latitude": 51.7800,
+			"longitude": 19.4550,
+			"isMainPoint": false,
+			"order": 5 
+		},
+		{
+			"id": "ep_krew_na_bawelnie_p6",
+			"name": "Stary Cmentarz",
+			"description": "Miejsce wiecznego spoczynku, gdzie neogotyckie mauzolea skrywają prawdę.",
+			"latitude": 51.7690,
+			"longitude": 19.4350,
+			"isMainPoint": false,
+			"order": 6 
+		}
+		],
 
-      { "id": 14,  "content": "Edward jest dla mnie dobry. Martwię się o niego. Ale pewne rzeczy w tym domu zaczęły mi umykać... jak ten sejf, który był otwarty.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 15,  "content": "Karol junior myśli tylko o fabrykach. Rozumiem go, bo jego ojciec tego go nauczył. Ale serce trzeba mieć przy sobie.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 16,  "content": "Anna Scheibler patrzy na mnie jak na intruza w rodzinie. Przyszłam z posagiem, a ona wciąż uważa, że to za mało.", "characters": [], "clues": [6], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 17,  "content": "Grohman był u nas dwa dni temu. Mówił o jakimś 'zabezpieczeniu'. Edward zbladł i zmienił temat.", "characters": [], "clues": [7], "enigmas": [], "locations": [], "switch": 1 },
-      { "id": 18,  "content": "Geyer? Bywał u nas, gdy żył teść. Teraz przychodzi tylko wtedy, gdy potrzebuje pieniędzy albo znajomości.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 19,  "content": "Kunitzer buduje swoje tramwaje po cudzych gruntach. Edward kiedyś powiedział, że zna dokładny plan. I że warto go mieć.", "characters": [], "clues": [4], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 20,  "content": "Biedermann? Porządny człowiek. Jego barwniki kupujemy od lat. Ale ostatni dostawca nie dotarł. Edward coś o tym mówił.", "characters": [], "clues": [], "enigmas": [], "locations": [5], "switch": 0 },
-      { "id": 21,  "content": "Adelma Biedermann funduje sierocińce. Chciałam się z nią zobaczyć w sprawie szpitala, ale ona ostatnio nie przyjmuje gości.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 22,  "content": "Alfred? Nie znam go osobiście. Ale słyszałam, że coś zaginęło z jego laboratorium. Dziwna sprawa.", "characters": [], "clues": [2], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 23,  "content": "Helena Geyer jest rozsądna. Wiem, że próbowała powstrzymać Gustawa od tych zakupów obrazów. Bezskutecznie.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 24,  "content": "Ten strażak... to tylko chłopiec. Ale chłopcy widzą rzeczy, których dorośli nie chcą widzieć.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 25,  "content": "Portier to pijak. Ale pijacy pamiętają więcej niż myślisz, szczególnie gdy coś im napełnisz.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 26,  "content": "Robotnik? Na Widzewie wszyscy coś wiedzą i nikt nic nie mówi. Strach przed zwolnieniem.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
+	"name": "Krew na Bawełnie",
+	"description": "Z gabinetu Edwarda Herbsta znika Złoty Medal z Paryża. Gdy w Białej Fabryce zostaje znalezione ciało majstra umazane niebieską farbą, świat wielkiego kapitału drży w posadach. Czy to bankructwo, zazdrość, czy zemsta? W Łodzi roku 1893 pieniądze i krew mają ten sam kolor.",
+	"author": "Detektyw Przeszłości",
+	"difficulty": "Trudny",
+	"estimatedMinutes": 90,
+	"bases": {
+		"base_characters": [
+			{
+				"id": 1,
+				"name": "Edward Herbst",
+				"description": "Dyrektor zakładów Scheiblera. Człowiek sukcesu, który ukrywa listy od wierzycieli żony.",
+				"image_url": "herbst.webp",
+				"qr_decoded": "first_qr" 
+			},
+			{
+				"id": 2,
+				"name": "Matylda Herbst",
+				"description": "Córka Scheiblera. Cicha filantropka, która opłakuje zmarłą córkę Annę Marię.",
+				"image_url": "matylda.webp",
+				"qr_decoded": "second_qr" 
+			},
+			{
+				"id": 3,
+				"name": "Karol Scheibler jr",
+				"description": "Inżynier i dziedzic. Wierzy tylko w turbogeneratory i twarde dane. Gardzi sentymentami.",
+				"image_url": "scheibler_jr.webp",
+				"qr_decoded": "code_qr_after_decoded" 
+			},
+			{
+				"id": 4,
+				"name": "Anna Scheibler",
+				"description": "Wdowa po Królu Bawełny. Strażniczka honoru rodu Wernerów i Scheiblerów.",
+				"image_url": "anna_s.webp", 
+				"qr_decoded": "code_qr_after_decoded" 
+			},
+			{
+				"id": 5,
+				"name": "Ludwik Grohman",
+				"description": "Fabrykant i komendant straży. Jego ludzie jako pierwsi byli na miejscu zbrodni.",
+				"image_url": "grohman.webp",
+				"qr_decoded": "code_qr_after_decoded" 
+			},
+			{
+				"id": 6,
+				"name": "Gustaw Geyer",
+				"description": "Właściciel Białej Fabryki. Kolekcjoner obrazów, borykający się z coraz większymi długami.",
+				"image_url": "geyer.webp",
+				"qr_decoded": "code_qr_after_decoded" 
+			},
+			{
+				"id": 7,
+				"name": "Juliusz Kunitzer",
+				"description": "Twórca Widzewa. Nie cofnie się przed niczym, by doprowadzić tramwaj przez centrum.",
+				"image_url": "kunitzer.webp",
+				"qr_decoded": "code_qr_after_decoded" 
+			},
+			{
+				"id": 8,
+				"name": "Robert Biedermann", 
+				"description": "Nestor rodu farbiarzy. Zaczynał od dwóch wanien, dziś ma trzynaścioro dzieci i imperium nad Łódką.",
+				"image_url": "robert_b.webp",
+				"qr_decoded": "code_qr_after_decoded" 
+			},
+			{
+				"id": 9,
+				"name": "Adelma Biedermann", 
+				"description": "Żona Roberta. Jej posag zbudował to imperium, jej milczenie je chroni.",
+				"image_url": "adelma.webp", 
+				"qr_decoded": "code_qr_after_decoded" 
+			},
+			{
+				"id": 10,
+				"name": "Alfred Biedermann", 
+				"description": "Syn Roberta. Nowoczesny zarządca laboratorium chemicznego. Zna każdy barwnik z katalogu.",
+				"image_url": "alfred.webp",
+				"qr_decoded": "code_qr_after_decoded" 
+			},
+			{
+				"id": 11,
+				"name": "Helena Geyer",
+				"description": "Żona Gustawa. Oddana dobroczynności, ale wie o mężu więcej, niż kiedykolwiek powie.",
+				"image_url": "helena.webp",
+				"qr_decoded": "code_qr_after_decoded" 
+			},
+			{
+				"id": 12,
+				"name": "Strażak Ochotnik",
+				"description": "Młody chłopak ze straży Grohmana. Widział kogoś uciekającego z fabryki tamtej nocy.",
+				"image_url": "strazak.webp",
+				"qr_decoded": "code_qr_after_decoded" 
+			},
+			{
+				"id": 13,
+				"name": "Portier", 
+				"description": "Pracownik u Geyera. Ma słabość do mocnych trunków i cudzych tajemnic.",
+				"image_url": "portier.webp",
+				"qr_decoded": "code_qr_after_decoded" 
+			},
+			{
+				"id": 14,
+				"name": "Robotnik Widzewski",
+				"description": "Pracownik Kunitzera. Słyszał rozmowę o tajemniczej 'transakcji' w noc morderstwa.",
+				"image_url": "robotnik.webp", 
+				"qr_decoded": "code_qr_after_decoded"
+			}
+		],
+		"base_clues": [
+			{
+				"id": 1,
+				"name": "Puste Etui", 
+				"description": "Po Złotym Medalu z Paryża. Na czarnym aksamicie widać wyraźny niebieski pył.",
+				"image_url": "etui.webp", 
+				"qr_decoded": "code_qr_after_decoded" 
+			},
+			{
+				"id": 2,
+				"name": "Fiolka z Aniliną",
+				"description": "Niebieski barwnik nr 1863. Specjalność zakładów Biedermanna — nie do kupienia nigdzie indziej.",
+				"image_url": "anilina.webp",
+				"qr_decoded": "code_qr_after_decoded" 
+			},
+			{
+				"id": 3,
+				"name": "Bilet do Teatru",
+				"description": "Miejscówka w loży Geyerów z wczorajszą datą. Ktoś go zgubił, uciekając przez foyer.",
+				"image_url": "bilet.webp",
+				"qr_decoded": "code_qr_after_decoded" 
+			},
+			{
+				"id": 4,
+				"name": "Plan Kolei", 
+				"description": "Szkice tramwajowe Kunitzera. Jedna trasa dziwnie omija grunty Geyera, choć inżynieryjnie to absurd.",
+				"image_url": "plan.webp", 
+				"qr_decoded": "code_qr_after_decoded" 
+			},
+			{
+				"id": 5,
+				"name": "Srebrna Spinka", 
+				"description": "Z inicjałem 'E.H.'. Znaleziona w zastygłej kałuży krwi obok ciała w Białej Fabryce.",
+				"image_url": "spinka.webp", 
+				"qr_decoded": "code_qr_after_decoded" 
+			},
+			{
+				"id": 6,
+				"name": "List od Wernerów",
+				"description": "Poufne żądanie spłaty długu pod groźbą ujawnienia bankructwa Herbsta.",
+				"image_url": "list.webp", 
+				"qr_decoded": "code_qr_after_decoded" 
+			},
+			{
+				"id": 7,
+				"name": "Zaszyfrowany Telegram",
+				"description": "Treść: 'Towar zabezpieczony. Czekam na cmentarzu'. Nadawca nieznany.",
+				"image_url": "telegram.webp",
+				"qr_decoded": "code_qr_after_decoded" 
+			},
+			{
+				"id": 8,
+				"name": "Klucz do Mauzoleum",
+				"description": "Ciężki żelazny klucz do grobowca Scheiblera. Skąd wziął się w farbiarni Biedermanna?",
+				"image_url": "klucz.webp",
+				"qr_decoded": "code_qr_after_decoded" 
+			},
+			{
+				"id": 9,
+				"name": "Fragment Koronki", 
+				"description": "Drogocenny wyrób z nowej fabryki koronek Geyera. Znaleziony przy ciele, choć majster miał go dostarczyć do pałacu.",
+				"image_url": "koronka.webp",
+				"qr_decoded": "code_qr_after_decoded" 
+			}
+		],
+		"base_enigmas": [
+			{
+				"id": 1,
+				"name": "Złodziej Medalu",
+				"description": "Kto wyniósł Złoty Medal z Paryża z gabinetu Herbsta pod osłoną nocy?",
+				"image_url": "e1.webp",
+				"qr_decoded": "code_qr_after_decoded" 
+			},
+			{
+				"id": 2,
+				"name": "Morderca Majstra",
+				"description": "Kto zabił majstra Antoniego w Białej Fabryce i umazał go niebieską farbą?",
+				"image_url": "e2.webp",
+				"qr_decoded": "code_qr_after_decoded" 
+			},
+			{
+				"id": 3,
+				"name": "Prawdziwy Motyw",
+				"description": "Jaki sekret miał zatuszować cały ten ciąg kradzieży i zbrodni?",
+				"image_url": "e3.webp",
+				"qr_decoded": "code_qr_after_decoded" 
+			}
+		],
+		"base_locations": [
+			{
+				"id": "1",
+				"name": "Pałac Herbsta",
+				"description": "Tu zaczęła się historia kradzieży.",
+				"latitude": 51.7483,
+				"longitude": 19.4752,
+				"characters": [1, 2], 
+				"image_url": "l1.webp",
+				"qr_decoded": "Pałac Herbsta" 
+			},
+			{
+				"id": "2",
+				"name": "Biała Fabryka",
+				"description": "Miejsce znalezienia ciała majstra.",
+				"latitude": 51.7444,
+				"longitude": 19.4611,
+				"characters": [3, 4, 5], 
+				"image_url": "l2.webp",
+				"qr_decoded": "Biała Fabryka" 
+			},
+			{
+				"id": "3",
+				"name": "Willa Grohmana", 
+				"description": "Ośrodek dyscypliny, dymu i ognia.",
+				"latitude": 51.7490,
+				"longitude": 19.4700,
+				"characters": [6, 7],
+				"image_url": "l3.webp",
+				"qr_decoded": "Willa Grohmana" 
+			},
+			{
+				"id": "4",
+				"name": "Widzewska Manufaktura",
+				"description": "Królestwo postępu i robotniczego szepty.",
+				"latitude": 51.7600,
+				"longitude": 19.5000,
+				"characters": [8, 9],
+				"image_url": "l4.webp",
+				"qr_decoded": "Widzewska Manufaktura" 
+			},
+			{
+				"id": "5",
+				"name": "Fabryka Biedermanna",
+				"description": "Laboratorium barw ukrywające mroczny sekret.",
+				"latitude": 51.7800,
+				"longitude": 19.4550,
+				"characters": [10, 11, 12],
+				"image_url": "l5.webp",
+				"qr_decoded": "Fabryka Biedermanna" 
+			},
+			{
+				"id": "6",
+				"name": "Stary Cmentarz", 
+				"description": "Finał pośród neogotyckich mauzoléów.",
+				"latitude": 51.7690,
+				"longitude": 19.4350,
+				"characters": [13, 14], 
+				"image_url": "l6.webp",
+				"qr_decoded": "Stary Cmentarz" 
+			}
+		]
+		
+	},
 
-      { "id": 27,  "content": "Herbst jest moim szwagrem. Nie lubię go, ale szanuję jego umiejętności zarządcze. Jego prywatne problemy mnie nie interesują.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 28,  "content": "Matylda jest zbyt łagodna jak na wdowę po wielkim fabrykancym. Moja matka zawsze to mówiła.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 29,  "content": "Matka i jej honor Wernerów. Nie rozumie, że czasy się zmieniły. Teraz liczy się prąd elektryczny, nie herby.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 30,  "content": "Grohman to stary porządkowy. Ciekawe, że zawsze zjawia się pierwszy. Nie śpi?", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 31,  "content": "Geyer ma długi. Widzieliśmy to w bilansach. Gdyby nie tramwaje Kunitzera, już by upadł.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 32,  "content": "Kunitzer? Ambitny człowiek. Zbyt ambitny. W biznesie to cnota. Poza nim – nie.", "characters": [], "clues": [4], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 33,  "content": "Biedermann dostarcza nam barwniki od lat. Dobra jakość, uczciwa cena. Alfred jest precyzyjny.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 34,  "content": "Adelma Biedermann robi wrażenie kobiety, która wie, kiedy milczeć. To rzadka umiejętność.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 35,  "content": "Alfred zamknął laboratorium. Nie wiem dlaczego, ale nowe zamówienie na aniliny przyszło z opóźnieniem.", "characters": [], "clues": [2], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 36,  "content": "Helena Geyer funduje coraz mniej. Dawniej płaciła za ochronkę. Teraz płaci za długi Gustawa.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 37,  "content": "Strażak widział pelerynę. Pytałem go szczegółowo. Mówił, że osoba była wysoka i szybka.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 38,  "content": "Portier pije, ale nie konfabuluje. Jak mówi, że widział kogoś, to widział.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 39,  "content": "Robotnik z Widzewa? Ci ludzie wiedzą więcej o swoich pracodawcach niż pracodawcy o sobie.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
+	"dialogsMatrices": {
+		"dialogs_matrix_characters": [
+			[ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13],
+			[14,  0, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26],
+			[27, 28,  0, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39],
+			[40, 41, 42,  0, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52],
+			[53, 54, 55, 56,  0, 57, 58, 59, 60, 61, 62, 63, 64, 65],
+			[66, 67, 68, 69, 70,  0, 71, 72, 73, 74, 75, 76, 77, 78],
+			[79, 80, 81, 82, 83, 84,  0, 85, 86, 87, 88, 89, 90, 91],
+			[92, 93, 94, 95, 96, 97, 98,  0, 99,100,101,102,103,104],
+			[105,106,107,108,109,110,111,112,  0,113,114,115,116,117],
+			[118,119,120,121,122,123,124,125,126,  0,127,128,129,130],
+			[131,132,133,134,135,136,137,138,139,140,  0,141,142,143],
+			[144,145,146,147,148,149,150,151,152,153,154,  0,155,156],
+			[157,158,159,160,161,162,163,164,165,166,167,168,  0,169],
+			[170,171,172,173,174,175,176,177,178,179,180,181,182,  0]
+		],
+		"dialogs_matrix_clues": [
+			[183,184,185,186,187,188,189,190,191],
+			[192,193,194,195,196,197,198,199,200],
+			[201,202,203,204,205,206,207,208,209],
+			[210,211,212,213,214,215,216,217,218],
+			[219,220,221,222,223,224,225,226,227],
+			[228,229,230,231,232,233,234,235,236],
+			[237,238,239,240,241,242,243,244,245],
+			[246,247,248,249,250,251,252,253,254],
+			[255,256,257,258,259,260,261,262,263],
+			[264,265,266,267,268,269,270,271,272],
+			[273,274,275,276,277,278,279,280,281],
+			[282,283,284,285,286,287,288,289,290],
+			[291,292,293,294,295,296,297,298,299],
+			[300,301,302,303,304,305,306,307,308]
+		],
+		"dialogs_matrix_enigmas": [
+			[309,310,311],
+			[312,313,314],
+			[315,316,317],
+			[318,319,320],
+			[321,322,323],
+			[324,325,326],
+			[327,328,329],
+			[330,331,332],
+			[333,334,335],
+			[336,337,338],
+			[339,340,341],
+			[342,343,344],
+			[345,346,347],
+			[348,349,350]
+		],
+		"dialogs_matrix_locations": [
+			[351,352,353,354,355,356]
+		]
+		
+	},
 
-      { "id": 40,  "content": "Herbst przyszedł do ojca Karola z niczym. Wzięli go tylko dlatego, że ożenił się z Matyldą. I się nie mylili.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 41,  "content": "Matylda zawsze była za dobra na ten świat. Mam nadzieję, że mąż jej nie zawiedzie bardziej, niż już to zrobił.", "characters": [], "clues": [6], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 42,  "content": "Karol robi interesy jak ojciec, ale brakuje mu cierpliwości. Wielkie kombinaty buduje się latami, nie telegramami.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 43,  "content": "Grohman jest porządny, ale nazbyt lojalny wobec Herbsta. To nie jest dobra cecha w śledztwie.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 44,  "content": "Geyer? Kiedyś miał talent. Teraz ma tylko długi i niedobrego znajomego z tramwajami.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 45,  "content": "Kunitzer jest niecierpliwy. Chce wszystkiego teraz. Takim ludziom zdarzają się wypadki.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 46,  "content": "Biedermann dostarczał barwniki mojemu mężowi przez lata. Solidna firma. Ufam Robertowi.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 47,  "content": "Adelma jest surowa. Ale te kobiety, które budują fortuny z posagu, zawsze są surowe. To konieczne.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 48,  "content": "Alfred to mózg farbiarni. Ale mózgi bez serca robią rzeczy, które potem trudno wytłumaczyć.", "characters": [], "clues": [2], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 49,  "content": "Helena Geyer? Znam ją z Towarzystwa Dobroczynności. Ostatnio nie przychodziła na posiedzenia.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 50,  "content": "Strażak młody, ale pilny. Pamiętam, gdy go Grohman szkolił. Mówił o nim dobrze.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 51,  "content": "Portier to smutna postać. Kiedyś był sprawnym woźnicą. Teraz pilnuje bramy i pije.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 52,  "content": "Robotnik z Widzewa? Ci ludzie nie kłamią. Nie mają powodów. I właśnie to jest straszne.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
+	"itemsDialogs": {
+		"items_dialogs_characters": [
+			{
+	"id": 1, 
+	"content": "Edward ostatnio kłębkiem nerwów. Od kiedy przychodzą te listy z Ozorkowa, nie sypia. Słyszałam, jak rozmawiał w nocy sam ze sobą.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 2, 
+	"content": "Matylda to anioł, ale w tym mieście anioły szybko tracą skrzydła. Widziałem puste pokoje w pałacu. Ona sprzedaje porcelanę.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 3, 
+	"content": "Karol junior patrzy na wszystko przez pryzmat elektryfikacji. Nie zrozumiałby sentymentu, gdyby go ktoś opisał w prospekcie technicznym.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 4, 
+	"content": "Anna Scheibler to ostoja rodu. Ale ostatnio widziałem, jak płakała przy rodzinnych portretach. Coś ją gnębi od tygodni.",
+	"characters": [],
+	"clues": [6],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 5, 
+	"content": "Grohman? Solidny człowiek, ale jego straż pożarna za szybko dotarła na miejsce. Za bardzo szybko, jak na przypadek.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 6, 
+	"content": "Gustaw Geyer ma długi jak Piotrkowska jest długa. A jednak kupuje obrazy. Ktoś mu musiał niedawno pomóc finansowo.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [3],
+	"switch": 0 
+			},
+			{
+	"id": 7, 
+	"content": "Kunitzer to wizjoner. Ale wizjonerzy chodzą po cudzych gruntach, nie pytając o pozwolenie. Pyta się tylko urzędników.",
+	"characters": [],
+	"clues": [4],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 8, 
+	"content": "Robert Biedermann? Zacny człowiek. Tylko że jego syn Alfred zamknął laboratorium na trzy dni bez słowa wyjaśnienia.",
+	"characters": [],
+	"clues": [2],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 9, 
+	"content": "Adelma pilnuje pieniędzy jak te swoje kawałki. Słyszałam, że odmówiła mężowi nowych kadzi. Mówi, że nie stać.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 10,
+	"content": "Alfred jest zdolny, ale arogancki. Wie, że ma najlepsze barwniki w mieście, i wykorzystuje to bezwstydnie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 11,
+	"content": "Helena Geyer to kobieta z klasą. Szkoda, że musi ukrywać długi Gustawa przed resztą towarzystwa.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 12,
+	"content": "Ten chłopak ze straży widział coś, czego nie powinien widzieć. I widać to na jego twarzy za każdym razem, gdy pyta się go o tamtą noc.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 13,
+	"content": "Portier u Geyera pije za dużo. Ale pijani ludzie mówią prawdę. Zapytaj go, kiedy jest trzeźwy na tyle, żeby pamiętać.",
+	"characters": [],
+	"clues": [3],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
 
-      { "id": 53,  "content": "Herbst? Przyszedł po radę w sprawie straży ogniowej. Ale nie o straż chodziło. Pytał o to, jak ukryć ślady pożaru.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 54,  "content": "Matylda Herbst jest kobietą honoru. Jej mąż już nie. Widziałem zestawienie długów, które przyniósł Herbst.", "characters": [], "clues": [6], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 55,  "content": "Karol junior jest skuteczny. Mniej honorowy niż ojciec, ale skuteczny. To coraz częstsza zamiana.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 56,  "content": "Anna Scheibler jest zbyt dumna, żeby prosić o pomoc. Ale jej dom wymaga gruntownego remontu.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 57,  "content": "Geyer? Widzieliśmy się przy pożarze w Białej Fabryce trzy lata temu. Działa spokojnie w kryzysie. Zbyt spokojnie.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 58,  "content": "Kunitzer buduje, ale i niszczy. Tramwaje to dobro wspólne, ale trasy wybiera sam. Podejrzanie sam.", "characters": [], "clues": [4], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 59,  "content": "Biedermann to uczciwy człowiek. Ale uczciwy ojciec ma nie zawsze uczciwego syna.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 60,  "content": "Adelma trzyma sznurki finansów Biedermanów. Bez jej zgody nikt nie rusza fiolki z laboratorium.", "characters": [], "clues": [2], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 61,  "content": "Alfred zamknął laboratorium bez powodu. Pytałem Roberta. Wzruszył ramionami. To nie jest dobry znak.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 62,  "content": "Helena Geyer? Zna się na pożarach lepiej, niż powinna. Przy każdym niegroźnym incydencie była pierwsza.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 63,  "content": "Ten strażak jest moim człowiekiem. Mówi prawdę. A to, co widział, trudno mi wytłumaczyć rozsądnie.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 64,  "content": "Portier pije, ale nie kłamie. Pijacy rzadko kłamią w najważniejszych sprawach.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 65,  "content": "Robotnik mówił mi o rozmowie przez kratę przy warsztatach. W nocy morderstwa. To ważne.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
+			{
+	"id": 14,
+	"content": "Edward jest dla mnie dobry. Martwię się o niego. Ale pewne rzeczy w tym domu zaczęły mi umykać... jak ten sejf, który był otwarty.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 15,
+	"content": "Karol junior myśli tylko o fabrykach. Rozumiem go, bo jego ojciec tego go nauczył. Ale serce trzeba mieć przy sobie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 16,
+	"content": "Anna Scheibler patrzy na mnie jak na intruza w rodzinie. Przyszłam z posagiem, a ona wciąż uważa, że to za mało.",
+	"characters": [],
+	"clues": [6],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 17,
+	"content": "Grohman był u nas dwa dni temu. Mówił o jakimś 'zabezpieczeniu'. Edward zbladł i zmienił temat.",
+	"characters": [],
+	"clues": [7],
+	"enigmas": [],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 18,
+	"content": "Geyer? Bywał u nas, gdy żył teść. Teraz przychodzi tylko wtedy, gdy potrzebuje pieniędzy albo znajomości.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 19,
+	"content": "Kunitzer buduje swoje tramwaje po cudzych gruntach. Edward kiedyś powiedział, że zna dokładny plan. I że warto go mieć.",
+	"characters": [],
+	"clues": [4],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 20,
+	"content": "Biedermann? Porządny człowiek. Jego barwniki kupujemy od lat. Ale ostatni dostawca nie dotarł. Edward coś o tym mówił.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [5],
+	"switch": 0 
+			},
+			{
+	"id": 21,
+	"content": "Adelma Biedermann funduje sierocińce. Chciałam się z nią zobaczyć w sprawie szpitala, ale ona ostatnio nie przyjmuje gości.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 22,
+	"content": "Alfred? Nie znam go osobiście. Ale słyszałam, że coś zaginęło z jego laboratorium. Dziwna sprawa.",
+	"characters": [],
+	"clues": [2],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 23,
+	"content": "Helena Geyer jest rozsądna. Wiem, że próbowała powstrzymać Gustawa od tych zakupów obrazów. Bezskutecznie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 24,
+	"content": "Ten strażak... to tylko chłopiec. Ale chłopcy widzą rzeczy, których dorośli nie chcą widzieć.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 25,
+	"content": "Portier to pijak. Ale pijacy pamiętają więcej niż myślisz, szczególnie gdy coś im napełnisz.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 26,
+	"content": "Robotnik? Na Widzewie wszyscy coś wiedzą i nikt nic nie mówi. Strach przed zwolnieniem.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
 
-      { "id": 66,  "content": "Herbst mi pomógł. Udzielił mi prywatnej pożyczki, gdy bank odmówił. Dlatego... dlatego trudno mi mówić.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 67,  "content": "Matylda jest szlachetna. Funduje szpital dla dzieci. To coś, czego jej mąż nigdy nie zrobi z czystego serca.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 68,  "content": "Karol junior to mój przyszły wspólnik, jak Bóg da. Jego elektrownie i moje koronki — dobry duet.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 69,  "content": "Anna Scheibler? Ona uważa, że każdy kto nie jest Scheiblerem ani Wernerem, jest pionkiem. Ja pionikiem nie jestem.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 70,  "content": "Grohman to porządny człowiek. Ja tylko nie rozumiem, dlaczego tyle wie o tej sprawie.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 71,  "content": "Kunitzer i ja nie jesteśmy wrogami. Ale ten plan tramwajowy... Gdyby szedł przez moje grunty, musiałbym sprzedać Białą Fabrykę.", "characters": [], "clues": [4], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 72,  "content": "Biedermann zaopatruje mnie w barwniki od lat. Dobra relacja. Ufam Robertowi bardziej niż własnym robotnikom.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 73,  "content": "Adelma jest dyskretna. Powiem tyle: była u mnie w spawie delikatnej. Powiedziała, że zależy jej na spokoju.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 74,  "content": "Alfred jest precyzyjny jak szwajcarski zegarek. I zimny jak ten zegarek.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 75,  "content": "Helena stara się trzymać głowę wysoko. Znam jej prawdziwy stan finansowy. Znam go dobrze.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 76,  "content": "Ten chłopiec ze straży był przy zwłokach jako pierwszy. Bледny jak płótno. Coś go prześladuje.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 77,  "content": "Portier? Siedzę przy jego bramie od tygodnia i mogę powiedzieć: on naprawdę widział tamtą noc.", "characters": [], "clues": [5], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 78,  "content": "Robotnik Widzewski... słyszał zbyt wiele. Mam nadzieję, że potrafi milczeć.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
+			{
+	"id": 27,
+	"content": "Herbst jest moim szwagrem. Nie lubię go, ale szanuję jego umiejętności zarządcze. Jego prywatne problemy mnie nie interesują.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 28,
+	"content": "Matylda jest zbyt łagodna jak na wdowę po wielkim fabrykancym. Moja matka zawsze to mówiła.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 29,
+	"content": "Matka i jej honor Wernerów. Nie rozumie, że czasy się zmieniły. Teraz liczy się prąd elektryczny, nie herby.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 30,
+	"content": "Grohman to stary porządkowy. Ciekawe, że zawsze zjawia się pierwszy. Nie śpi?",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 31,
+	"content": "Geyer ma długi. Widzieliśmy to w bilansach. Gdyby nie tramwaje Kunitzera, już by upadł.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 32,
+	"content": "Kunitzer? Ambitny człowiek. Zbyt ambitny. W biznesie to cnota. Poza nim – nie.",
+	"characters": [],
+	"clues": [4],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 33,
+	"content": "Biedermann dostarcza nam barwniki od lat. Dobra jakość, uczciwa cena. Alfred jest precyzyjny.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 34,
+	"content": "Adelma Biedermann robi wrażenie kobiety, która wie, kiedy milczeć. To rzadka umiejętność.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 35,
+	"content": "Alfred zamknął laboratorium. Nie wiem dlaczego, ale nowe zamówienie na aniliny przyszło z opóźnieniem.",
+	"characters": [],
+	"clues": [2],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 36,
+	"content": "Helena Geyer funduje coraz mniej. Dawniej płaciła za ochronkę. Teraz płaci za długi Gustawa.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 37,
+	"content": "Strażak widział pelerynę. Pytałem go szczegółowo. Mówił, że osoba była wysoka i szybka.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 38,
+	"content": "Portier pije, ale nie konfabuluje. Jak mówi, że widział kogoś, to widział.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 39,
+	"content": "Robotnik z Widzewa? Ci ludzie wiedzą więcej o swoich pracodawcach niż pracodawcy o sobie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
 
-      { "id": 79,  "content": "Herbst jest zadłużony po uszy. Wiem to, bo on sam mi to powiedział. Prosił o wyciszenie plotek w prasie.", "characters": [], "clues": [6], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 80,  "content": "Matylda jest nieświadoma skali długów. Dobrze, że jest nieświadoma. Wiedza niszczy.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 81,  "content": "Karol junior rozmawia o fuzji. Moje zakłady i Scheiblerów razem. Wielki pomysł. Ale po co on tu teraz?", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 82,  "content": "Anna Scheibler? Widziałem ją przy mauzoleum. Modliła się. Albo sprawdzała coś innego.", "characters": [], "clues": [], "enigmas": [], "locations": [6], "switch": 0 },
-      { "id": 83,  "content": "Grohman mi ufa. Słusznie. Ja też mu ufam. Ale tamtej nocy nie zadzwonił do mnie o pożarze. To dziwne.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 84,  "content": "Geyer jest u mnie. Nie po obrazy, ale po radę. Mówił o jakimś dokumencie, który go obciąża.", "characters": [], "clues": [9], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 85,  "content": "Adelma i ja mamy wspólne interesy. Ona sprzedaje farbę. Ja kupuję. Proste i uczciwe.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 86,  "content": "Alfred to drugi człowiek w farbiarni. Ale pierwszym jest Adelma, choć tego nie ogłasza.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 87,  "content": "Helena Geyer jest godna szacunku. Znosi z godnością to, co Gustaw zrobił z ich finansami.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 88,  "content": "Strażak widział moją wozownię w nocy. Ale nie widział mnie. To ważna różnica.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 89,  "content": "Portier to relikt. Ale relikty są świadkami historii. Warto go wysłuchać, gdy jest trzeźwy.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 90,  "content": "Robotnik mówił mi o dźwiękach przy bramie. W nocy. Szczęk metalu. Może klucz?", "characters": [], "clues": [8], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 91,  "content": "Robotnik z Widzewa znał Antoniego. Mówił, że Antoni miał dostarczyć próbkę koronek. Nie dotarł.", "characters": [], "clues": [9], "enigmas": [], "locations": [], "switch": 0 },
+			{
+	"id": 40,
+	"content": "Herbst przyszedł do ojca Karola z niczym. Wzięli go tylko dlatego, że ożenił się z Matyldą. I się nie mylili.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 41,
+	"content": "Matylda zawsze była za dobra na ten świat. Mam nadzieję, że mąż jej nie zawiedzie bardziej, niż już to zrobił.",
+	"characters": [],
+	"clues": [6],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 42,
+	"content": "Karol robi interesy jak ojciec, ale brakuje mu cierpliwości. Wielkie kombinaty buduje się latami, nie telegramami.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 43,
+	"content": "Grohman jest porządny, ale nazbyt lojalny wobec Herbsta. To nie jest dobra cecha w śledztwie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 44,
+	"content": "Geyer? Kiedyś miał talent. Teraz ma tylko długi i niedobrego znajomego z tramwajami.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 45,
+	"content": "Kunitzer jest niecierpliwy. Chce wszystkiego teraz. Takim ludziom zdarzają się wypadki.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 46,
+	"content": "Biedermann dostarczał barwniki mojemu mężowi przez lata. Solidna firma. Ufam Robertowi.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 47,
+	"content": "Adelma jest surowa. Ale te kobiety, które budują fortuny z posagu, zawsze są surowe. To konieczne.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 48,
+	"content": "Alfred to mózg farbiarni. Ale mózgi bez serca robią rzeczy, które potem trudno wytłumaczyć.",
+	"characters": [],
+	"clues": [2],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 49,
+	"content": "Helena Geyer? Znam ją z Towarzystwa Dobroczynności. Ostatnio nie przychodziła na posiedzenia.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 50,
+	"content": "Strażak młody, ale pilny. Pamiętam, gdy go Grohman szkolił. Mówił o nim dobrze.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 51,
+	"content": "Portier to smutna postać. Kiedyś był sprawnym woźnicą. Teraz pilnuje bramy i pije.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 52,
+	"content": "Robotnik z Widzewa? Ci ludzie nie kłamią. Nie mają powodów. I właśnie to jest straszne.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
 
-      { "id": 92,  "content": "Herbst bywał u mnie. Mówił, że chce kupić grunt pod fabrykę. Ale pytania były o coś innego – o moje powiązania z bankami.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 93,  "content": "Matylda Herbst to porządna kobieta. Jej mąż ma szczęście. Choć nie wyglada, jakby to doceniał.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 94,  "content": "Karol junior to przyszłość przemysłu. Ale przyszłość kosztuje i ktoś musi tę cenę zapłacić.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 95,  "content": "Anna Scheibler to dama. Szanuję ją, choć nie zawsze się zgadzamy. Ona wierzy w tradycję, ja w postęp.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 96,  "content": "Grohman to mój sąsiad interesów. Dobra straż pożarna to dobry sąsiad. I odwrotnie.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 97,  "content": "Geyer miał u mnie zamówienie na włókna do koronek. Zapłacił z opóźnieniem. Ale zapłacił.", "characters": [], "clues": [9], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 98,  "content": "Kunitzer to rywal, ale uczciwy rywal. Nie sądzę, żeby posunął się do przemocy dla tramwaju.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 99,  "content": "Adelma jest skałą tej firmy. To ona zadecydowała o rozbudowie farbiarni, nie ja.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 100, "content": "Alfred jest dokładny. Jak mówi, że fiolka zaginęła, to zaginęła. Nie myli się w rachunkach.", "characters": [], "clues": [2], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 101, "content": "Helena Geyer zamówiła u mnie ostatnio barwnik bordowy. Na sukienkę żałobną? Zapytałem, nie odpowiedziała.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 102, "content": "Strażak? To dobry chłopiec. Jego ojciec pracował u mnie w Smugowej. Rodzina porządna.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 103, "content": "Portier przy Białej Fabryce to stary Maćkiewicz. Graliśmy niegdyś w karty. Nie kłamie. Pije, ale nie kłamie.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 104, "content": "Robotnik Widzewski jest mężem córki mojego dawnego robotnika. Uczciwy człowiek.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
+			{
+	"id": 53,
+	"content": "Herbst? Przyszedł po radę w sprawie straży ogniowej. Ale nie o straż chodziło. Pytał o to, jak ukryć ślady pożaru.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 54,
+	"content": "Matylda Herbst jest kobietą honoru. Jej mąż już nie. Widziałem zestawienie długów, które przyniósł Herbst.",
+	"characters": [],
+	"clues": [6],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 55,
+	"content": "Karol junior jest skuteczny. Mniej honorowy niż ojciec, ale skuteczny. To coraz częstsza zamiana.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 56,
+	"content": "Anna Scheibler jest zbyt dumna, żeby prosić o pomoc. Ale jej dom wymaga gruntownego remontu.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 57,
+	"content": "Geyer? Widzieliśmy się przy pożarze w Białej Fabryce trzy lata temu. Działa spokojnie w kryzysie. Zbyt spokojnie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 58,
+	"content": "Kunitzer buduje, ale i niszczy. Tramwaje to dobro wspólne, ale trasy wybiera sam. Podejrzanie sam.",
+	"characters": [],
+	"clues": [4],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 59,
+	"content": "Biedermann to uczciwy człowiek. Ale uczciwy ojciec ma nie zawsze uczciwego syna.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 60,
+	"content": "Adelma trzyma sznurki finansów Biedermanów. Bez jej zgody nikt nie rusza fiolki z laboratorium.",
+	"characters": [],
+	"clues": [2],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 61,
+	"content": "Alfred zamknął laboratorium bez powodu. Pytałem Roberta. Wzruszył ramionami. To nie jest dobry znak.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 62,
+	"content": "Helena Geyer? Zna się na pożarach lepiej, niż powinna. Przy każdym niegroźnym incydencie była pierwsza.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 63,
+	"content": "Ten strażak jest moim człowiekiem. Mówi prawdę. A to, co widział, trudno mi wytłumaczyć rozsądnie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 64,
+	"content": "Portier pije, ale nie kłamie. Pijacy rzadko kłamią w najważniejszych sprawach.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 65,
+	"content": "Robotnik mówił mi o rozmowie przez kratę przy warsztatach. W nocy morderstwa. To ważne.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
 
-      { "id": 105, "content": "Herbst jest zadłużony. Wiem, bo Adelma sprawdza każdego, kto kupuje u nas na kredyt.", "characters": [], "clues": [6], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 106, "content": "Matylda Herbst to ciepła kobieta. Fundowała raz Dom Sierot. Mamy wspólne serce do biednych.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 107, "content": "Karol Scheibler junior jest sprawny, ale nie rozumie, że reputacja firmy to nie tylko cyfry.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 108, "content": "Anna Scheibler? Znamy się od lat. Ona naprawdę żyje honorem. Nie jest to tylko poza.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 109, "content": "Grohman? Powiem tylko, że jego straż była przy Białej Fabryce ZANIM ktokolwiek ją wezwał. Jak to możliwe?", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 110, "content": "Geyer zamówił barwnik i zapłacił czystym srebrem. To znaczy, że ktoś mu dał pieniądze nagle.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 111, "content": "Kunitzer zna wartość ziemi lepiej niż ktokolwiek. I nie boi się używać tej wiedzy jako dźwigni.", "characters": [], "clues": [4], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 112, "content": "Robert? Mój mąż jest uczciwy. Ale czasem muszę decydować za nas oboje. Dla dobra rodziny.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 113, "content": "Alfred mówi, że fiolka zaginęła. Ja wiem, że on ją wydał. Ale komu? I po co? Nie pyta się mnie.", "characters": [], "clues": [2], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 114, "content": "Helena Geyer bywała tutaj. Rozmawiałyśmy o dobroczynności. Ostatnio jednak wyglądała blado.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 115, "content": "Strażak? To ten chłopak od Grohmana? Jeśli coś widział, to niech mówi. Nie ma czego się wstydzić.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 116, "content": "Portier? Mój mąż mówił o nim jako o starym problemie. Wie za dużo i nie umie milczeć, gdy pije.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 117, "content": "Robotnik Widzewski prosił mnie kiedyś o barwnik rezerwowy. Mówił, że Kunitzer kazał mu coś barwić potajemnie.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
+			{
+	"id": 66,
+	"content": "Herbst mi pomógł. Udzielił mi prywatnej pożyczki, gdy bank odmówił. Dlatego... dlatego trudno mi mówić.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 67,
+	"content": "Matylda jest szlachetna. Funduje szpital dla dzieci. To coś, czego jej mąż nigdy nie zrobi z czystego serca.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 68,
+	"content": "Karol junior to mój przyszły wspólnik, jak Bóg da. Jego elektrownie i moje koronki — dobry duet.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 69,
+	"content": "Anna Scheibler? Ona uważa, że każdy kto nie jest Scheiblerem ani Wernerem, jest pionkiem. Ja pionikiem nie jestem.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 70,
+	"content": "Grohman to porządny człowiek. Ja tylko nie rozumiem, dlaczego tyle wie o tej sprawie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 71,
+	"content": "Kunitzer i ja nie jesteśmy wrogami. Ale ten plan tramwajowy... Gdyby szedł przez moje grunty, musiałbym sprzedać Białą Fabrykę.",
+	"characters": [],
+	"clues": [4],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 72,
+	"content": "Biedermann zaopatruje mnie w barwniki od lat. Dobra relacja. Ufam Robertowi bardziej niż własnym robotnikom.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 73,
+	"content": "Adelma jest dyskretna. Powiem tyle: była u mnie w spawie delikatnej. Powiedziała, że zależy jej na spokoju.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 74,
+	"content": "Alfred jest precyzyjny jak szwajcarski zegarek. I zimny jak ten zegarek.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 75,
+	"content": "Helena stara się trzymać głowę wysoko. Znam jej prawdziwy stan finansowy. Znam go dobrze.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 76,
+	"content": "Ten chłopiec ze straży był przy zwłokach jako pierwszy. Bледny jak płótno. Coś go prześladuje.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 77,
+	"content": "Portier? Siedzę przy jego bramie od tygodnia i mogę powiedzieć: on naprawdę widział tamtą noc.",
+	"characters": [],
+	"clues": [5],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 78,
+	"content": "Robotnik Widzewski... słyszał zbyt wiele. Mam nadzieję, że potrafi milczeć.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
 
-      { "id": 118, "content": "Herbst? Chłodny człowiek. Robi wrażenie pewnego siebie. Ale pewność siebie to niekiedy tylko maska.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 119, "content": "Matylda to dobra dusza. Gdy Alfred zachorował, to ona przysłała lekarza. Pamiętam.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 120, "content": "Karol junior? Widywałem go w laboratorium. Przychodził, żeby zobaczyć nasze procesy. Mówił, że to dla elektryfikacji.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 121, "content": "Anna Scheibler zamawiała u nas tkaninę na całun. Tydzień przed śmiercią Antoniego. To pewnie przypadek.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 122, "content": "Grohman ma bystrego oka na ogień. Ale też na to, co ogień po sobie pozostawia. I co niszczy.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 123, "content": "Geyer jest winien nam za dwa kwartały. Ojciec mu ufał. Ja trochę mniej.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 124, "content": "Kunitzer złożył mi ofertę na wyłączność dostawy barwników dla jego manufaktury. Pod warunkiem, że zapomnę o pewnej rozmowie.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 1 },
-      { "id": 125, "content": "Adelma mnie nie lubi. Ale mnie lubi ojciec i to wystarczy.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 126, "content": "Ojciec? Robert Biedermann to wzór pracowitości. Ale nie każdy syn chce być wiernym odbiciem ojca.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 127, "content": "Helena Geyer? Znam ją. Przychodziła po barwniki na wstążki do kapeluszy. Rzadziej ostatnio.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 128, "content": "Strażak był u nas w farbiarni. Pytał o fiolki. Powiedziałem, że nie ma czego tu szukać. Wyszedł bez słowa.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 129, "content": "Portier? Znam go. Wypił u mnie raz za dużo na Wigilię. Tamtej nocy gadał, że widział kogoś przy cmentarzu z kluczem.", "characters": [], "clues": [8], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 130, "content": "Robotnik? Ci ludzie żyją blisko prawdy. Zapytaj go o wagon numer cztery w Widzewskiej.", "characters": [], "clues": [7], "enigmas": [], "locations": [], "switch": 0 },
+			{
+	"id": 79,
+	"content": "Herbst jest zadłużony po uszy. Wiem to, bo on sam mi to powiedział. Prosił o wyciszenie plotek w prasie.",
+	"characters": [],
+	"clues": [6],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 80,
+	"content": "Matylda jest nieświadoma skali długów. Dobrze, że jest nieświadoma. Wiedza niszczy.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 81,
+	"content": "Karol junior rozmawia o fuzji. Moje zakłady i Scheiblerów razem. Wielki pomysł. Ale po co on tu teraz?",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 82,
+	"content": "Anna Scheibler? Widziałem ją przy mauzoleum. Modliła się. Albo sprawdzała coś innego.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [6],
+	"switch": 0 
+			},
+			{
+	"id": 83,
+	"content": "Grohman mi ufa. Słusznie. Ja też mu ufam. Ale tamtej nocy nie zadzwonił do mnie o pożarze. To dziwne.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 84,
+	"content": "Geyer jest u mnie. Nie po obrazy, ale po radę. Mówił o jakimś dokumencie, który go obciąża.",
+	"characters": [],
+	"clues": [9],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 85,
+	"content": "Adelma i ja mamy wspólne interesy. Ona sprzedaje farbę. Ja kupuję. Proste i uczciwe.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 86,
+	"content": "Alfred to drugi człowiek w farbiarni. Ale pierwszym jest Adelma, choć tego nie ogłasza.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 87,
+	"content": "Helena Geyer jest godna szacunku. Znosi z godnością to, co Gustaw zrobił z ich finansami.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 88,
+	"content": "Strażak widział moją wozownię w nocy. Ale nie widział mnie. To ważna różnica.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 89,
+	"content": "Portier to relikt. Ale relikty są świadkami historii. Warto go wysłuchać, gdy jest trzeźwy.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 90,
+	"content": "Robotnik mówił mi o dźwiękach przy bramie. W nocy. Szczęk metalu. Może klucz?",
+	"characters": [],
+	"clues": [8],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 91,
+	"content": "Robotnik z Widzewa znał Antoniego. Mówił, że Antoni miał dostarczyć próbkę koronek. Nie dotarł.",
+	"characters": [],
+	"clues": [9],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
 
-      { "id": 131, "content": "Herbst? Bywał tu. Przy kominku rozmawiał z Gustawem długo. Ale zawsze tak, żebym nie słyszała dokładnie.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 132, "content": "Matylda Herbst jest zbyt dobra. Kiedyś to była cnota. Teraz – naiwność.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 133, "content": "Karol junior rozmawiał z Gustawem o przejęciu Białej Fabryki. Udawałam, że szyję, ale słyszałam każde słowo.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 134, "content": "Anna Scheibler jest władcza. Nawet kiedy prosi, rozkazuje. Nie lubię jej, choć rozumiem.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 135, "content": "Grohman był tutaj w dniu morderstwa. Rozmawiali z Gustawem. Potem Gustaw wyszedł z domu.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 1 },
-      { "id": 136, "content": "Gustaw? To mój mąż. Wiem, że ma długi. Wiem też, że musi je spłacić lub wszystko straci.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 137, "content": "Kunitzer złożył ofertę Gustawowi. Sprzedaj grunty, a tramwaj ominie fabrykę. Gustaw odmówił. I to był błąd.", "characters": [], "clues": [4], "enigmas": [], "locations": [], "switch": 1 },
-      { "id": 138, "content": "Biedermann? Solidna rodzina. Alfred jest trochę chłodny, ale uczciwy. Chyba.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 139, "content": "Adelma jest silniejsza niż cały zarząd razem. Ona podejmuje decyzje, Robert tylko kłania głową.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 140, "content": "Alfred? Coś mu się stało tydzień temu. Zamknął się w laboratorium i nie rozmawiał z nikim.", "characters": [], "clues": [2], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 141, "content": "Strażak widział Gustawa, kiedy wracał do domu. Ale Gustaw mówił, że był w teatrze całą noc.", "characters": [], "clues": [3], "enigmas": [], "locations": [], "switch": 1 },
-      { "id": 142, "content": "Portier – biedny człowiek. Kiedyś chciał być kimś. Teraz jest bramkarzem z butelką.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 143, "content": "Robotnik? Nie znam go. Ale słyszałam, że Gustaw wysyłał do Widzewskiej tajemniczą przesyłkę.", "characters": [], "clues": [7], "enigmas": [], "locations": [], "switch": 0 },
+			{
+	"id": 92,
+	"content": "Herbst bywał u mnie. Mówił, że chce kupić grunt pod fabrykę. Ale pytania były o coś innego – o moje powiązania z bankami.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 93,
+	"content": "Matylda Herbst to porządna kobieta. Jej mąż ma szczęście. Choć nie wyglada, jakby to doceniał.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 94,
+	"content": "Karol junior to przyszłość przemysłu. Ale przyszłość kosztuje i ktoś musi tę cenę zapłacić.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 95,
+	"content": "Anna Scheibler to dama. Szanuję ją, choć nie zawsze się zgadzamy. Ona wierzy w tradycję, ja w postęp.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 96,
+	"content": "Grohman to mój sąsiad interesów. Dobra straż pożarna to dobry sąsiad. I odwrotnie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 97,
+	"content": "Geyer miał u mnie zamówienie na włókna do koronek. Zapłacił z opóźnieniem. Ale zapłacił.",
+	"characters": [],
+	"clues": [9],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 98,
+	"content": "Kunitzer to rywal, ale uczciwy rywal. Nie sądzę, żeby posunął się do przemocy dla tramwaju.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 99,
+	"content": "Adelma jest skałą tej firmy. To ona zadecydowała o rozbudowie farbiarni, nie ja.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 100,
+	"content": "Alfred jest dokładny. Jak mówi, że fiolka zaginęła, to zaginęła. Nie myli się w rachunkach.",
+	"characters": [],
+	"clues": [2],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 101,
+	"content": "Helena Geyer zamówiła u mnie ostatnio barwnik bordowy. Na sukienkę żałobną? Zapytałem, nie odpowiedziała.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 102,
+	"content": "Strażak? To dobry chłopiec. Jego ojciec pracował u mnie w Smugowej. Rodzina porządna.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 103,
+	"content": "Portier przy Białej Fabryce to stary Maćkiewicz. Graliśmy niegdyś w karty. Nie kłamie. Pije, ale nie kłamie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 104,
+	"content": "Robotnik Widzewski jest mężem córki mojego dawnego robotnika. Uczciwy człowiek.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
 
-      { "id": 144, "content": "Herbst wypytywał mnie o Białą Fabrykę w dniu poprzedzającym morderstwo. Chciał wiedzieć, kiedy rotacja straży.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 1 },
-      { "id": 145, "content": "Pani Matylda to dobra kobieta. Raz dała mi ciepłą zupę, kiedy było zimno. Takie rzeczy się pamięta.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 146, "content": "Pan Scheibler junior chodził po fabryce z zegarkiem w ręku. Mierzył czas każdego pracownika. Strach.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 147, "content": "Pani Scheibler? Staruszka z klasą. Ale jest coś smutnego w jej oczach, gdy patrzy na mauzoleum.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 148, "content": "Komendant Grohman był u nas na inspekcji dzień wcześniej. Mówił, że sprawdza alarmy. Ale alarmy były w porządku.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 149, "content": "Pan Geyer? Widziałem go raz. Elegancki. Ale jego oczy się poruszały za dużo. Jak u kogoś, kto się boi.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 150, "content": "Kunitzer kazał nam milczeć. Powiedział, że zapłaci za milczenie. I zapłacił. Ale plac tłumaczy się sam.", "characters": [], "clues": [4], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 151, "content": "Biedermann? Jego farbiarnia to jedyne miejsce, gdzie taką aniliny robi. Byłem tam raz. Piękny zapach. Trujący.", "characters": [], "clues": [2], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 152, "content": "Pani Adelma? Jej wzrok to ostrze. Jak ona patrzy, to lepiej mówić prawdę.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 153, "content": "Pan Alfred? Przychodził tu raz. Pytał o klucze do bocznego wejścia. Komendant mu odmówił.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 154, "content": "Pani Helena? Nie znam jej. Ale widziałem ją raz przy bramie fabryki. Późno. Patrzyła w okna.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 155, "content": "Portier jest pijany drugą połowę dnia. Ale pierwszą połowę pamięta wszystko. Złap go z rana.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 156, "content": "Robotnik z Widzewa? Wiem o nim jedno: jak mówi, że słyszał rozmowę, to słyszał. Nie fantazjuje.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
+			{
+	"id": 105,
+	"content": "Herbst jest zadłużony. Wiem, bo Adelma sprawdza każdego, kto kupuje u nas na kredyt.",
+	"characters": [],
+	"clues": [6],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 106,
+	"content": "Matylda Herbst to ciepła kobieta. Fundowała raz Dom Sierot. Mamy wspólne serce do biednych.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 107,
+	"content": "Karol Scheibler junior jest sprawny, ale nie rozumie, że reputacja firmy to nie tylko cyfry.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 108,
+	"content": "Anna Scheibler? Znamy się od lat. Ona naprawdę żyje honorem. Nie jest to tylko poza.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 109,
+	"content": "Grohman? Powiem tylko, że jego straż była przy Białej Fabryce ZANIM ktokolwiek ją wezwał. Jak to możliwe?",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 110,
+	"content": "Geyer zamówił barwnik i zapłacił czystym srebrem. To znaczy, że ktoś mu dał pieniądze nagle.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 111,
+	"content": "Kunitzer zna wartość ziemi lepiej niż ktokolwiek. I nie boi się używać tej wiedzy jako dźwigni.",
+	"characters": [],
+	"clues": [4],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 112,
+	"content": "Robert? Mój mąż jest uczciwy. Ale czasem muszę decydować za nas oboje. Dla dobra rodziny.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 113,
+	"content": "Alfred mówi, że fiolka zaginęła. Ja wiem, że on ją wydał. Ale komu? I po co? Nie pyta się mnie.",
+	"characters": [],
+	"clues": [2],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 114,
+	"content": "Helena Geyer bywała tutaj. Rozmawiałyśmy o dobroczynności. Ostatnio jednak wyglądała blado.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 115,
+	"content": "Strażak? To ten chłopak od Grohmana? Jeśli coś widział, to niech mówi. Nie ma czego się wstydzić.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 116,
+	"content": "Portier? Mój mąż mówił o nim jako o starym problemie. Wie za dużo i nie umie milczeć, gdy pije.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 117,
+	"content": "Robotnik Widzewski prosił mnie kiedyś o barwnik rezerwowy. Mówił, że Kunitzer kazał mu coś barwić potajemnie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
 
-      { "id": 157, "content": "Herbst? Raz zapytał mnie, gdzie trzymamy stare klucze. Mówił, że gubi własne. Ha. Dyrektor nie gubi kluczy.", "characters": [], "clues": [8], "enigmas": [], "locations": [], "switch": 1 },
-      { "id": 158, "content": "Pani Matylda płakała przy bramie miesiąc temu. Nie patrzyłem. Piją tacy jak ja, żeby nie widzieć za dużo.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 159, "content": "Scheibler junior? Precyzyjny jak maszyna. I tak samo zimny.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 160, "content": "Anna Scheibler posyłała po mnie, żeby wysłać telegram. Ale nie chciała, żebym go czytał. Czytałem.", "characters": [], "clues": [7], "enigmas": [], "locations": [], "switch": 1 },
-      { "id": 161, "content": "Grohman? Dobry pan. Daje czasem na wódkę. Ale tamtej nocy kazał mi nie mówić, kogo widziałem. Słuszne? Nie wiem.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 162, "content": "Geyer? To mój pracodawca. Boję się go... trochę. On wie, że za dużo piję. Używa tego.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 163, "content": "Kunitzer? Przychodził raz, żeby rozmawiać z Geyerem. Krzyczeli. Coś o tramwajach.", "characters": [], "clues": [4], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 164, "content": "Biedermann to patron. Jego syn Alfred przywiózł kiedyś fiolkę dla pana Geyera. Osobiście.", "characters": [], "clues": [2], "enigmas": [], "locations": [], "switch": 1 },
-      { "id": 165, "content": "Adelma Biedermann? Nie znam. Ale mąż mówił, że to ona decyduje o cenach.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 166, "content": "Alfred Biedermann? Raz mi powiedział, żebym nie ruszał skrzynki przy bramie. I jej nie ruszałem.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 167, "content": "Pani Helena? Zawsze mi dziękuje, jak ją przepuszczam. Taka z klasy. Tamtej nocy nie podziękowała. Była blada.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 168, "content": "Ten chłopak ze straży? Chodził tu jak na wartę. Trzy razy w tygodniu. I zawsze ten sam czas.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 169, "content": "Robotnik z Widzewa? Raz przyszedł z przesyłką do pana Geyera. Mówił, że pilna. Geyer wziął i zbladł.", "characters": [], "clues": [7], "enigmas": [], "locations": [], "switch": 0 },
+			{
+	"id": 118,
+	"content": "Herbst? Chłodny człowiek. Robi wrażenie pewnego siebie. Ale pewność siebie to niekiedy tylko maska.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 119,
+	"content": "Matylda to dobra dusza. Gdy Alfred zachorował, to ona przysłała lekarza. Pamiętam.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 120,
+	"content": "Karol junior? Widywałem go w laboratorium. Przychodził, żeby zobaczyć nasze procesy. Mówił, że to dla elektryfikacji.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 121,
+	"content": "Anna Scheibler zamawiała u nas tkaninę na całun. Tydzień przed śmiercią Antoniego. To pewnie przypadek.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 122,
+	"content": "Grohman ma bystrego oka na ogień. Ale też na to, co ogień po sobie pozostawia. I co niszczy.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 123,
+	"content": "Geyer jest winien nam za dwa kwartały. Ojciec mu ufał. Ja trochę mniej.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 124,
+	"content": "Kunitzer złożył mi ofertę na wyłączność dostawy barwników dla jego manufaktury. Pod warunkiem, że zapomnę o pewnej rozmowie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 125,
+	"content": "Adelma mnie nie lubi. Ale mnie lubi ojciec i to wystarczy.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 126,
+	"content": "Ojciec? Robert Biedermann to wzór pracowitości. Ale nie każdy syn chce być wiernym odbiciem ojca.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 127,
+	"content": "Helena Geyer? Znam ją. Przychodziła po barwniki na wstążki do kapeluszy. Rzadziej ostatnio.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 128,
+	"content": "Strażak był u nas w farbiarni. Pytał o fiolki. Powiedziałem, że nie ma czego tu szukać. Wyszedł bez słowa.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 129,
+	"content": "Portier? Znam go. Wypił u mnie raz za dużo na Wigilię. Tamtej nocy gadał, że widział kogoś przy cmentarzu z kluczem.",
+	"characters": [],
+	"clues": [8],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 130,
+	"content": "Robotnik? Ci ludzie żyją blisko prawdy. Zapytaj go o wagon numer cztery w Widzewskiej.",
+	"characters": [],
+	"clues": [7],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
 
-      { "id": 170, "content": "Herbst? Znam go z imienia. Mówią, że ma długi jak kominy. Ale nam nic nie zabrał, więc mi jedno.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 171, "content": "Pani Matylda funduje szkołę w Widzewie. Dobra kobieta. Jej mąż to nie ona.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 172, "content": "Scheibler junior? On przychodził do Kunitzera. Po zamknięciu warsztatu. Mówili cicho.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 173, "content": "Anna Scheibler? Jej syn to nasz szef od budowania. Ale ona sama tu nigdy nie była.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 174, "content": "Grohman kazał nam nic nie mówić. Ale co mam do ukrycia? Nic nie ukrywam.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 175, "content": "Geyer? Przychodził raz do Kunitzera. Krzyczeli długo. Coś o gruntach i tramwajach.", "characters": [], "clues": [4], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 176, "content": "Pan Kunitzer? Uczciwy wobec nas. Płaci zawsze w terminie. Tylko te tramwaje... nie wiem, po co tyle biegania.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 177, "content": "Biedermann? Stary pan. Widywałem go na rynku. Zawsze pozdrawia robotników. Szanujemy go.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 178, "content": "Pani Adelma? Mówią, że twarda. Ale moją żonę raz objęła, gdy płakała za bramą. Takie się pamięta.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 179, "content": "Alfred Biedermann? Przywiózł coś panu Kunitzowi. Nocą. Mała skrzynka. Szczelna.", "characters": [], "clues": [2], "enigmas": [], "locations": [], "switch": 1 },
-      { "id": 180, "content": "Pani Helena? Widziałem ją przy kapliczce. Płakała. Powiedziała, że modli się za kogoś. Nie za Gustawa.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 181, "content": "Strażak? Ten chłopak był tu w nocy morderstwa. Widział kogoś, jak mówił nam później. Elegancki, wysoki.", "characters": [], "clues": [5], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 182, "content": "Portier? Maćkiewicz? Stary, ale oko ma jak jastrząb. Jak mówi, że coś widział, wierzę mu bez pytania.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 }
-    ],
-    "items_dialogs_clues": [
-      { "id": 183, "content": "To etui po ojcu Matyldy. Trzymałem je w sejfie. Pył... to anilina. Ktoś wkładał rękawiczkę umazaną farbą. Po ciemku.", "characters": [], "clues": [2], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 184, "content": "To etui było zamknięte w sejfie męża. Skąd je masz? Medal zaginął... i to etui razem z nim.", "characters": [], "clues": [], "enigmas": [], "locations": [2], "switch": 0 },
-      { "id": 185, "content": "Niebieski pył na aksamicie. Anilina. Biedermann produkuje ją na wyłączność od 1863 roku. Żaden inny zakład w Królestwie.", "characters": [], "clues": [2], "enigmas": [], "locations": [5], "switch": 0 },
-      { "id": 186, "content": "To etui po moim ojcu. Ktoś miał czelność wejść do sejfu Herbsta... i zostawić ślad jak amatora.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 187, "content": "Na aksamicie jest niebieski pył. Moi ludzie rozpoznają barwniki. To wyłączna produkcja Biedermanna. Mam to w dokumentacji.", "characters": [], "clues": [2], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 188, "content": "Etui Scheiblera? Słyszałem, że zaginęło. Ktoś chciał mnie w to wrobić. Anilina to mój barwnik!", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 189, "content": "Anilina... Paryż, 1878 rok. Scheiblerowie dostali złoty medal. To symbol całej naszej branży. A teraz ktoś to ukradł.", "characters": [], "clues": [], "enigmas": [1], "locations": [], "switch": 0 },
-      { "id": 190, "content": "Ten pył... to nasza formuła. Kto miał dostęp do naszych produktów i do sejfu Herbsta jednocześnie? Niewielu.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 191, "content": "Etui należało do starego Scheiblera. Wartość sentymentalna bezcenna. Wartość złota... też spora.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 192, "content": "Anilina? To jest specjalna seria. Numer 1863 — to rok uruchomienia mojego zakładu. Symbolicznie ważny.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 193, "content": "Ta fiolka... to produkcja naszego laboratorium. Ale ta seria powinna być w skarbcu, nie w ludzkich rękach.", "characters": [], "clues": [], "enigmas": [], "locations": [5], "switch": 0 },
-      { "id": 194, "content": "Anilina nr 1863 to nasza duma. Scheibler junior zamawiał ją hurtowo. Ale ostatnia fiolka... zaginęła z laboratorium.", "characters": [], "clues": [], "enigmas": [2], "locations": [], "switch": 0 },
-      { "id": 195, "content": "Ta anilina to wyjątkowy barwnik — nie do zmycia wodą, nie do ukrycia. Kto użył jej do zabójstwa, zostawił ślad na zawsze.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 196, "content": "Skąd ta fiolka? To jest mój barwnik! Moje laboratorium, moja formuła! Kto ci to dał?", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 197, "content": "Anilina Biedermanna... niezmywalna. Ktoś był pewny siebie, skoro użył czegoś tak charakterystycznego.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 198, "content": "Pył na etui, krew na bawełnie — to ta sama folia. Ktoś popełnił morderstwo z takim samym spokojem, z jakim farbuje się przędzę.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 199, "content": "To jest seria specjalna. Wydajemy ją tylko na imienne zamówienie. Mam rejestr — sprawdzę, kto ją brał.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 200, "content": "Fiolka z aniliną. Widziałem taką w skrzynce, którą Alfred przywiózł nocą. Ale to nie moja sprawa, prawda?", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 201, "content": "Bilet do Geyerów? W noc morderstwa? Ten bilet to alibi. Albo ma być alibi. Byłem tam osobiście i sali Geyer nie widziałem.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 202, "content": "To nasz bilet. Lożę Geyerów widać z galerii. Mnie tam nie było, ale Gustaw... Gustaw mówił, że był.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 203, "content": "W noc morderstwa byłem w teatrze. Ten bilet to dowód. I proszę skończyć to przesłuchanie.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 204, "content": "Bilet Geyerów z tamtej nocy. Mój syn mówił, że Gustaw wyszedł w połowie drugiego aktu. Wracam do cyfr.", "characters": [], "clues": [5], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 205, "content": "Geyer wyszedł z teatru przed dziesiątą. Nasz człowiek to potwierdzić. W Białej Fabryce zdarzało się to przed jedenastą.", "characters": [], "clues": [5], "enigmas": [], "locations": [], "switch": 1 },
-      { "id": 206, "content": "Ten bilet znalazłem przy bramie. Wyrzucony. Ktoś chciał się pozbyć dowodu, że wyszedł z teatru.", "characters": [], "clues": [5], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 207, "content": "Porzucony bilet teatralny? Gustaw Geyer lubił teatr. Ale tamtej nocy skrót przez dziedziniec fabryki nie jest przypadkiem.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 208, "content": "To bilet Geyerów. Czy Gustaw go zgubił uciekając? Nie lubię takich zbiegów okoliczności.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 209, "content": "Lożę Geyerów znałem dobrze. Gustaw wychodzi zawsze po pierwszym akcie, jak go nuda. Albo coś go gonił.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 210, "content": "Plan kolei? To Kunitzer drukował te mapy! Jedna trasa biegnie przez grunt Geyera. Gdyby ją zatwierdził — Geyer bankrut.", "characters": [], "clues": [4], "enigmas": [], "locations": [], "switch": 1 },
-      { "id": 211, "content": "Ten plan... mój teść nigdy nie zgodziłby się na taką trasę. Kunitzer chce zbudować imperium na cudzym nieszczęściu.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 212, "content": "Tramwaj przez środek mojego terenu? To jest groźba. Kunitzer wie, że nie mam kasy na odszkodowania dla urzędników.", "characters": [], "clues": [], "enigmas": [3], "locations": [], "switch": 0 },
-      { "id": 213, "content": "Ten plan to szantaż. Prawdziwy motyw tej całej sprawy. Ktoś nie chciał zapłacić Kunitzera... i zaszedł za daleko.", "characters": [], "clues": [], "enigmas": [3], "locations": [], "switch": 1 },
-      { "id": 214, "content": "Plan tramwajowy przez grunt Geyera? To wyrok finansowy na Białą Fabrykę. Każdy to wiedział. I Geyer to wiedział.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 215, "content": "Mój mąż podpisał z Kunitzem porozumienie! W ostatniej chwili! Ale to kosztowało. Kosztowało... wszystko.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 216, "content": "Ten plan kolei to moje dzieło. I tak, trasa przez grunty Geyera była zamierzona. Presja. Negocjacje. Biznes.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 217, "content": "Tramwaj przez ziemię Geyera? Ruina. Kto to narysował, wiedział co robi. I chciał efektu.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 218, "content": "Pan Kunitzer pokazywał ten plan robotnikom. Mówił, że miasto będzie wielkie. Ale jeden z robotników śmiał się, że Geyer będzie biedny.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 219, "content": "Spinka z 'E.H.' w kałuży krwi. To moja spinka. Ale jej tam nie zostawiłem. Ktoś mnie wrobił.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 220, "content": "Ta spinka jest Edwarda. Zawsze ją nosił. Jak go widziałam bez niej... trzęsły mu się ręce.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 221, "content": "Spinka Herbsta przy ciele? Albo zostawił ją przypadkowo, albo ktoś celowo ją tam podrzucił. Dwa scenariusze, jeden sprawca.", "characters": [], "clues": [], "enigmas": [2], "locations": [], "switch": 1 },
-      { "id": 222, "content": "Inicjały 'E.H.' To może być i Herbst, i ktoś inny z inicjałem H. Ale Herbst to bardziej prawdopodobne.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 223, "content": "Spinka przy zwłokach. To ważny dowód. Albo za ważny — zbyt na widoku dla niedbałego zabójcy.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 224, "content": "Spinka Herbsta... Ale Herbst nie był w Białej Fabryce tej nocy. Tak twierdzi. Może ktoś ją ukradł wcześniej?", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 225, "content": "E.H. — Herbst. Ale Geyer mógł ją znaleźć i użyć. Zgubił może Herbst wcześniej w fabryce?", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 226, "content": "Ta spinka... widziałam ją u Herbsta, gdy przychodził do Roberta. Rok temu, może dwa.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 227, "content": "Spinka Herbsta w miejscu zbrodni? Może to ustawka. Może rzeczywistość. W każdym razie nie przypadek.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 228, "content": "List od Wernerów... Oni żądali zwrotu długu pod groźbą bankructwa. Ten list to mój wyrok śmierci finansowy.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 229, "content": "Wernerowie znowu piszą. Ten list to ultimatum. Edward przez rok odkładał odpowiedź. Czas minął.", "characters": [], "clues": [], "enigmas": [3], "locations": [], "switch": 1 },
-      { "id": 230, "content": "Dług Herbsta u Wernerów to powszechna tajemnica. Wszyscy wiedzą. Nikt nie mówi. Do teraz.", "characters": [], "clues": [], "enigmas": [3], "locations": [], "switch": 0 },
-      { "id": 231, "content": "Rodzina Wernerów... matka zawsze mówiła, że Herbst nie jest godny posagu. Ten list to jej triumf.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 232, "content": "Długi Herbsta? Wiedziałem, że do tego dojdzie. Człowiek, który gra zbyt wysoko, w końcu płaci.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 233, "content": "List od Wernerów. Herbst jest spłukany. A teraz ktoś kradnie mu medal. Motyw? Chyba jasny.", "characters": [], "clues": [], "enigmas": [3], "locations": [], "switch": 0 },
-      { "id": 234, "content": "Znałem ojca Matyldy. Karol Scheibler zostawił córce posag w złocie. Herbst to roztrwonił na rosyjskie akcje. Hańba.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 235, "content": "Dług Herbsta. Ich finansów nie znałem. Ale fiolkę sprzedałem Herbstowi za podwójną cenę. Zapłacił bez targowania.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 236, "content": "Herbst ma długi. Każdy wie. Tylko Matylda nie wie. I tak jest lepiej.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 237, "content": "Ten telegram przyszedł na moje nazwisko. Ale go nie pisałem. Ktoś użył mojego nazwiska jako przykrywki.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 238, "content": "Towar zabezpieczony... cmentarz... to chyba medal jest tym towarem. Ukryli go w mauzoleum? Mój ojciec by płakał.", "characters": [], "clues": [8], "enigmas": [], "locations": [6], "switch": 1 },
-      { "id": 239, "content": "Szyfrowany telegram na moje imię? Ktoś chce mnie wciągnąć. Nic nie wiem o żadnym 'towarze'.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 240, "content": "Ten telegram to wiadomość o medalu. Ktoś go schował i informuje odbiorcę. Ale odbiorca był na cmentarzu.", "characters": [], "clues": [], "enigmas": [], "locations": [6], "switch": 0 },
-      { "id": 241, "content": "Telegram od nieznajomego na adres fabryki. 'Cmentarz' — to tylko jedno miejsce w tym kontekście. Mauzoleum.", "characters": [], "clues": [8], "enigmas": [], "locations": [6], "switch": 1 },
-      { "id": 242, "content": "Szyfr telegraficzny... Takim kodem posługiwali się bankierzy berlińscy. Ktoś ma powiązania na Zachodzie.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 243, "content": "'Towar zabezpieczony'. Czyli medal już wtedy był skradziony. A ktoś czekał na cmentarzu.", "characters": [], "clues": [], "enigmas": [1], "locations": [], "switch": 0 },
-      { "id": 244, "content": "Telegram? Portier nosił wiadomości tu i z powrotem. Zapytaj go, od kogo to przyszło.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 245, "content": "Widziałem pana, który wysłał telegram. Elegancki. W kapeluszu. Nie był stąd.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 246, "content": "Klucz do mauzoleum? Skąd w farbiarni? Ktoś musiał przynieść go tutaj. To nie przypadek.", "characters": [], "clues": [], "enigmas": [], "locations": [6], "switch": 0 },
-      { "id": 247, "content": "Klucz do grobowca ojca? Szukałam go miesiąc. Powiedz mi, gdzie go znalazłeś, i nie ruszaj się z miejsca.", "characters": [], "clues": [], "enigmas": [], "locations": [6], "switch": 0 },
-      { "id": 248, "content": "Klucz do mauzoleum Scheiblerów w farbiarni? To łączy Biedermanna z cmentarzem. Albo kogoś, kto u nich bywał.", "characters": [], "clues": [], "enigmas": [1], "locations": [], "switch": 0 },
-      { "id": 249, "content": "Klucz do grobowca ojca zaginął tydzień temu. Ktoś wszedł do mauzoleum. I coś tam zostawił.", "characters": [], "clues": [], "enigmas": [1], "locations": [6], "switch": 1 },
-      { "id": 250, "content": "Klucz mauzoleum. Słyszałem o tym. Ktoś wszedł w nocy. Nie w celach pobożnych, jak sądzę.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 251, "content": "Klucz do mauzoleum w farbiarni! To wiele mówi. Albo mówi za mało. W każdym razie — ktoś bywał na cmentarzu.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 252, "content": "Ten klucz... Kunitzer raz pytał mnie o grobowiec Scheiblerów. Akademicko. Ale pytał.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 253, "content": "Klucz musiał ktoś przynieść do farbiarni. Albo go tam zostawić. Kto tu bywał poza nami?", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 254, "content": "Klucz do mauzoleum... ja byłem u Biedermanna trzy dni temu. Mogłem go... nie. Nie dotknąłem żadnych kluczy.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 255, "content": "Fragment koronki przy ciele? Antoni miał dostarczyć próbkę do pałacu. Skoro jest przy ciele, nie dotarł.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 256, "content": "To koronka z fabryki Gustawa. Antoni miał mi ją przynieść. Zginął zamiast tego. Koronka to ostatni ślad drogi Antoniego.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 257, "content": "To koronka Geyera. Próbka dla Herbsta. Jeśli jest przy ciele, Antoni nie dotarł do pałacu. Ktoś go zatrzymał po drodze.", "characters": [], "clues": [], "enigmas": [2], "locations": [], "switch": 1 },
-      { "id": 258, "content": "Koronka Geyera? Przy ciele? Mój ojciec ją zamawiał do kontraktu. Skąd przy zabitym majstrze?", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 259, "content": "Koronka. Próbka handlowa. Znalazł ją przy ciele mój człowiek jako pierwszy. Pomyślałem wtedy: to nie kradzież, to wiadomość.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 260, "content": "Ta koronka to mój wyrób. Geyer ją zamówił. Jeśli jest przy zabitym majstrze, Geyer ma coś do wyjaśnienia.", "characters": [], "clues": [], "enigmas": [2], "locations": [], "switch": 0 },
-      { "id": 261, "content": "Koronka przy ciele... Antoni pracował u Geyera. Może szedł z dostawą i go napadnięto? Rabowali?", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 262, "content": "Koronka z Geyera przy ciele Antoniego? To może oznaczać wszystko albo nic. Zależy, gdzie szedł.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 263, "content": "Ta koronka to towar wartościowy. Geyer nie wysyłałby jej z byle kim. Antoni był zaufanym. Komu zagrażał?", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 264, "content": "Skradziony medal. Motyw Herbsta jest prosty: pieniądze. Medal był warty fortunę. I był jego warunkiem spłaty długów.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 265, "content": "Fiolka aniliny. Mój mąż miał dostęp do Biedermanna. Ale on by nie zabił. Nie mógłby... prawda?", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 266, "content": "Bilet do teatru. W noc morderstwa. Geyer mówił, że był w teatrze. Ale biletu przy sobie nie miał, gdy go pytałem.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 267, "content": "Plan tramwajowy przez grunt Geyera to mój pomysł na presję. Ale nie spodziewałem się, że ktoś posunie się do morderstwa.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 268, "content": "Spinka Herbsta. Prosta dedukcja: Herbst był w Białej Fabryce. Skoro zaprzecza, kłamie.", "characters": [], "clues": [], "enigmas": [2], "locations": [], "switch": 0 },
-      { "id": 269, "content": "List od Wernerów. Dług Herbsta. Motyw kradzieży medalu. To wszystko się łączy. Edward nie jest niewinny.", "characters": [], "clues": [], "enigmas": [3], "locations": [], "switch": 0 },
-      { "id": 270, "content": "Telegram 'Towar zabezpieczony'. Ktoś informował odbiorcę. Kto był odbiorcą? I gdzie był w nocy morderstwa?", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 271, "content": "Klucz do mauzoleum. Po co ktoś miałby wchodzić do grobowca teścia? Chyba żeby coś tam ukryć.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 272, "content": "Koronka Geyera. Antoni szedł z dostawą. Zatrzymano go. Koronka to ostatni ślad jego drogi.", "characters": [], "clues": [], "enigmas": [2], "locations": [], "switch": 0 },
-      { "id": 273, "content": "Puste etui. Anilina Biedermanna na aksamicie. To musi być Alfred. On ma dostęp do barwnika i był w pałacu raz jako dostawca.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 274, "content": "Anilina... To moje produkty. Ale ktoś mógł zniknąć z fiolką, gdy laboratorium było zamknięte. A kto ma klucze?", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 275, "content": "Bilet teatralny Geyera. Mój Gustaw wyszedł wcześniej. Mogę to powiedzieć. Wyszedł po pierwszym akcie.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 276, "content": "Plan tramwajowy. To był szantaż Kunitzera wobec Gustawa. Zapłać — albo linia idzie przez twoje grunty. Gustaw nie zapłacił.", "characters": [], "clues": [], "enigmas": [3], "locations": [], "switch": 1 },
-      { "id": 277, "content": "Spinka Herbsta przy ciele. To dowód, który mnie przeraża. Bo jeśli Herbst tam był, to nie przypadkiem.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 278, "content": "List od Wernerów. Mój mąż. Dług. Medal. To wszystko się łączy. Nie wiem jak, ale się łączy.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 279, "content": "Telegram 'Cmentarz'. Ktoś wiedział, że medal trafi do mauzoleum. Ktoś zaplanował to od początku.", "characters": [], "clues": [8], "enigmas": [], "locations": [6], "switch": 0 },
-      { "id": 280, "content": "Klucz mauzoleum. Gustaw mówił, że Karol junior pytał go o dostęp do grobowca rodziny. Formalnie.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 281, "content": "Koronka przy ciele. Gustaw wysłał Antoniego z próbką. Ale przed pałacem Herbsta skręcił w boczną uliczkę. Dlaczego?", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 282, "content": "Etui Scheiblera. Ktoś był w pałacu Herbsta. I zostawił ślad aniliny. Skrzętnie, ale nie dość skrzętnie.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 283, "content": "Anilina Biedermanna w miejscu kradzieży. Każdy zna ich barwnik. Ale nie każdy go ma.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 284, "content": "Bilet teatralny tamtej nocy. Komendant Grohman był w teatrze? Nie. On był przy pożarze. W sąsiedniej dzielnicy.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 285, "content": "Plan tramwajowy. W Białej Fabryce jest trasa wariantowa. Gdyby Geyer oddał grunty, fabryka by ocalała. Odmówił.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 286, "content": "Spinka Herbsta. Pan Edward pytał mnie, kiedy następna rotacja straży. Kilka dni przed morderstwem.", "characters": [], "clues": [], "enigmas": [2], "locations": [], "switch": 1 },
-      { "id": 287, "content": "List od Wernerów. Pan dyrektor Herbst dostawał listy. Nie otwierał ich od razu. A potem chował. Spiesznie.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 288, "content": "Telegram 'Cmentarz'. Widywałem tu kurierów. Jeden zostawił kopertę bez adresu. Dla kogo? Tego nie wiem.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 289, "content": "Klucz do mauzoleum. Znam ten klucz. Geyer miał go przy sobie, gdy przychodził po barwnik. Wyjął go przypadkowo z kieszeni.", "characters": [], "clues": [], "enigmas": [], "locations": [6], "switch": 1 },
-      { "id": 290, "content": "Koronka z Geyera. Antoni niósł ją przez dziedziniec. Widziałem go. Szedł w stronę bramy, nie w stronę pałacu.", "characters": [], "clues": [], "enigmas": [2], "locations": [], "switch": 0 },
-      { "id": 291, "content": "Puste etui. Grohman mi powiedział, że na aksamicie był pył. Anilina. Kto bywa u Biedermanna i u Herbsta? Geyer.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 292, "content": "Fiolka aniliny. Stara seria. Znam tego numeru — 1863. To pierwsza partia Biedermanna. Muzealny okaz. Kto to miał?", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 293, "content": "Bilet Geyerów. Loża pierwsza. Tamtej nocy sam siedziałem w loży drugiej. Loża Geyerów była pusta po pierwszej przerwie.", "characters": [], "clues": [], "enigmas": [2], "locations": [], "switch": 1 },
-      { "id": 294, "content": "Plan tramwajowy. Kunitzer to biznesmen, nie zabójca. Ale Geyer, który by zbankrutował na tej trasie — on mógł działać.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 295, "content": "Spinka Herbsta. Widywałem dyrektora w Białej Fabryce. Raz. Ale to było przed miesiącem. Mógł zgubić spinkę wtedy.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 296, "content": "List od Wernerów. Pan Herbst nie otwierał już dawno korespondencji przy mnie. Bał się, co piszą.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 297, "content": "Telegram 'Towar zabezpieczony'. Ten telegram przyszedł na adres Geyera. Ja go podałem. Geyer zbladł.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 298, "content": "Klucz do mauzoleum. Portier Maćkiewicz przy bramie cmentarza mówił, że ktoś miał taki klucz. Nocą.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 299, "content": "Koronka z Geyera. Antoni szedł z przesyłką. Wiem, bo pomogłem mu zapiąć torbę. Ale ktoś zawrócił go przy bramie.", "characters": [], "clues": [], "enigmas": [2], "locations": [], "switch": 1 },
-      { "id": 300, "content": "Etui po medalu. Biały pył aniliny. Biedermann pracuje z aniliną. Ale nie każdy z rodziny jest uczciwy.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 301, "content": "Anilina Biedermanna. Alfred przywiózł tu kiedyś fiolkę. Nocą. Dla pana Kunitzera. Mówiłem to?", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 302, "content": "Bilet teatralny. Pan Geyer wyszedł z teatru przed dziesiątą. Sam go odprowadzałem do dorożki. Pamiętam.", "characters": [], "clues": [5], "enigmas": [], "locations": [], "switch": 1 },
-      { "id": 303, "content": "Plan tramwajowy. Kunitzer mi pokazał ten plan. Chciał, żebym zaświadczył, że to korekta trasy. Odmówiłem.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 304, "content": "Spinka Herbsta. Pan Edward raz zgubił spinkę przy furcie. Szukał jej, ale nie znalazł. Może ktoś podniósł?", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 305, "content": "List od Wernerów. Taki list dostał raz pan Geyer od wierzyciela. Drżały mu ręce gdy czytał. Herbst pewnie tak samo.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 306, "content": "Telegram 'Cmentarz'. Widziałem, jak pan Geyer chował telegram do kieszeni. Wychodząc tamtej nocy.", "characters": [], "clues": [], "enigmas": [], "locations": [6], "switch": 1 },
-      { "id": 307, "content": "Klucz do mauzoleum. Był tu przez chwilę. W szufladzie biurka pana Geyera. Potem zniknął.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 308, "content": "Koronka Geyera. Antoniego znałem. Szedł z torbą, ale zatrzymał go elegancki pan przy bramie. Zamienili słowa.", "characters": [], "clues": [5], "enigmas": [2], "locations": [], "switch": 1 }
-    ],
-    "items_dialogs_enigmas": [
-      { "id": 309, "content": "Złodziej medalu? Jeśli mnie pytasz, to odpowiadam: nie byłem w mojej sypialni od tygodnia. Sypialnię zamknąłem. Ktoś go wziął i był w tym domu.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 310, "content": "Kto ukradł medal? Ktoś, kto znał szyfr sejfu. Znał go tylko Edward i... jeden jeszcze człowiek.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 311, "content": "Kto zabił Antoniego? Na pewno nie ja. Ale wiem, kto miał powód. I kto miał klucz do bramy fabryki.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 312, "content": "Złodziej medalu? Ja? To absurd. Chcesz mnie oskarżyć, to miej dowody.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 313, "content": "Morderca majstra. Nic o tym nie wiem. Byłam przy mężu całą noc. Może zapytaj tych, którzy mają motyw.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 314, "content": "Prawdziwy motyw? Strach. Ktoś bał się, że Antoni coś odkrył. I dlatego go uciszono.", "characters": [], "clues": [9], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 315, "content": "Złodziej medalu? Sprawdź, kto miał dostęp do sejfu i aniliny jednocześnie. Ja jestem inżynierem, nie złodziejem.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 316, "content": "Morderca? Moi robotnicy znajdą każdy, kto wejdzie przez bramę bez przepustki. Niech mnie nie wciągają.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 317, "content": "Prawdziwy motyw? Dług Herbsta to tylko wierzch góry. Pod spodem jest umowa, której nikt nie powinien znać.", "characters": [], "clues": [6], "enigmas": [], "locations": [], "switch": 1 },
-      { "id": 318, "content": "Złodziej medalu? Honoru Scheiblerów się nie kradnie. Ale mam teorię. I dotyczy ona kogoś bardzo bliskiego.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 319, "content": "Morderca Antoniego? To jest zbrodnia, która wołała o pomstę do nieba. Ktoś użył mojego imienia. Albo mojego barwnika.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 320, "content": "Prawdziwy motyw? Ten, kto wiedział o długach Herbsta, planie tramwajowym Kunitzera i barwniku Biedermanna jednocześnie. Wąskie grono.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 321, "content": "Złodziej medalu? Mam teorię. Medal był dla Herbsta jedynym wyjściem z długów. Zastawił go lub sprzedał.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 322, "content": "Morderca Antoniego? Straż pożarna nie zabija. Ale wiemy, kto był przy bramie Białej Fabryki w noc morderstwa.", "characters": [], "clues": [5], "enigmas": [], "locations": [], "switch": 1 },
-      { "id": 323, "content": "Prawdziwy motyw? Chciwość zamaskowana honorem. Najstarsza historia na świecie.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 324, "content": "Złodziej medalu? Nie ja. Ale powiem ci, że medal wart był dokładnie tyle, ile Geyer był winien Herbstowi. Ciekawe, prawda?", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 325, "content": "Morderca Antoniego? To ja... nie, żartuję. Ale Geyer miał powód. Antoni wiedział zbyt dużo o koronkach i o planie tramwajowym.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 326, "content": "Prawdziwy motyw? Geyer był dłużnikiem Herbsta. Herbst był dłużnikiem Wernerów. Kunitzer trzymał tramwaj nad głowami obu. I teraz jest trup.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 327, "content": "Złodziej medalu? Nikt z mojej rodziny go nie tknął. Medal był symbolem. I ktoś chciał ukraść symbol.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 328, "content": "Morderca Antoniego? Antoni był moim pracownikiem od dziesięciu lat. Ktoś za to odpowie.", "characters": [], "clues": [2], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 329, "content": "Prawdziwy motyw? Mam swoje podejrzenia. Ale powiem tylko jedno: anilina nie zmywa się z rąk winnego.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 330, "content": "Złodziej medalu? Mój mąż walczył z długami. Medal był wyjściem. Ale Edward nie brałby go. Nie. Chyba.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 331, "content": "Morderca Antoniego? Nie wiem kto. Ale wiem, że Antoni widział kogoś przy bramie tamtej nocy. I powiedział mi.", "characters": [], "clues": [5], "enigmas": [], "locations": [], "switch": 1 },
-      { "id": 332, "content": "Prawdziwy motyw? Dług. Zawsze dług. I strach, że wszystko runie. Eduard bał się bankructwa jak ognia.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 333, "content": "Złodziej medalu? To musiał być ktoś z wewnątrz. Tylko ktoś, kto znał szyfr, miał dostęp. I aniliny.", "characters": [], "clues": [2], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 334, "content": "Morderca Antoniego? Powiem ci tylko jedno: anilina jest niezmywalna. Morderca ma jej ślady na rękach do dziś.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 335, "content": "Prawdziwy motyw? Ktoś chciał uciszyć informację, którą Antoni niósł razem z koronkami.", "characters": [], "clues": [9], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 336, "content": "Złodziej medalu? Ktoś z branży. Ktoś, kto rozumie wartość symbolu. Nie każdy rozumie, co Paryż 1878 znaczy dla nas.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 337, "content": "Morderca Antoniego? Antoni przychodził do farbiarni raz w tygodniu. Ostatnim razem był blady. Coś mu zagrażało.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 338, "content": "Prawdziwy motyw? Mój syn Alfred coś ukrywa. Nie wiem co. Ale to go gryzie od tygodnia.", "characters": [], "clues": [2], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 339, "content": "Złodziej medalu? Dług Herbsta u Wernerów. Medal jako spłata. Proste jak farbowanie przędzy.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 340, "content": "Morderca Antoniego? Antoni był uczciwy. Zginął, bo był uczciwy. W Łodzi to nieraz się zdarza.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 341, "content": "Prawdziwy motyw? Ktoś miał do stracenia więcej niż inni. Sprawdź, kto miał wszystko i komu groziło, że zostanie z niczym.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 342, "content": "Złodziej medalu? Herbst. Ale niekoniecznie on sam. Może ktoś działał w jego imieniu.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 343, "content": "Morderca Antoniego? Coś widziałem tamtej nocy. Elegancki pan, kapelusz, szybki krok. Herbst albo Geyer.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 344, "content": "Prawdziwy motyw? Ten, kto wysłał telegram, wiedział o miejscu ukrycia medalu. Nadawca to klucz.", "characters": [], "clues": [7], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 345, "content": "Złodziej medalu? Geyer był u Herbsta dwa tygodnie temu. Prywatnie. Może zapamiętał, gdzie jest sejf.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 346, "content": "Morderca Antoniego? Coś widziałem. Ale boję się mówić. Pan Geyer jest moim pracodawcą...", "characters": [], "clues": [5], "enigmas": [], "locations": [], "switch": 1 },
-      { "id": 347, "content": "Prawdziwy motyw? Ten telegram na moje ręce... Geyer go ukrył. A potem wyszedł. Wszystko rozumiem dopiero teraz.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 348, "content": "Złodziej medalu? Herbst. Nie ma wątpliwości. Medal pokrywał dokładnie jego dług u Wernerów. Co do grosza.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 349, "content": "Morderca Antoniego? Elegancki pan w pelerynie. Wysoki. Widywałem Geyera w takiej pelerynie.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 350, "content": "Prawdziwy motyw? Geyer był zagrożony tramwajem Kunitzera, zadłużony u Herbsta i bał się koronki jako dowodu nielojalności. Wszystkie drogi prowadziły do Białej Fabryki.", "characters": [], "clues": [], "enigmas": [], "locations": [], "switch": 0 }
-    ],
-    "items_dialogs_loactions": [
-      { "id": 351, "content": "Pałac Herbsta tonie w mroku wieczoru. Matylda płacze w ogrodzie zimowym, a Edward nerwowo przegląda księgi rachunkowe. W salonie stoi otwarte puste etui po medalu Scheiblerów — jedyna pozostałość po chwale, która zniknęła tej nocy.", "characters": [1, 2], "clues": [1], "enigmas": [1], "locations": [], "switch": 0 },
-      { "id": 352, "content": "W Białej Fabryce huczą maszyny, ale przy ogromnym silniku parowym Cockerill panuje nienaturalna cisza. Krew na białej bawełnie wygląda jak purpura. Trzej dyrektorzy stoją nad ciałem majstra Antoniego i nikt nie patrzy na siebie.", "characters": [3, 4, 5], "clues": [5, 9], "enigmas": [2], "locations": [], "switch": 0 },
-      { "id": 353, "content": "Willa Grohmana pachnie dymem i dyscypliną. Ludwik Grohman właśnie wrócił z inspekcji, a młody strażak drży i nie chce mówić co widział. Na stole leżą plany tras i mapa Łodzi.", "characters": [6, 7], "clues": [4], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 354, "content": "Na Widzewie czuć zapach nowej ery. Juliusz Kunitzer analizuje mapy elektryczne, nie zważając na to, że jego robotnicy szepczą o morderstwie. Przy bramie robotnik wierci się niespokojnie.", "characters": [8, 9], "clues": [4], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 355, "content": "Farbiarnia Biedermanna to piekło kolorów i zapachów. Robert osobiście sprawdza kadzie, a Alfred zamknął laboratorium na klucz. Na półce stoi rząd fiolek z niebieską aniliną — jedna jest brakująca.", "characters": [10, 11, 12], "clues": [2], "enigmas": [], "locations": [], "switch": 0 },
-      { "id": 356, "content": "Stary Cmentarz. Wiatr świszcze w neogotyckich wieżyczkach mauzoleum Scheiblera. Portier kręci się niedaleko, a robotnik siada na ławce przy bramie. W ciemnościach widać zarys otwartego grobowca.", "characters": [13, 14], "clues": [7, 8], "enigmas": [3], "locations": [], "switch": 0 }
-    ]
-  },
-  "switches": {
-    "switches_characters": [
-      { "id": 1, "group_name": "characters", "id_character": 2, "id_group_item": 5, "id_new_dialog": 17 },
-      { "id": 2, "group_name": "clues",     "id_character": 10, "id_group_item": 7, "id_new_dialog": 124 },
-      { "id": 3, "group_name": "clues",     "id_character": 11, "id_group_item": 3, "id_new_dialog": 135 },
-      { "id": 4, "group_name": "clues",     "id_character": 11, "id_group_item": 7, "id_new_dialog": 137 },
-      { "id": 5, "group_name": "characters", "id_character": 12, "id_group_item": 1, "id_new_dialog": 144 },
-      { "id": 6, "group_name": "clues",     "id_character": 13, "id_group_item": 7, "id_new_dialog": 157 },
-      { "id": 7, "group_name": "clues",     "id_character": 13, "id_group_item": 1, "id_new_dialog": 160 }
-    ],
-    "switches_clues": [
-      { "id": 1,  "group_name": "clues",    "id_character": 1,  "id_group_item": 5, "id_new_dialog": 205 },
-      { "id": 2,  "group_name": "enigmas",  "id_character": 3,  "id_group_item": 1, "id_new_dialog": 210 },
-      { "id": 3,  "group_name": "enigmas",  "id_character": 4,  "id_group_item": 3, "id_new_dialog": 213 },
-      { "id": 4,  "group_name": "clues",    "id_character": 2,  "id_group_item": 7, "id_new_dialog": 229 },
-      { "id": 5,  "group_name": "enigmas",  "id_character": 3,  "id_group_item": 2, "id_new_dialog": 221 },
-      { "id": 6,  "group_name": "clues",    "id_character": 7,  "id_group_item": 7, "id_new_dialog": 241 },
-      { "id": 7,  "group_name": "clues",    "id_character": 11, "id_group_item": 7, "id_new_dialog": 276 },
-      { "id": 8,  "group_name": "enigmas",  "id_character": 11, "id_group_item": 3, "id_new_dialog": 137 },
-      { "id": 9,  "group_name": "clues",    "id_character": 12, "id_group_item": 8, "id_new_dialog": 289 },
-      { "id": 10, "group_name": "enigmas",  "id_character": 13, "id_group_item": 2, "id_new_dialog": 293 },
-      { "id": 11, "group_name": "enigmas",  "id_character": 14, "id_group_item": 2, "id_new_dialog": 299 },
-      { "id": 12, "group_name": "clues",    "id_character": 14, "id_group_item": 5, "id_new_dialog": 302 },
-      { "id": 13, "group_name": "locations","id_character": 14, "id_group_item": 7, "id_new_dialog": 306 },
-      { "id": 14, "group_name": "clues",    "id_character": 13, "id_group_item": 2, "id_new_dialog": 164 }
-    ],
-    "switches_enigmas": [
-      { "id": 1,  "group_name": "clues",    "id_character": 3,  "id_group_item": 3, "id_new_dialog": 317 },
-      { "id": 2,  "group_name": "enigmas",  "id_character": 5,  "id_group_item": 2, "id_new_dialog": 322 },
-      { "id": 3,  "group_name": "clues",    "id_character": 8,  "id_group_item": 2, "id_new_dialog": 331 },
-      { "id": 4,  "group_name": "clues",    "id_character": 12, "id_group_item": 5, "id_new_dialog": 286 },
-      { "id": 5,  "group_name": "clues",    "id_character": 13, "id_group_item": 7, "id_new_dialog": 344 },
-      { "id": 6,  "group_name": "enigmas",  "id_character": 14, "id_group_item": 2, "id_new_dialog": 308 },
-      { "id": 7,  "group_name": "clues",    "id_character": 14, "id_group_item": 5, "id_new_dialog": 346 }
-    ],
-    "switches_locations": [
-      { "id": 1, "group_name": "locations", "id_character": 13, "id_group_item": 8, "id_new_dialog": 306 },
-      { "id": 2, "group_name": "clues",     "id_character": 13, "id_group_item": 7, "id_new_dialog": 306 },
-      { "id": 3, "group_name": "clues",     "id_character": 14, "id_group_item": 2, "id_new_dialog": 179 }
-    ]
-  },
-  "unlocked": {
-    "unlocked_characters": [1, 2],
-    "unlocked_clues": [1],
-    "unlocked_enigmas": [1],
-    "unlocked_locations": [1]
-  }
+			{
+	"id": 131,
+	"content": "Herbst? Bywał tu. Przy kominku rozmawiał z Gustawem długo. Ale zawsze tak, żebym nie słyszała dokładnie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 132,
+	"content": "Matylda Herbst jest zbyt dobra. Kiedyś to była cnota. Teraz – naiwność.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 133,
+	"content": "Karol junior rozmawiał z Gustawem o przejęciu Białej Fabryki. Udawałam, że szyję, ale słyszałam każde słowo.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 134,
+	"content": "Anna Scheibler jest władcza. Nawet kiedy prosi, rozkazuje. Nie lubię jej, choć rozumiem.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 135,
+	"content": "Grohman był tutaj w dniu morderstwa. Rozmawiali z Gustawem. Potem Gustaw wyszedł z domu.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 136,
+	"content": "Gustaw? To mój mąż. Wiem, że ma długi. Wiem też, że musi je spłacić lub wszystko straci.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 137,
+	"content": "Kunitzer złożył ofertę Gustawowi. Sprzedaj grunty, a tramwaj ominie fabrykę. Gustaw odmówił. I to był błąd.",
+	"characters": [],
+	"clues": [4],
+	"enigmas": [],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 138,
+	"content": "Biedermann? Solidna rodzina. Alfred jest trochę chłodny, ale uczciwy. Chyba.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 139,
+	"content": "Adelma jest silniejsza niż cały zarząd razem. Ona podejmuje decyzje, Robert tylko kłania głową.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 140,
+	"content": "Alfred? Coś mu się stało tydzień temu. Zamknął się w laboratorium i nie rozmawiał z nikim.",
+	"characters": [],
+	"clues": [2],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 141,
+	"content": "Strażak widział Gustawa, kiedy wracał do domu. Ale Gustaw mówił, że był w teatrze całą noc.",
+	"characters": [],
+	"clues": [3],
+	"enigmas": [],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 142,
+	"content": "Portier – biedny człowiek. Kiedyś chciał być kimś. Teraz jest bramkarzem z butelką.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 143,
+	"content": "Robotnik? Nie znam go. Ale słyszałam, że Gustaw wysyłał do Widzewskiej tajemniczą przesyłkę.",
+	"characters": [],
+	"clues": [7],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+
+			{
+	"id": 144,
+	"content": "Herbst wypytywał mnie o Białą Fabrykę w dniu poprzedzającym morderstwo. Chciał wiedzieć, kiedy rotacja straży.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 145,
+	"content": "Pani Matylda to dobra kobieta. Raz dała mi ciepłą zupę, kiedy było zimno. Takie rzeczy się pamięta.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 146,
+	"content": "Pan Scheibler junior chodził po fabryce z zegarkiem w ręku. Mierzył czas każdego pracownika. Strach.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 147,
+	"content": "Pani Scheibler? Staruszka z klasą. Ale jest coś smutnego w jej oczach, gdy patrzy na mauzoleum.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 148,
+	"content": "Komendant Grohman był u nas na inspekcji dzień wcześniej. Mówił, że sprawdza alarmy. Ale alarmy były w porządku.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 149,
+	"content": "Pan Geyer? Widziałem go raz. Elegancki. Ale jego oczy się poruszały za dużo. Jak u kogoś, kto się boi.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 150,
+	"content": "Kunitzer kazał nam milczeć. Powiedział, że zapłaci za milczenie. I zapłacił. Ale plac tłumaczy się sam.",
+	"characters": [],
+	"clues": [4],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 151,
+	"content": "Biedermann? Jego farbiarnia to jedyne miejsce, gdzie taką aniliny robi. Byłem tam raz. Piękny zapach. Trujący.",
+	"characters": [],
+	"clues": [2],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 152,
+	"content": "Pani Adelma? Jej wzrok to ostrze. Jak ona patrzy, to lepiej mówić prawdę.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 153,
+	"content": "Pan Alfred? Przychodził tu raz. Pytał o klucze do bocznego wejścia. Komendant mu odmówił.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 154,
+	"content": "Pani Helena? Nie znam jej. Ale widziałem ją raz przy bramie fabryki. Późno. Patrzyła w okna.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 155,
+	"content": "Portier jest pijany drugą połowę dnia. Ale pierwszą połowę pamięta wszystko. Złap go z rana.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 156,
+	"content": "Robotnik z Widzewa? Wiem o nim jedno: jak mówi, że słyszał rozmowę, to słyszał. Nie fantazjuje.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+
+			{
+	"id": 157,
+	"content": "Herbst? Raz zapytał mnie, gdzie trzymamy stare klucze. Mówił, że gubi własne. Ha. Dyrektor nie gubi kluczy.",
+	"characters": [],
+	"clues": [8],
+	"enigmas": [],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 158,
+	"content": "Pani Matylda płakała przy bramie miesiąc temu. Nie patrzyłem. Piją tacy jak ja, żeby nie widzieć za dużo.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 159,
+	"content": "Scheibler junior? Precyzyjny jak maszyna. I tak samo zimny.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 160,
+	"content": "Anna Scheibler posyłała po mnie, żeby wysłać telegram. Ale nie chciała, żebym go czytał. Czytałem.",
+	"characters": [],
+	"clues": [7],
+	"enigmas": [],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 161,
+	"content": "Grohman? Dobry pan. Daje czasem na wódkę. Ale tamtej nocy kazał mi nie mówić, kogo widziałem. Słuszne? Nie wiem.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 162,
+	"content": "Geyer? To mój pracodawca. Boję się go... trochę. On wie, że za dużo piję. Używa tego.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 163,
+	"content": "Kunitzer? Przychodził raz, żeby rozmawiać z Geyerem. Krzyczeli. Coś o tramwajach.",
+	"characters": [],
+	"clues": [4],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 164,
+	"content": "Biedermann to patron. Jego syn Alfred przywiózł kiedyś fiolkę dla pana Geyera. Osobiście.",
+	"characters": [],
+	"clues": [2],
+	"enigmas": [],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 165,
+	"content": "Adelma Biedermann? Nie znam. Ale mąż mówił, że to ona decyduje o cenach.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 166,
+	"content": "Alfred Biedermann? Raz mi powiedział, żebym nie ruszał skrzynki przy bramie. I jej nie ruszałem.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 167,
+	"content": "Pani Helena? Zawsze mi dziękuje, jak ją przepuszczam. Taka z klasy. Tamtej nocy nie podziękowała. Była blada.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 168,
+	"content": "Ten chłopak ze straży? Chodził tu jak na wartę. Trzy razy w tygodniu. I zawsze ten sam czas.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 169,
+	"content": "Robotnik z Widzewa? Raz przyszedł z przesyłką do pana Geyera. Mówił, że pilna. Geyer wziął i zbladł.",
+	"characters": [],
+	"clues": [7],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+
+			{
+	"id": 170,
+	"content": "Herbst? Znam go z imienia. Mówią, że ma długi jak kominy. Ale nam nic nie zabrał, więc mi jedno.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 171,
+	"content": "Pani Matylda funduje szkołę w Widzewie. Dobra kobieta. Jej mąż to nie ona.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 172,
+	"content": "Scheibler junior? On przychodził do Kunitzera. Po zamknięciu warsztatu. Mówili cicho.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 173,
+	"content": "Anna Scheibler? Jej syn to nasz szef od budowania. Ale ona sama tu nigdy nie była.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 174,
+	"content": "Grohman kazał nam nic nie mówić. Ale co mam do ukrycia? Nic nie ukrywam.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 175,
+	"content": "Geyer? Przychodził raz do Kunitzera. Krzyczeli długo. Coś o gruntach i tramwajach.",
+	"characters": [],
+	"clues": [4],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 176,
+	"content": "Pan Kunitzer? Uczciwy wobec nas. Płaci zawsze w terminie. Tylko te tramwaje... nie wiem, po co tyle biegania.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 177,
+	"content": "Biedermann? Stary pan. Widywałem go na rynku. Zawsze pozdrawia robotników. Szanujemy go.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 178,
+	"content": "Pani Adelma? Mówią, że twarda. Ale moją żonę raz objęła, gdy płakała za bramą. Takie się pamięta.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 179,
+	"content": "Alfred Biedermann? Przywiózł coś panu Kunitzowi. Nocą. Mała skrzynka. Szczelna.",
+	"characters": [],
+	"clues": [2],
+	"enigmas": [],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 180,
+	"content": "Pani Helena? Widziałem ją przy kapliczce. Płakała. Powiedziała, że modli się za kogoś. Nie za Gustawa.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 181,
+	"content": "Strażak? Ten chłopak był tu w nocy morderstwa. Widział kogoś, jak mówił nam później. Elegancki, wysoki.",
+	"characters": [],
+	"clues": [5],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 182,
+	"content": "Portier? Maćkiewicz? Stary, ale oko ma jak jastrząb. Jak mówi, że coś widział, wierzę mu bez pytania.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 }
+		],
+		"items_dialogs_clues": [
+			{
+	"id": 183,
+	"content": "To etui po ojcu Matyldy. Trzymałem je w sejfie. Pył... to anilina. Ktoś wkładał rękawiczkę umazaną farbą. Po ciemku.",
+	"characters": [],
+	"clues": [2],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 184,
+	"content": "To etui było zamknięte w sejfie męża. Skąd je masz? Medal zaginął... i to etui razem z nim.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [2],
+	"switch": 0 
+			},
+			{
+	"id": 185,
+	"content": "Niebieski pył na aksamicie. Anilina. Biedermann produkuje ją na wyłączność od 1863 roku. Żaden inny zakład w Królestwie.",
+	"characters": [],
+	"clues": [2],
+	"enigmas": [],
+	"locations": [5],
+	"switch": 0 
+			},
+			{
+	"id": 186,
+	"content": "To etui po moim ojcu. Ktoś miał czelność wejść do sejfu Herbsta... i zostawić ślad jak amatora.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 187,
+	"content": "Na aksamicie jest niebieski pył. Moi ludzie rozpoznają barwniki. To wyłączna produkcja Biedermanna. Mam to w dokumentacji.",
+	"characters": [],
+	"clues": [2],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 188,
+	"content": "Etui Scheiblera? Słyszałem, że zaginęło. Ktoś chciał mnie w to wrobić. Anilina to mój barwnik!",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 189,
+	"content": "Anilina... Paryż, 1878 rok. Scheiblerowie dostali złoty medal. To symbol całej naszej branży. A teraz ktoś to ukradł.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [1],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 190,
+	"content": "Ten pył... to nasza formuła. Kto miał dostęp do naszych produktów i do sejfu Herbsta jednocześnie? Niewielu.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 191,
+	"content": "Etui należało do starego Scheiblera. Wartość sentymentalna bezcenna. Wartość złota... też spora.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 192,
+	"content": "Anilina? To jest specjalna seria. Numer 1863 — to rok uruchomienia mojego zakładu. Symbolicznie ważny.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 193,
+	"content": "Ta fiolka... to produkcja naszego laboratorium. Ale ta seria powinna być w skarbcu, nie w ludzkich rękach.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [5],
+	"switch": 0 
+			},
+			{
+	"id": 194,
+	"content": "Anilina nr 1863 to nasza duma. Scheibler junior zamawiał ją hurtowo. Ale ostatnia fiolka... zaginęła z laboratorium.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [2],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 195,
+	"content": "Ta anilina to wyjątkowy barwnik — nie do zmycia wodą, nie do ukrycia. Kto użył jej do zabójstwa, zostawił ślad na zawsze.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 196,
+	"content": "Skąd ta fiolka? To jest mój barwnik! Moje laboratorium, moja formuła! Kto ci to dał?",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 197,
+	"content": "Anilina Biedermanna... niezmywalna. Ktoś był pewny siebie, skoro użył czegoś tak charakterystycznego.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 198,
+	"content": "Pył na etui, krew na bawełnie — to ta sama folia. Ktoś popełnił morderstwo z takim samym spokojem, z jakim farbuje się przędzę.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 199,
+	"content": "To jest seria specjalna. Wydajemy ją tylko na imienne zamówienie. Mam rejestr — sprawdzę, kto ją brał.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 200,
+	"content": "Fiolka z aniliną. Widziałem taką w skrzynce, którą Alfred przywiózł nocą. Ale to nie moja sprawa, prawda?",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 201,
+	"content": "Bilet do Geyerów? W noc morderstwa? Ten bilet to alibi. Albo ma być alibi. Byłem tam osobiście i sali Geyer nie widziałem.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 202,
+	"content": "To nasz bilet. Lożę Geyerów widać z galerii. Mnie tam nie było, ale Gustaw... Gustaw mówił, że był.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 203,
+	"content": "W noc morderstwa byłem w teatrze. Ten bilet to dowód. I proszę skończyć to przesłuchanie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 204,
+	"content": "Bilet Geyerów z tamtej nocy. Mój syn mówił, że Gustaw wyszedł w połowie drugiego aktu. Wracam do cyfr.",
+	"characters": [],
+	"clues": [5],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 205,
+	"content": "Geyer wyszedł z teatru przed dziesiątą. Nasz człowiek to potwierdzić. W Białej Fabryce zdarzało się to przed jedenastą.",
+	"characters": [],
+	"clues": [5],
+	"enigmas": [],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 206,
+	"content": "Ten bilet znalazłem przy bramie. Wyrzucony. Ktoś chciał się pozbyć dowodu, że wyszedł z teatru.",
+	"characters": [],
+	"clues": [5],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 207,
+	"content": "Porzucony bilet teatralny? Gustaw Geyer lubił teatr. Ale tamtej nocy skrót przez dziedziniec fabryki nie jest przypadkiem.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 208,
+	"content": "To bilet Geyerów. Czy Gustaw go zgubił uciekając? Nie lubię takich zbiegów okoliczności.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 209,
+	"content": "Lożę Geyerów znałem dobrze. Gustaw wychodzi zawsze po pierwszym akcie, jak go nuda. Albo coś go gonił.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 210,
+	"content": "Plan kolei? To Kunitzer drukował te mapy! Jedna trasa biegnie przez grunt Geyera. Gdyby ją zatwierdził — Geyer bankrut.",
+	"characters": [],
+	"clues": [4],
+	"enigmas": [],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 211,
+	"content": "Ten plan... mój teść nigdy nie zgodziłby się na taką trasę. Kunitzer chce zbudować imperium na cudzym nieszczęściu.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 212,
+	"content": "Tramwaj przez środek mojego terenu? To jest groźba. Kunitzer wie, że nie mam kasy na odszkodowania dla urzędników.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [3],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 213,
+	"content": "Ten plan to szantaż. Prawdziwy motyw tej całej sprawy. Ktoś nie chciał zapłacić Kunitzera... i zaszedł za daleko.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [3],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 214,
+	"content": "Plan tramwajowy przez grunt Geyera? To wyrok finansowy na Białą Fabrykę. Każdy to wiedział. I Geyer to wiedział.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 215,
+	"content": "Mój mąż podpisał z Kunitzem porozumienie! W ostatniej chwili! Ale to kosztowało. Kosztowało... wszystko.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 216,
+	"content": "Ten plan kolei to moje dzieło. I tak, trasa przez grunty Geyera była zamierzona. Presja. Negocjacje. Biznes.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 217,
+	"content": "Tramwaj przez ziemię Geyera? Ruina. Kto to narysował, wiedział co robi. I chciał efektu.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 218,
+	"content": "Pan Kunitzer pokazywał ten plan robotnikom. Mówił, że miasto będzie wielkie. Ale jeden z robotników śmiał się, że Geyer będzie biedny.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 219,
+	"content": "Spinka z 'E.H.' w kałuży krwi. To moja spinka. Ale jej tam nie zostawiłem. Ktoś mnie wrobił.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 220,
+	"content": "Ta spinka jest Edwarda. Zawsze ją nosił. Jak go widziałam bez niej... trzęsły mu się ręce.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 221,
+	"content": "Spinka Herbsta przy ciele? Albo zostawił ją przypadkowo, albo ktoś celowo ją tam podrzucił. Dwa scenariusze, jeden sprawca.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [2],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 222,
+	"content": "Inicjały 'E.H.' To może być i Herbst, i ktoś inny z inicjałem H. Ale Herbst to bardziej prawdopodobne.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 223,
+	"content": "Spinka przy zwłokach. To ważny dowód. Albo za ważny — zbyt na widoku dla niedbałego zabójcy.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 224,
+	"content": "Spinka Herbsta... Ale Herbst nie był w Białej Fabryce tej nocy. Tak twierdzi. Może ktoś ją ukradł wcześniej?",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 225,
+	"content": "E.H. — Herbst. Ale Geyer mógł ją znaleźć i użyć. Zgubił może Herbst wcześniej w fabryce?",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 226,
+	"content": "Ta spinka... widziałam ją u Herbsta, gdy przychodził do Roberta. Rok temu, może dwa.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 227,
+	"content": "Spinka Herbsta w miejscu zbrodni? Może to ustawka. Może rzeczywistość. W każdym razie nie przypadek.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 228,
+	"content": "List od Wernerów... Oni żądali zwrotu długu pod groźbą bankructwa. Ten list to mój wyrok śmierci finansowy.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 229,
+	"content": "Wernerowie znowu piszą. Ten list to ultimatum. Edward przez rok odkładał odpowiedź. Czas minął.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [3],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 230,
+	"content": "Dług Herbsta u Wernerów to powszechna tajemnica. Wszyscy wiedzą. Nikt nie mówi. Do teraz.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [3],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 231,
+	"content": "Rodzina Wernerów... matka zawsze mówiła, że Herbst nie jest godny posagu. Ten list to jej triumf.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 232,
+	"content": "Długi Herbsta? Wiedziałem, że do tego dojdzie. Człowiek, który gra zbyt wysoko, w końcu płaci.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 233,
+	"content": "List od Wernerów. Herbst jest spłukany. A teraz ktoś kradnie mu medal. Motyw? Chyba jasny.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [3],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 234,
+	"content": "Znałem ojca Matyldy. Karol Scheibler zostawił córce posag w złocie. Herbst to roztrwonił na rosyjskie akcje. Hańba.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 235,
+	"content": "Dług Herbsta. Ich finansów nie znałem. Ale fiolkę sprzedałem Herbstowi za podwójną cenę. Zapłacił bez targowania.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 236,
+	"content": "Herbst ma długi. Każdy wie. Tylko Matylda nie wie. I tak jest lepiej.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 237,
+	"content": "Ten telegram przyszedł na moje nazwisko. Ale go nie pisałem. Ktoś użył mojego nazwiska jako przykrywki.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 238,
+	"content": "Towar zabezpieczony... cmentarz... to chyba medal jest tym towarem. Ukryli go w mauzoleum? Mój ojciec by płakał.",
+	"characters": [],
+	"clues": [8],
+	"enigmas": [],
+	"locations": [6],
+	"switch": 1 
+			},
+			{
+	"id": 239,
+	"content": "Szyfrowany telegram na moje imię? Ktoś chce mnie wciągnąć. Nic nie wiem o żadnym 'towarze'.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 240,
+	"content": "Ten telegram to wiadomość o medalu. Ktoś go schował i informuje odbiorcę. Ale odbiorca był na cmentarzu.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [6],
+	"switch": 0 
+			},
+			{
+	"id": 241,
+	"content": "Telegram od nieznajomego na adres fabryki. 'Cmentarz' — to tylko jedno miejsce w tym kontekście. Mauzoleum.",
+	"characters": [],
+	"clues": [8],
+	"enigmas": [],
+	"locations": [6],
+	"switch": 1 
+			},
+			{
+	"id": 242,
+	"content": "Szyfr telegraficzny... Takim kodem posługiwali się bankierzy berlińscy. Ktoś ma powiązania na Zachodzie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 243,
+	"content": "'Towar zabezpieczony'. Czyli medal już wtedy był skradziony. A ktoś czekał na cmentarzu.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [1],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 244,
+	"content": "Telegram? Portier nosił wiadomości tu i z powrotem. Zapytaj go, od kogo to przyszło.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 245,
+	"content": "Widziałem pana, który wysłał telegram. Elegancki. W kapeluszu. Nie był stąd.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 246,
+	"content": "Klucz do mauzoleum? Skąd w farbiarni? Ktoś musiał przynieść go tutaj. To nie przypadek.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [6],
+	"switch": 0 
+			},
+			{
+	"id": 247,
+	"content": "Klucz do grobowca ojca? Szukałam go miesiąc. Powiedz mi, gdzie go znalazłeś, i nie ruszaj się z miejsca.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [6],
+	"switch": 0 
+			},
+			{
+	"id": 248,
+	"content": "Klucz do mauzoleum Scheiblerów w farbiarni? To łączy Biedermanna z cmentarzem. Albo kogoś, kto u nich bywał.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [1],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 249,
+	"content": "Klucz do grobowca ojca zaginął tydzień temu. Ktoś wszedł do mauzoleum. I coś tam zostawił.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [1],
+	"locations": [6],
+	"switch": 1 
+			},
+			{
+	"id": 250,
+	"content": "Klucz mauzoleum. Słyszałem o tym. Ktoś wszedł w nocy. Nie w celach pobożnych, jak sądzę.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 251,
+	"content": "Klucz do mauzoleum w farbiarni! To wiele mówi. Albo mówi za mało. W każdym razie — ktoś bywał na cmentarzu.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 252,
+	"content": "Ten klucz... Kunitzer raz pytał mnie o grobowiec Scheiblerów. Akademicko. Ale pytał.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 253,
+	"content": "Klucz musiał ktoś przynieść do farbiarni. Albo go tam zostawić. Kto tu bywał poza nami?",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 254,
+	"content": "Klucz do mauzoleum... ja byłem u Biedermanna trzy dni temu. Mogłem go... nie. Nie dotknąłem żadnych kluczy.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 255,
+	"content": "Fragment koronki przy ciele? Antoni miał dostarczyć próbkę do pałacu. Skoro jest przy ciele, nie dotarł.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 256,
+	"content": "To koronka z fabryki Gustawa. Antoni miał mi ją przynieść. Zginął zamiast tego. Koronka to ostatni ślad drogi Antoniego.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 257,
+	"content": "To koronka Geyera. Próbka dla Herbsta. Jeśli jest przy ciele, Antoni nie dotarł do pałacu. Ktoś go zatrzymał po drodze.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [2],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 258,
+	"content": "Koronka Geyera? Przy ciele? Mój ojciec ją zamawiał do kontraktu. Skąd przy zabitym majstrze?",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 259,
+	"content": "Koronka. Próbka handlowa. Znalazł ją przy ciele mój człowiek jako pierwszy. Pomyślałem wtedy: to nie kradzież, to wiadomość.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 260,
+	"content": "Ta koronka to mój wyrób. Geyer ją zamówił. Jeśli jest przy zabitym majstrze, Geyer ma coś do wyjaśnienia.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [2],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 261,
+	"content": "Koronka przy ciele... Antoni pracował u Geyera. Może szedł z dostawą i go napadnięto? Rabowali?",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 262,
+	"content": "Koronka z Geyera przy ciele Antoniego? To może oznaczać wszystko albo nic. Zależy, gdzie szedł.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 263,
+	"content": "Ta koronka to towar wartościowy. Geyer nie wysyłałby jej z byle kim. Antoni był zaufanym. Komu zagrażał?",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 264,
+	"content": "Skradziony medal. Motyw Herbsta jest prosty: pieniądze. Medal był warty fortunę. I był jego warunkiem spłaty długów.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 265,
+	"content": "Fiolka aniliny. Mój mąż miał dostęp do Biedermanna. Ale on by nie zabił. Nie mógłby... prawda?",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 266,
+	"content": "Bilet do teatru. W noc morderstwa. Geyer mówił, że był w teatrze. Ale biletu przy sobie nie miał, gdy go pytałem.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 267,
+	"content": "Plan tramwajowy przez grunt Geyera to mój pomysł na presję. Ale nie spodziewałem się, że ktoś posunie się do morderstwa.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 268,
+	"content": "Spinka Herbsta. Prosta dedukcja: Herbst był w Białej Fabryce. Skoro zaprzecza, kłamie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [2],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 269,
+	"content": "List od Wernerów. Dług Herbsta. Motyw kradzieży medalu. To wszystko się łączy. Edward nie jest niewinny.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [3],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 270,
+	"content": "Telegram 'Towar zabezpieczony'. Ktoś informował odbiorcę. Kto był odbiorcą? I gdzie był w nocy morderstwa?",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 271,
+	"content": "Klucz do mauzoleum. Po co ktoś miałby wchodzić do grobowca teścia? Chyba żeby coś tam ukryć.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 272,
+	"content": "Koronka Geyera. Antoni szedł z dostawą. Zatrzymano go. Koronka to ostatni ślad jego drogi.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [2],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 273,
+	"content": "Puste etui. Anilina Biedermanna na aksamicie. To musi być Alfred. On ma dostęp do barwnika i był w pałacu raz jako dostawca.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 274,
+	"content": "Anilina... To moje produkty. Ale ktoś mógł zniknąć z fiolką, gdy laboratorium było zamknięte. A kto ma klucze?",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 275,
+	"content": "Bilet teatralny Geyera. Mój Gustaw wyszedł wcześniej. Mogę to powiedzieć. Wyszedł po pierwszym akcie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 276,
+	"content": "Plan tramwajowy. To był szantaż Kunitzera wobec Gustawa. Zapłać — albo linia idzie przez twoje grunty. Gustaw nie zapłacił.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [3],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 277,
+	"content": "Spinka Herbsta przy ciele. To dowód, który mnie przeraża. Bo jeśli Herbst tam był, to nie przypadkiem.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 278,
+	"content": "List od Wernerów. Mój mąż. Dług. Medal. To wszystko się łączy. Nie wiem jak, ale się łączy.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 279,
+	"content": "Telegram 'Cmentarz'. Ktoś wiedział, że medal trafi do mauzoleum. Ktoś zaplanował to od początku.",
+	"characters": [],
+	"clues": [8],
+	"enigmas": [],
+	"locations": [6],
+	"switch": 0 
+			},
+			{
+	"id": 280,
+	"content": "Klucz mauzoleum. Gustaw mówił, że Karol junior pytał go o dostęp do grobowca rodziny. Formalnie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 281,
+	"content": "Koronka przy ciele. Gustaw wysłał Antoniego z próbką. Ale przed pałacem Herbsta skręcił w boczną uliczkę. Dlaczego?",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 282,
+	"content": "Etui Scheiblera. Ktoś był w pałacu Herbsta. I zostawił ślad aniliny. Skrzętnie, ale nie dość skrzętnie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 283,
+	"content": "Anilina Biedermanna w miejscu kradzieży. Każdy zna ich barwnik. Ale nie każdy go ma.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 284,
+	"content": "Bilet teatralny tamtej nocy. Komendant Grohman był w teatrze? Nie. On był przy pożarze. W sąsiedniej dzielnicy.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 285,
+	"content": "Plan tramwajowy. W Białej Fabryce jest trasa wariantowa. Gdyby Geyer oddał grunty, fabryka by ocalała. Odmówił.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 286,
+	"content": "Spinka Herbsta. Pan Edward pytał mnie, kiedy następna rotacja straży. Kilka dni przed morderstwem.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [2],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 287,
+	"content": "List od Wernerów. Pan dyrektor Herbst dostawał listy. Nie otwierał ich od razu. A potem chował. Spiesznie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 288,
+	"content": "Telegram 'Cmentarz'. Widywałem tu kurierów. Jeden zostawił kopertę bez adresu. Dla kogo? Tego nie wiem.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 289,
+	"content": "Klucz do mauzoleum. Znam ten klucz. Geyer miał go przy sobie, gdy przychodził po barwnik. Wyjął go przypadkowo z kieszeni.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [6],
+	"switch": 1 
+			},
+			{
+	"id": 290,
+	"content": "Koronka z Geyera. Antoni niósł ją przez dziedziniec. Widziałem go. Szedł w stronę bramy, nie w stronę pałacu.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [2],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 291,
+	"content": "Puste etui. Grohman mi powiedział, że na aksamicie był pył. Anilina. Kto bywa u Biedermanna i u Herbsta? Geyer.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 292,
+	"content": "Fiolka aniliny. Stara seria. Znam tego numeru — 1863. To pierwsza partia Biedermanna. Muzealny okaz. Kto to miał?",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 293,
+	"content": "Bilet Geyerów. Loża pierwsza. Tamtej nocy sam siedziałem w loży drugiej. Loża Geyerów była pusta po pierwszej przerwie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [2],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 294,
+	"content": "Plan tramwajowy. Kunitzer to biznesmen, nie zabójca. Ale Geyer, który by zbankrutował na tej trasie — on mógł działać.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 295,
+	"content": "Spinka Herbsta. Widywałem dyrektora w Białej Fabryce. Raz. Ale to było przed miesiącem. Mógł zgubić spinkę wtedy.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 296,
+	"content": "List od Wernerów. Pan Herbst nie otwierał już dawno korespondencji przy mnie. Bał się, co piszą.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 297,
+	"content": "Telegram 'Towar zabezpieczony'. Ten telegram przyszedł na adres Geyera. Ja go podałem. Geyer zbladł.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 298,
+	"content": "Klucz do mauzoleum. Portier Maćkiewicz przy bramie cmentarza mówił, że ktoś miał taki klucz. Nocą.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 299,
+	"content": "Koronka z Geyera. Antoni szedł z przesyłką. Wiem, bo pomogłem mu zapiąć torbę. Ale ktoś zawrócił go przy bramie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [2],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 300,
+	"content": "Etui po medalu. Biały pył aniliny. Biedermann pracuje z aniliną. Ale nie każdy z rodziny jest uczciwy.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 301,
+	"content": "Anilina Biedermanna. Alfred przywiózł tu kiedyś fiolkę. Nocą. Dla pana Kunitzera. Mówiłem to?",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 302,
+	"content": "Bilet teatralny. Pan Geyer wyszedł z teatru przed dziesiątą. Sam go odprowadzałem do dorożki. Pamiętam.",
+	"characters": [],
+	"clues": [5],
+	"enigmas": [],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 303,
+	"content": "Plan tramwajowy. Kunitzer mi pokazał ten plan. Chciał, żebym zaświadczył, że to korekta trasy. Odmówiłem.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 304,
+	"content": "Spinka Herbsta. Pan Edward raz zgubił spinkę przy furcie. Szukał jej, ale nie znalazł. Może ktoś podniósł?",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 305,
+	"content": "List od Wernerów. Taki list dostał raz pan Geyer od wierzyciela. Drżały mu ręce gdy czytał. Herbst pewnie tak samo.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 306,
+	"content": "Telegram 'Cmentarz'. Widziałem, jak pan Geyer chował telegram do kieszeni. Wychodząc tamtej nocy.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [6],
+	"switch": 1 
+			},
+			{
+	"id": 307,
+	"content": "Klucz do mauzoleum. Był tu przez chwilę. W szufladzie biurka pana Geyera. Potem zniknął.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 308,
+	"content": "Koronka Geyera. Antoniego znałem. Szedł z torbą, ale zatrzymał go elegancki pan przy bramie. Zamienili słowa.",
+	"characters": [],
+	"clues": [5],
+	"enigmas": [2],
+	"locations": [],
+	"switch": 1 }
+		],
+		"items_dialogs_enigmas": [
+			{
+	"id": 309,
+	"content": "Złodziej medalu? Jeśli mnie pytasz, to odpowiadam: nie byłem w mojej sypialni od tygodnia. Sypialnię zamknąłem. Ktoś go wziął i był w tym domu.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 310,
+	"content": "Kto ukradł medal? Ktoś, kto znał szyfr sejfu. Znał go tylko Edward i... jeden jeszcze człowiek.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 311,
+	"content": "Kto zabił Antoniego? Na pewno nie ja. Ale wiem, kto miał powód. I kto miał klucz do bramy fabryki.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 312,
+	"content": "Złodziej medalu? Ja? To absurd. Chcesz mnie oskarżyć, to miej dowody.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 313,
+	"content": "Morderca majstra. Nic o tym nie wiem. Byłam przy mężu całą noc. Może zapytaj tych, którzy mają motyw.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 314,
+	"content": "Prawdziwy motyw? Strach. Ktoś bał się, że Antoni coś odkrył. I dlatego go uciszono.",
+	"characters": [],
+	"clues": [9],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 315,
+	"content": "Złodziej medalu? Sprawdź, kto miał dostęp do sejfu i aniliny jednocześnie. Ja jestem inżynierem, nie złodziejem.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 316,
+	"content": "Morderca? Moi robotnicy znajdą każdy, kto wejdzie przez bramę bez przepustki. Niech mnie nie wciągają.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 317,
+	"content": "Prawdziwy motyw? Dług Herbsta to tylko wierzch góry. Pod spodem jest umowa, której nikt nie powinien znać.",
+	"characters": [],
+	"clues": [6],
+	"enigmas": [],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 318,
+	"content": "Złodziej medalu? Honoru Scheiblerów się nie kradnie. Ale mam teorię. I dotyczy ona kogoś bardzo bliskiego.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 319,
+	"content": "Morderca Antoniego? To jest zbrodnia, która wołała o pomstę do nieba. Ktoś użył mojego imienia. Albo mojego barwnika.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 320,
+	"content": "Prawdziwy motyw? Ten, kto wiedział o długach Herbsta, planie tramwajowym Kunitzera i barwniku Biedermanna jednocześnie. Wąskie grono.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 321,
+	"content": "Złodziej medalu? Mam teorię. Medal był dla Herbsta jedynym wyjściem z długów. Zastawił go lub sprzedał.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 322,
+	"content": "Morderca Antoniego? Straż pożarna nie zabija. Ale wiemy, kto był przy bramie Białej Fabryki w noc morderstwa.",
+	"characters": [],
+	"clues": [5],
+	"enigmas": [],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 323,
+	"content": "Prawdziwy motyw? Chciwość zamaskowana honorem. Najstarsza historia na świecie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 324,
+	"content": "Złodziej medalu? Nie ja. Ale powiem ci, że medal wart był dokładnie tyle, ile Geyer był winien Herbstowi. Ciekawe, prawda?",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 325,
+	"content": "Morderca Antoniego? To ja... nie, żartuję. Ale Geyer miał powód. Antoni wiedział zbyt dużo o koronkach i o planie tramwajowym.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 326,
+	"content": "Prawdziwy motyw? Geyer był dłużnikiem Herbsta. Herbst był dłużnikiem Wernerów. Kunitzer trzymał tramwaj nad głowami obu. I teraz jest trup.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 327,
+	"content": "Złodziej medalu? Nikt z mojej rodziny go nie tknął. Medal był symbolem. I ktoś chciał ukraść symbol.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 328,
+	"content": "Morderca Antoniego? Antoni był moim pracownikiem od dziesięciu lat. Ktoś za to odpowie.",
+	"characters": [],
+	"clues": [2],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 329,
+	"content": "Prawdziwy motyw? Mam swoje podejrzenia. Ale powiem tylko jedno: anilina nie zmywa się z rąk winnego.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 330,
+	"content": "Złodziej medalu? Mój mąż walczył z długami. Medal był wyjściem. Ale Edward nie brałby go. Nie. Chyba.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 331,
+	"content": "Morderca Antoniego? Nie wiem kto. Ale wiem, że Antoni widział kogoś przy bramie tamtej nocy. I powiedział mi.",
+	"characters": [],
+	"clues": [5],
+	"enigmas": [],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 332,
+	"content": "Prawdziwy motyw? Dług. Zawsze dług. I strach, że wszystko runie. Eduard bał się bankructwa jak ognia.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 333,
+	"content": "Złodziej medalu? To musiał być ktoś z wewnątrz. Tylko ktoś, kto znał szyfr, miał dostęp. I aniliny.",
+	"characters": [],
+	"clues": [2],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 334,
+	"content": "Morderca Antoniego? Powiem ci tylko jedno: anilina jest niezmywalna. Morderca ma jej ślady na rękach do dziś.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 335,
+	"content": "Prawdziwy motyw? Ktoś chciał uciszyć informację, którą Antoni niósł razem z koronkami.",
+	"characters": [],
+	"clues": [9],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 336,
+	"content": "Złodziej medalu? Ktoś z branży. Ktoś, kto rozumie wartość symbolu. Nie każdy rozumie, co Paryż 1878 znaczy dla nas.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 337,
+	"content": "Morderca Antoniego? Antoni przychodził do farbiarni raz w tygodniu. Ostatnim razem był blady. Coś mu zagrażało.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 338,
+	"content": "Prawdziwy motyw? Mój syn Alfred coś ukrywa. Nie wiem co. Ale to go gryzie od tygodnia.",
+	"characters": [],
+	"clues": [2],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 339,
+	"content": "Złodziej medalu? Dług Herbsta u Wernerów. Medal jako spłata. Proste jak farbowanie przędzy.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 340,
+	"content": "Morderca Antoniego? Antoni był uczciwy. Zginął, bo był uczciwy. W Łodzi to nieraz się zdarza.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 341,
+	"content": "Prawdziwy motyw? Ktoś miał do stracenia więcej niż inni. Sprawdź, kto miał wszystko i komu groziło, że zostanie z niczym.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 342,
+	"content": "Złodziej medalu? Herbst. Ale niekoniecznie on sam. Może ktoś działał w jego imieniu.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 343,
+	"content": "Morderca Antoniego? Coś widziałem tamtej nocy. Elegancki pan, kapelusz, szybki krok. Herbst albo Geyer.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 344,
+	"content": "Prawdziwy motyw? Ten, kto wysłał telegram, wiedział o miejscu ukrycia medalu. Nadawca to klucz.",
+	"characters": [],
+	"clues": [7],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 345,
+	"content": "Złodziej medalu? Geyer był u Herbsta dwa tygodnie temu. Prywatnie. Może zapamiętał, gdzie jest sejf.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 346,
+	"content": "Morderca Antoniego? Coś widziałem. Ale boję się mówić. Pan Geyer jest moim pracodawcą...",
+	"characters": [],
+	"clues": [5],
+	"enigmas": [],
+	"locations": [],
+	"switch": 1 
+			},
+			{
+	"id": 347,
+	"content": "Prawdziwy motyw? Ten telegram na moje ręce... Geyer go ukrył. A potem wyszedł. Wszystko rozumiem dopiero teraz.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 348,
+	"content": "Złodziej medalu? Herbst. Nie ma wątpliwości. Medal pokrywał dokładnie jego dług u Wernerów. Co do grosza.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 349,
+	"content": "Morderca Antoniego? Elegancki pan w pelerynie. Wysoki. Widywałem Geyera w takiej pelerynie.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 350,
+	"content": "Prawdziwy motyw? Geyer był zagrożony tramwajem Kunitzera, zadłużony u Herbsta i bał się koronki jako dowodu nielojalności. Wszystkie drogi prowadziły do Białej Fabryki.",
+	"characters": [],
+	"clues": [],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 }
+		],
+		"items_dialogs_loactions": [
+			{
+	"id": 351,
+	"content": "Pałac Herbsta tonie w mroku wieczoru. Matylda płacze w ogrodzie zimowym, a Edward nerwowo przegląda księgi rachunkowe. W salonie stoi otwarte puste etui po medalu Scheiblerów — jedyna pozostałość po chwale, która zniknęła tej nocy.",
+	"characters": [1, 2],
+	"clues": [1],
+	"enigmas": [1],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 352,
+	"content": "W Białej Fabryce huczą maszyny, ale przy ogromnym silniku parowym Cockerill panuje nienaturalna cisza. Krew na białej bawełnie wygląda jak purpura. Trzej dyrektorzy stoją nad ciałem majstra Antoniego i nikt nie patrzy na siebie.",
+	"characters": [3, 4, 5],
+	"clues": [5, 9],
+	"enigmas": [2],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 353,
+	"content": "Willa Grohmana pachnie dymem i dyscypliną. Ludwik Grohman właśnie wrócił z inspekcji, a młody strażak drży i nie chce mówić co widział. Na stole leżą plany tras i mapa Łodzi.",
+	"characters": [6, 7],
+	"clues": [4],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 354,
+	"content": "Na Widzewie czuć zapach nowej ery. Juliusz Kunitzer analizuje mapy elektryczne, nie zważając na to, że jego robotnicy szepczą o morderstwie. Przy bramie robotnik wierci się niespokojnie.",
+	"characters": [8, 9],
+	"clues": [4],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 355,
+	"content": "Farbiarnia Biedermanna to piekło kolorów i zapachów. Robert osobiście sprawdza kadzie, a Alfred zamknął laboratorium na klucz. Na półce stoi rząd fiolek z niebieską aniliną — jedna jest brakująca.",
+	"characters": [10, 11, 12],
+	"clues": [2],
+	"enigmas": [],
+	"locations": [],
+	"switch": 0 
+			},
+			{
+	"id": 356,
+	"content": "Stary Cmentarz. Wiatr świszcze w neogotyckich wieżyczkach mauzoleum Scheiblera. Portier kręci się niedaleko, a robotnik siada na ławce przy bramie. W ciemnościach widać zarys otwartego grobowca.",
+	"characters": [13, 14],
+	"clues": [7, 8],
+	"enigmas": [3],
+	"locations": [],
+	"switch": 0 }
+		]
+		
+	},
+
+	"switches": {
+		"switches_characters": [
+			{
+	"id": 1,
+	"group_name": "characters",
+	"id_character": 2,
+	"id_group_item": 5,
+	"id_new_dialog": 17 
+			},
+			{
+	"id": 2,
+	"group_name": "clues",
+	"id_character": 10,
+	"id_group_item": 7,
+	"id_new_dialog": 124 
+			},
+			{
+	"id": 3,
+	"group_name": "clues",
+	"id_character": 11,
+	"id_group_item": 3,
+	"id_new_dialog": 135 
+			},
+			{
+	"id": 4,
+	"group_name": "clues",
+	"id_character": 11,
+	"id_group_item": 7,
+	"id_new_dialog": 137 
+			},
+			{
+	"id": 5,
+	"group_name": "characters",
+	"id_character": 12,
+	"id_group_item": 1,
+	"id_new_dialog": 144 
+			},
+			{
+	"id": 6,
+	"group_name": "clues",
+	"id_character": 13,
+	"id_group_item": 7,
+	"id_new_dialog": 157 
+			},
+			{
+	"id": 7,
+	"group_name": "clues",
+	"id_character": 13,
+	"id_group_item": 1,
+	"id_new_dialog": 160 }
+		],
+		"switches_clues": [
+			{
+	"id": 1,
+	"group_name": "clues",
+	"id_character": 1,
+	"id_group_item": 5,
+	"id_new_dialog": 205 
+			},
+			{
+	"id": 2,
+	"group_name": "enigmas",
+	"id_character": 3,
+	"id_group_item": 1,
+	"id_new_dialog": 210 
+			},
+			{
+	"id": 3,
+	"group_name": "enigmas",
+	"id_character": 4,
+	"id_group_item": 3,
+	"id_new_dialog": 213 
+			},
+			{
+	"id": 4,
+	"group_name": "clues",
+	"id_character": 2,
+	"id_group_item": 7,
+	"id_new_dialog": 229 
+			},
+			{
+	"id": 5,
+	"group_name": "enigmas",
+	"id_character": 3,
+	"id_group_item": 2,
+	"id_new_dialog": 221 
+			},
+			{
+	"id": 6,
+	"group_name": "clues",
+	"id_character": 7,
+	"id_group_item": 7,
+	"id_new_dialog": 241 
+			},
+			{
+	"id": 7,
+	"group_name": "clues",
+	"id_character": 11,
+	"id_group_item": 7,
+	"id_new_dialog": 276 
+			},
+			{
+	"id": 8,
+	"group_name": "enigmas",
+	"id_character": 11,
+	"id_group_item": 3,
+	"id_new_dialog": 137 
+			},
+			{
+	"id": 9,
+	"group_name": "clues",
+	"id_character": 12,
+	"id_group_item": 8,
+	"id_new_dialog": 289 
+			},
+			{
+	"id": 10,
+	"group_name": "enigmas",
+	"id_character": 13,
+	"id_group_item": 2,
+	"id_new_dialog": 293 
+			},
+			{
+	"id": 11,
+	"group_name": "enigmas",
+	"id_character": 14,
+	"id_group_item": 2,
+	"id_new_dialog": 299 
+			},
+			{
+	"id": 12,
+	"group_name": "clues",
+	"id_character": 14,
+	"id_group_item": 5,
+	"id_new_dialog": 302 
+			},
+			{
+	"id": 13,
+	"group_name": "locations",
+	"id_character": 14,
+	"id_group_item": 7,
+	"id_new_dialog": 306 
+			},
+			{
+	"id": 14,
+	"group_name": "clues",
+	"id_character": 13,
+	"id_group_item": 2,
+	"id_new_dialog": 164 }
+		],
+		"switches_enigmas": [
+			{
+	"id": 1,
+	"group_name": "clues",
+	"id_character": 3,
+	"id_group_item": 3,
+	"id_new_dialog": 317 
+			},
+			{
+	"id": 2,
+	"group_name": "enigmas",
+	"id_character": 5,
+	"id_group_item": 2,
+	"id_new_dialog": 322 
+			},
+			{
+	"id": 3,
+	"group_name": "clues",
+	"id_character": 8,
+	"id_group_item": 2,
+	"id_new_dialog": 331 
+			},
+			{
+	"id": 4,
+	"group_name": "clues",
+	"id_character": 12,
+	"id_group_item": 5,
+	"id_new_dialog": 286 
+			},
+			{
+	"id": 5,
+	"group_name": "clues",
+	"id_character": 13,
+	"id_group_item": 7,
+	"id_new_dialog": 344 
+			},
+			{
+	"id": 6,
+	"group_name": "enigmas",
+	"id_character": 14,
+	"id_group_item": 2,
+	"id_new_dialog": 308 
+			},
+			{
+	"id": 7,
+	"group_name": "clues",
+	"id_character": 14,
+	"id_group_item": 5,
+	"id_new_dialog": 346 }
+		],
+		"switches_locations": [
+			{
+	"id": 1,
+	"group_name": "locations",
+	"id_character": 13,
+	"id_group_item": 8,
+	"id_new_dialog": 306 
+			},
+			{
+	"id": 2,
+	"group_name": "clues",
+	"id_character": 13,
+	"id_group_item": 7,
+	"id_new_dialog": 306 
+			},
+			{
+	"id": 3,
+	"group_name": "clues",
+	"id_character": 14,
+	"id_group_item": 2,
+	"id_new_dialog": 179 }
+		]
+	},
+
+	"unlocked": {
+		"unlocked_characters": [1, 2],
+		"unlocked_clues": [1],
+		"unlocked_enigmas": [1],
+		"unlocked_locations": [1]
+	}
 }

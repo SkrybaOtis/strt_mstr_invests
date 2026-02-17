@@ -1,0 +1,74 @@
+{
+"base_characters": [
+	{
+		"id": 1,
+		"name": "Edward Herbst",
+		"description": "Dyrektor zakładów Scheiblera. Człowiek sukcesu, który ukrywa listy od wierzycieli żony.",
+	},
+	{
+		"id": 2,
+		"name": "Matylda Herbst",
+		"description": "Córka Scheiblera. Cicha filantropka, która opłakuje zmarłą córkę Annę Marię.",
+	},
+	{
+		"id": 3,
+		"name": "Karol Scheibler jr",
+		"description": "Inżynier i dziedzic. Wierzy tylko w turbogeneratory i twarde dane. Gardzi sentymentami.",
+	},
+	{
+		"id": 4,
+		"name": "Anna Scheibler",
+		"description": "Wdowa po Królu Bawełny. Strażniczka honoru rodu Wernerów i Scheiblerów.",
+	},
+	{
+		"id": 5,
+		"name": "Ludwik Grohman",
+		"description": "Fabrykant i komendant straży. Jego ludzie jako pierwsi byli na miejscu zbrodni.",
+	},
+	{
+		"id": 6,
+		"name": "Gustaw Geyer",
+		"description": "Właściciel Białej Fabryki. Kolekcjoner obrazów, borykający się z coraz większymi długami.",
+	},
+	{
+		"id": 7,
+		"name": "Juliusz Kunitzer",
+		"description": "Twórca Widzewa. Nie cofnie się przed niczym, by doprowadzić tramwaj przez centrum.",
+	},
+	{
+		"id": 8,
+		"name": "Robert Biedermann", 
+		"description": "Nestor rodu farbiarzy. Zaczynał od dwóch wanien, dziś ma trzynaścioro dzieci i imperium nad Łódką.",
+	},
+	{
+		"id": 9,
+		"name": "Adelma Biedermann", 
+		"description": "Żona Roberta. Jej posag zbudował to imperium, jej milczenie je chroni.",
+	},
+	{
+		"id": 10,
+		"name": "Alfred Biedermann", 
+		"description": "Syn Roberta. Nowoczesny zarządca laboratorium chemicznego. Zna każdy barwnik z katalogu.",
+	},
+	{
+		"id": 11,
+		"name": "Helena Geyer",
+		"description": "Żona Gustawa. Oddana dobroczynności, ale wie o mężu więcej, niż kiedykolwiek powie.",
+	},
+	{
+		"id": 12,
+		"name": "Strażak Ochotnik",
+		"description": "Młody chłopak ze straży Grohmana. Widział kogoś uciekającego z fabryki tamtej nocy.",
+	},
+	{
+		"id": 13,
+		"name": "Portier", 
+		"description": "Pracownik u Geyera. Ma słabość do mocnych trunków i cudzych tajemnic.",
+	},
+	{
+		"id": 14,
+		"name": "Robotnik Widzewski",
+		"description": "Pracownik Kunitzera. Słyszał rozmowę o tajemniczej 'transakcji' w noc morderstwa.",
+	}
+]
+}

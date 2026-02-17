@@ -1,0 +1,25 @@
+{
+"base_enigmas": [
+	{
+		"id": 1,
+		"name": "Złodziej Medalu",
+		"description": "Kto wyniósł Złoty Medal z Paryża z gabinetu Herbsta pod osłoną nocy?",
+		"image_url": "e1.webp",
+		"qr_decoded": "code_qr_after_decoded" 
+	},
+	{
+		"id": 2,
+		"name": "Morderca Majstra",
+		"description": "Kto zabił majstra Antoniego w Białej Fabryce i umazał go niebieską farbą?",
+		"image_url": "e2.webp",
+		"qr_decoded": "code_qr_after_decoded" 
+	},
+	{
+		"id": 3,
+		"name": "Prawdziwy Motyw",
+		"description": "Jaki sekret miał zatuszować cały ten ciąg kradzieży i zbrodni?",
+		"image_url": "e3.webp",
+		"qr_decoded": "code_qr_after_decoded" 
+	}
+]
+}

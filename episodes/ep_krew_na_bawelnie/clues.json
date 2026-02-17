@@ -1,0 +1,67 @@
+{
+"base_clues": [
+	{
+		"id": 1,
+		"name": "Puste Etui", 
+		"description": "Po Złotym Medalu z Paryża. Na czarnym aksamicie widać wyraźny niebieski pył.",
+		"image_url": "etui.webp", 
+		"qr_decoded": "code_qr_after_decoded" 
+	},
+	{
+		"id": 2,
+		"name": "Fiolka z Aniliną",
+		"description": "Niebieski barwnik nr 1863. Specjalność zakładów Biedermanna — nie do kupienia nigdzie indziej.",
+		"image_url": "anilina.webp",
+		"qr_decoded": "code_qr_after_decoded" 
+	},
+	{
+		"id": 3,
+		"name": "Bilet do Teatru",
+		"description": "Miejscówka w loży Geyerów z wczorajszą datą. Ktoś go zgubił, uciekając przez foyer.",
+		"image_url": "bilet.webp",
+		"qr_decoded": "code_qr_after_decoded" 
+	},
+	{
+		"id": 4,
+		"name": "Plan Kolei", 
+		"description": "Szkice tramwajowe Kunitzera. Jedna trasa dziwnie omija grunty Geyera, choć inżynieryjnie to absurd.",
+		"image_url": "plan.webp", 
+		"qr_decoded": "code_qr_after_decoded" 
+	},
+	{
+		"id": 5,
+		"name": "Srebrna Spinka", 
+		"description": "Z inicjałem 'E.H.'. Znaleziona w zastygłej kałuży krwi obok ciała w Białej Fabryce.",
+		"image_url": "spinka.webp", 
+		"qr_decoded": "code_qr_after_decoded" 
+	},
+	{
+		"id": 6,
+		"name": "List od Wernerów",
+		"description": "Poufne żądanie spłaty długu pod groźbą ujawnienia bankructwa Herbsta.",
+		"image_url": "list.webp", 
+		"qr_decoded": "code_qr_after_decoded" 
+	},
+	{
+		"id": 7,
+		"name": "Zaszyfrowany Telegram",
+		"description": "Treść: 'Towar zabezpieczony. Czekam na cmentarzu'. Nadawca nieznany.",
+		"image_url": "telegram.webp",
+		"qr_decoded": "code_qr_after_decoded" 
+	},
+	{
+		"id": 8,
+		"name": "Klucz do Mauzoleum",
+		"description": "Ciężki żelazny klucz do grobowca Scheiblera. Skąd wziął się w farbiarni Biedermanna?",
+		"image_url": "klucz.webp",
+		"qr_decoded": "code_qr_after_decoded" 
+	},
+	{
+		"id": 9,
+		"name": "Fragment Koronki", 
+		"description": "Drogocenny wyrób z nowej fabryki koronek Geyera. Znaleziony przy ciele, choć majster miał go dostarczyć do pałacu.",
+		"image_url": "koronka.webp",
+		"qr_decoded": "code_qr_after_decoded" 
+	}
+]
+}
